@@ -29,7 +29,22 @@
 }
 
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
-	NSLog(@"SELECTED SECTION: %d", tabIndex);
+	switch (tabIndex) {
+		case 0:
+			NSLog(@"FLOORPLANS");
+			break;
+		case 1:
+			NSLog(@"CALCULATOR");
+			break;
+		case 2:
+			NSLog(@"APPOINTMENTS");
+			break;
+		case 3:
+			NSLog(@"MY CONDO");
+			break;
+		default:
+			break;
+	}
 }
 
 - (void)didReceiveMemoryWarning {

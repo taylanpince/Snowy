@@ -24,6 +24,10 @@
 		ECEC1C2D110E43980064225E /* tab-floorplans.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C24110E43980064225E /* tab-floorplans.png */; };
 		ECEC1C2E110E43980064225E /* tab-mycondo-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C25110E43980064225E /* tab-mycondo-on.png */; };
 		ECEC1C2F110E43980064225E /* tab-mycondo.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C26110E43980064225E /* tab-mycondo.png */; };
+		ECEC1C59110E4B610064225E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* 1.png */; };
+		ECEC1C5A110E4B610064225E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C57110E4B610064225E /* 2.png */; };
+		ECEC1C5B110E4B610064225E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C58110E4B610064225E /* 3.png */; };
+		ECEC1C5E110E4B820064225E /* FloorplansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,11 @@
 		ECEC1C24110E43980064225E /* tab-floorplans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-floorplans.png"; sourceTree = "<group>"; };
 		ECEC1C25110E43980064225E /* tab-mycondo-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-mycondo-on.png"; sourceTree = "<group>"; };
 		ECEC1C26110E43980064225E /* tab-mycondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-mycondo.png"; sourceTree = "<group>"; };
+		ECEC1C56110E4B610064225E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		ECEC1C57110E4B610064225E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		ECEC1C58110E4B610064225E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		ECEC1C5C110E4B820064225E /* FloorplansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorplansViewController.h; sourceTree = "<group>"; };
+		ECEC1C5D110E4B820064225E /* FloorplansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorplansViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* SnowyAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SnowyAppDelegate.m */,
+				ECEC1C5C110E4B820064225E /* FloorplansViewController.h */,
+				ECEC1C5D110E4B820064225E /* FloorplansViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				ECEC1C55110E4B610064225E /* Floorplans */,
 				ECEC1C1E110E43980064225E /* Default.png */,
 				ECEC1C1F110E43980064225E /* tab-appointments-on.png */,
 				ECEC1C20110E43980064225E /* tab-appointments.png */,
@@ -150,6 +162,16 @@
 				ECEC1C26110E43980064225E /* tab-mycondo.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		ECEC1C55110E4B610064225E /* Floorplans */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC1C56110E4B610064225E /* 1.png */,
+				ECEC1C57110E4B610064225E /* 2.png */,
+				ECEC1C58110E4B610064225E /* 3.png */,
+			);
+			path = Floorplans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +233,9 @@
 				ECEC1C2D110E43980064225E /* tab-floorplans.png in Resources */,
 				ECEC1C2E110E43980064225E /* tab-mycondo-on.png in Resources */,
 				ECEC1C2F110E43980064225E /* tab-mycondo.png in Resources */,
+				ECEC1C59110E4B610064225E /* 1.png in Resources */,
+				ECEC1C5A110E4B610064225E /* 2.png in Resources */,
+				ECEC1C5B110E4B610064225E /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +250,7 @@
 				1D3623260D0F684500981E51 /* SnowyAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				ECEC1BF0110E3B700064225E /* HomeView.m in Sources */,
+				ECEC1C5E110E4B820064225E /* FloorplansViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

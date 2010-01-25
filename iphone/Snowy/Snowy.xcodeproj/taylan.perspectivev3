@@ -270,14 +270,16 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>ECEC1C1D110E43980064225E</string>
+								<string>ECEC1C55110E4B610064225E</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>10</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>ECEC1BCA110E34FA0064225E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HomeView.m</string>
+								<string>FloorplansViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>ECEC1BCB110E34FA0064225E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HomeView.m</string>
+										<string>FloorplansViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ECEC1C49110E44610064225E</string>
+										<string>ECEC1C81110E52E80064225E</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BD9110E38A90064225E</string>
@@ -338,8 +340,10 @@
 											<string>ECEC1BF7110E3BAF0064225E</string>
 											<string>ECEC1C0A110E3CBD0064225E</string>
 											<string>ECEC1C0F110E42040064225E</string>
-											<string>ECEC1C3C110E44260064225E</string>
-											<string>ECEC1C48110E44590064225E</string>
+											<string>ECEC1C4E110E45B70064225E</string>
+											<string>ECEC1C7A110E52D40064225E</string>
+											<string>ECEC1C7B110E52D40064225E</string>
+											<string>ECEC1C80110E52DF0064225E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
