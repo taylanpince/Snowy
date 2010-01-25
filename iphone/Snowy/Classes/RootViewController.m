@@ -8,6 +8,7 @@
 
 #import "HomeView.h"
 #import "RootViewController.h"
+#import "FloorplansViewController.h"
 
 
 @implementation RootViewController
@@ -30,20 +31,25 @@
 
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
 	switch (tabIndex) {
-		case 0:
-			NSLog(@"FLOORPLANS");
+		case 0: {
+			FloorplansViewController *controller = [[FloorplansViewController alloc] init];
+			
+			[self.navigationController pushViewController:controller animated:YES];
+			[controller release];
 			break;
-		case 1:
+		}
+		case 1: {
 			NSLog(@"CALCULATOR");
 			break;
-		case 2:
+		}
+		case 2: {
 			NSLog(@"APPOINTMENTS");
 			break;
-		case 3:
+		}
+		case 3: {
 			NSLog(@"MY CONDO");
 			break;
-		default:
-			break;
+		}
 	}
 }
 

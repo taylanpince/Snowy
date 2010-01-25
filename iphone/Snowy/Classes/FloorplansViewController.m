@@ -12,11 +12,25 @@
 @implementation FloorplansViewController
 
 - (void)loadView {
-	UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+	UIView *mainView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
 	
-	self.view = scrollView;
+	self.view = mainView;
 	
+	[mainView release];
+}
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height - 20.0)];
+	
+	[self.view addSubview:scrollView];
 	[scrollView release];
+	
+	UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0.0, self.view.frame.size.height - 20.0, self.view.frame.size.width, 20.0)];
+	
+	[self.view addSubview:pageControl];
+	[pageControl release];
 }
 
 - (void)didReceiveMemoryWarning {
