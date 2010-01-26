@@ -331,19 +331,26 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ECEC1CD0110E5BFB0064225E</string>
+										<string>EC21E54F110F52A1000B22F3</string>
 										<key>history</key>
 										<array>
-											<string>ECEC1BD9110E38A90064225E</string>
 											<string>ECEC1BF5110E3BAF0064225E</string>
 											<string>ECEC1BF6110E3BAF0064225E</string>
-											<string>ECEC1BF7110E3BAF0064225E</string>
-											<string>ECEC1C0A110E3CBD0064225E</string>
-											<string>ECEC1C0F110E42040064225E</string>
-											<string>ECEC1C4E110E45B70064225E</string>
-											<string>ECEC1CC1110E5B9C0064225E</string>
-											<string>ECEC1CCA110E5BE40064225E</string>
-											<string>ECEC1CCF110E5BF00064225E</string>
+											<string>EC21E441110F4389000B22F3</string>
+											<string>EC21E442110F4389000B22F3</string>
+											<string>EC21E457110F44C1000B22F3</string>
+											<string>EC21E488110F471B000B22F3</string>
+											<string>EC21E4DC110F4A07000B22F3</string>
+											<string>EC21E4E7110F4A57000B22F3</string>
+											<string>EC21E4EC110F4C31000B22F3</string>
+											<string>EC21E503110F5142000B22F3</string>
+											<string>EC21E504110F5142000B22F3</string>
+											<string>EC21E505110F5142000B22F3</string>
+											<string>EC21E506110F5142000B22F3</string>
+											<string>EC21E51F110F51A0000B22F3</string>
+											<string>EC21E524110F51B1000B22F3</string>
+											<string>EC21E53D110F5250000B22F3</string>
+											<string>EC21E54E110F529F000B22F3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -383,8 +390,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1207, -27}}</string>
-										<key>RubberWindowFrame</key>
-										<string>4 55 1436 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -438,7 +443,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {1207, -27}}</string>
+										<key>RubberWindowFrame</key>
+										<string>4 55 1436 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -466,11 +473,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ECEC1BCC110E34FA0064225E</string>
+				<string>EC21E3D0110F3A06000B22F3</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>ECEC1BCD110E34FA0064225E</string>
+				<string>EC21E3D1110F3A06000B22F3</string>
 				<string>ECEC1BCA110E34FA0064225E</string>
-				<string>ECEC1BCE110E34FA0064225E</string>
+				<string>EC21E3D2110F3A06000B22F3</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -619,14 +626,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ECEC1BDF110E38A90064225E</string>
+				<string>EC21E3D3110F3A06000B22F3</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>ECEC1BE0110E38A90064225E</string>
-				<string>ECEC1BE1110E38A90064225E</string>
-				<string>ECEC1BE2110E38A90064225E</string>
-				<string>ECEC1BE3110E38A90064225E</string>
-				<string>ECEC1BD4110E376F0064225E</string>
+				<string>EC21E3D4110F3A06000B22F3</string>
+				<string>EC21E3D5110F3A06000B22F3</string>
+				<string>EC21E3D6110F3A06000B22F3</string>
+				<string>EC21E3D7110F3A06000B22F3</string>
+				<string>EC21E3D8110F3A06000B22F3</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>

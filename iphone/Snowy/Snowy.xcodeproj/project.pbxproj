@@ -14,16 +14,18 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		EC21E3DB110F3AF1000B22F3 /* Condominiums.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */; };
+		EC21E455110F43DC000B22F3 /* CondoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21E454110F43DC000B22F3 /* CondoViewController.m */; };
+		EC21E4F7110F5106000B22F3 /* tab-king-west-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4EF110F5106000B22F3 /* tab-king-west-on.jpg */; };
+		EC21E4F8110F5106000B22F3 /* tab-king-west.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F0110F5106000B22F3 /* tab-king-west.jpg */; };
+		EC21E4F9110F5106000B22F3 /* tab-midtown-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F1110F5106000B22F3 /* tab-midtown-on.jpg */; };
+		EC21E4FA110F5106000B22F3 /* tab-midtown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F2110F5106000B22F3 /* tab-midtown.jpg */; };
+		EC21E4FB110F5106000B22F3 /* tab-skyy-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F3110F5106000B22F3 /* tab-skyy-on.jpg */; };
+		EC21E4FC110F5106000B22F3 /* tab-skyy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F4110F5106000B22F3 /* tab-skyy.jpg */; };
+		EC21E4FD110F5106000B22F3 /* tab-st-thomas-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F5110F5106000B22F3 /* tab-st-thomas-on.jpg */; };
+		EC21E4FE110F5106000B22F3 /* tab-st-thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F6110F5106000B22F3 /* tab-st-thomas.jpg */; };
 		ECEC1BF0110E3B700064225E /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* HomeView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
-		ECEC1C28110E43980064225E /* tab-appointments-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1F110E43980064225E /* tab-appointments-on.png */; };
-		ECEC1C29110E43980064225E /* tab-appointments.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C20110E43980064225E /* tab-appointments.png */; };
-		ECEC1C2A110E43980064225E /* tab-calculator-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C21110E43980064225E /* tab-calculator-on.png */; };
-		ECEC1C2B110E43980064225E /* tab-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C22110E43980064225E /* tab-calculator.png */; };
-		ECEC1C2C110E43980064225E /* tab-floorplans-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C23110E43980064225E /* tab-floorplans-on.png */; };
-		ECEC1C2D110E43980064225E /* tab-floorplans.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C24110E43980064225E /* tab-floorplans.png */; };
-		ECEC1C2E110E43980064225E /* tab-mycondo-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C25110E43980064225E /* tab-mycondo-on.png */; };
-		ECEC1C2F110E43980064225E /* tab-mycondo.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C26110E43980064225E /* tab-mycondo.png */; };
 		ECEC1C59110E4B610064225E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* 1.png */; };
 		ECEC1C5A110E4B610064225E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C57110E4B610064225E /* 2.png */; };
 		ECEC1C5B110E4B610064225E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C58110E4B610064225E /* 3.png */; };
@@ -43,17 +45,20 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Snowy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Snowy-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Condominiums.plist; sourceTree = "<group>"; };
+		EC21E453110F43DC000B22F3 /* CondoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondoViewController.h; sourceTree = "<group>"; };
+		EC21E454110F43DC000B22F3 /* CondoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CondoViewController.m; sourceTree = "<group>"; };
+		EC21E4EF110F5106000B22F3 /* tab-king-west-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-king-west-on.jpg"; sourceTree = "<group>"; };
+		EC21E4F0110F5106000B22F3 /* tab-king-west.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-king-west.jpg"; sourceTree = "<group>"; };
+		EC21E4F1110F5106000B22F3 /* tab-midtown-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-midtown-on.jpg"; sourceTree = "<group>"; };
+		EC21E4F2110F5106000B22F3 /* tab-midtown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-midtown.jpg"; sourceTree = "<group>"; };
+		EC21E4F3110F5106000B22F3 /* tab-skyy-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-skyy-on.jpg"; sourceTree = "<group>"; };
+		EC21E4F4110F5106000B22F3 /* tab-skyy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-skyy.jpg"; sourceTree = "<group>"; };
+		EC21E4F5110F5106000B22F3 /* tab-st-thomas-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-st-thomas-on.jpg"; sourceTree = "<group>"; };
+		EC21E4F6110F5106000B22F3 /* tab-st-thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-st-thomas.jpg"; sourceTree = "<group>"; };
 		ECEC1BEE110E3B700064225E /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		ECEC1BEF110E3B700064225E /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		ECEC1C1F110E43980064225E /* tab-appointments-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-appointments-on.png"; sourceTree = "<group>"; };
-		ECEC1C20110E43980064225E /* tab-appointments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-appointments.png"; sourceTree = "<group>"; };
-		ECEC1C21110E43980064225E /* tab-calculator-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-calculator-on.png"; sourceTree = "<group>"; };
-		ECEC1C22110E43980064225E /* tab-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-calculator.png"; sourceTree = "<group>"; };
-		ECEC1C23110E43980064225E /* tab-floorplans-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-floorplans-on.png"; sourceTree = "<group>"; };
-		ECEC1C24110E43980064225E /* tab-floorplans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-floorplans.png"; sourceTree = "<group>"; };
-		ECEC1C25110E43980064225E /* tab-mycondo-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-mycondo-on.png"; sourceTree = "<group>"; };
-		ECEC1C26110E43980064225E /* tab-mycondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-mycondo.png"; sourceTree = "<group>"; };
 		ECEC1C56110E4B610064225E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		ECEC1C57110E4B610064225E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		ECEC1C58110E4B610064225E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -84,6 +89,8 @@
 				1D3623250D0F684500981E51 /* SnowyAppDelegate.m */,
 				ECEC1C5C110E4B820064225E /* FloorplansViewController.h */,
 				ECEC1C5D110E4B820064225E /* FloorplansViewController.m */,
+				EC21E453110F43DC000B22F3 /* CondoViewController.h */,
+				EC21E454110F43DC000B22F3 /* CondoViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 				ECEC1C1D110E43980064225E /* Images */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Snowy-Info.plist */,
+				EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -150,16 +158,16 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC21E4EF110F5106000B22F3 /* tab-king-west-on.jpg */,
+				EC21E4F0110F5106000B22F3 /* tab-king-west.jpg */,
+				EC21E4F1110F5106000B22F3 /* tab-midtown-on.jpg */,
+				EC21E4F2110F5106000B22F3 /* tab-midtown.jpg */,
+				EC21E4F3110F5106000B22F3 /* tab-skyy-on.jpg */,
+				EC21E4F4110F5106000B22F3 /* tab-skyy.jpg */,
+				EC21E4F5110F5106000B22F3 /* tab-st-thomas-on.jpg */,
+				EC21E4F6110F5106000B22F3 /* tab-st-thomas.jpg */,
 				ECEC1C55110E4B610064225E /* Floorplans */,
 				ECEC1C1E110E43980064225E /* Default.png */,
-				ECEC1C1F110E43980064225E /* tab-appointments-on.png */,
-				ECEC1C20110E43980064225E /* tab-appointments.png */,
-				ECEC1C21110E43980064225E /* tab-calculator-on.png */,
-				ECEC1C22110E43980064225E /* tab-calculator.png */,
-				ECEC1C23110E43980064225E /* tab-floorplans-on.png */,
-				ECEC1C24110E43980064225E /* tab-floorplans.png */,
-				ECEC1C25110E43980064225E /* tab-mycondo-on.png */,
-				ECEC1C26110E43980064225E /* tab-mycondo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -225,17 +233,18 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				ECEC1C27110E43980064225E /* Default.png in Resources */,
-				ECEC1C28110E43980064225E /* tab-appointments-on.png in Resources */,
-				ECEC1C29110E43980064225E /* tab-appointments.png in Resources */,
-				ECEC1C2A110E43980064225E /* tab-calculator-on.png in Resources */,
-				ECEC1C2B110E43980064225E /* tab-calculator.png in Resources */,
-				ECEC1C2C110E43980064225E /* tab-floorplans-on.png in Resources */,
-				ECEC1C2D110E43980064225E /* tab-floorplans.png in Resources */,
-				ECEC1C2E110E43980064225E /* tab-mycondo-on.png in Resources */,
-				ECEC1C2F110E43980064225E /* tab-mycondo.png in Resources */,
 				ECEC1C59110E4B610064225E /* 1.png in Resources */,
 				ECEC1C5A110E4B610064225E /* 2.png in Resources */,
 				ECEC1C5B110E4B610064225E /* 3.png in Resources */,
+				EC21E3DB110F3AF1000B22F3 /* Condominiums.plist in Resources */,
+				EC21E4F7110F5106000B22F3 /* tab-king-west-on.jpg in Resources */,
+				EC21E4F8110F5106000B22F3 /* tab-king-west.jpg in Resources */,
+				EC21E4F9110F5106000B22F3 /* tab-midtown-on.jpg in Resources */,
+				EC21E4FA110F5106000B22F3 /* tab-midtown.jpg in Resources */,
+				EC21E4FB110F5106000B22F3 /* tab-skyy-on.jpg in Resources */,
+				EC21E4FC110F5106000B22F3 /* tab-skyy.jpg in Resources */,
+				EC21E4FD110F5106000B22F3 /* tab-st-thomas-on.jpg in Resources */,
+				EC21E4FE110F5106000B22F3 /* tab-st-thomas.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				ECEC1BF0110E3B700064225E /* HomeView.m in Sources */,
 				ECEC1C5E110E4B820064225E /* FloorplansViewController.m in Sources */,
+				EC21E455110F43DC000B22F3 /* CondoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,9 @@
 
 
 @interface RootViewController : UIViewController <HomeViewDelegate> {
-	
+	NSArray *condos;
 }
+
+@property (nonatomic, retain) NSArray *condos;
 
 @end

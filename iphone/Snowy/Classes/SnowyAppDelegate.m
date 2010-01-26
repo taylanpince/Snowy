@@ -12,16 +12,15 @@
 
 @implementation SnowyAppDelegate
 
-@synthesize window;
-@synthesize navigationController;
+@synthesize window, viewController;
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
-	[window addSubview:[navigationController view]];
-    [window makeKeyAndVisible];
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	[window addSubview:[viewController view]];
+	[window makeKeyAndVisible];
 }
 
 - (void)dealloc {
-	[navigationController release];
+	[viewController release];
 	[window release];
 	[super dealloc];
 }

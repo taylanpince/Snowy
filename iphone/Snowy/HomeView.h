@@ -9,14 +9,16 @@
 @protocol HomeViewDelegate;
 
 @interface HomeView : UIView {
-	NSArray *tabs;
+	NSMutableArray *tabs;
 	
 	id <HomeViewDelegate> delegate;
 }
 
-@property (nonatomic, retain) NSArray *tabs;
+@property (nonatomic, retain) NSMutableArray *tabs;
 
 @property (nonatomic, assign) id <HomeViewDelegate> delegate;
+
+- (void)setCondos:(NSArray *)condos;
 
 @end
 

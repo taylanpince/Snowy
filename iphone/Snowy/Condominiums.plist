@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Midtown</string>
+		<key>menu_image</key>
+		<string>tab-midtown.jpg</string>
+		<key>menu_image_on</key>
+		<string>tab-midtown-on.jpg</string>
+		<key>header_image</key>
+		<string>header-midtown.jpg</string>
+		<key>floorplans</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>floorplan-1.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The St. Thomas</string>
+		<key>menu_image</key>
+		<string>tab-st-thomas.jpg</string>
+		<key>menu_image_on</key>
+		<string>tab-st-thomas-on.jpg</string>
+		<key>header_image</key>
+		<string>header-st-thomas.jpg</string>
+		<key>floorplans</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>floorplan-1.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Skyy</string>
+		<key>menu_image</key>
+		<string>tab-skyy.jpg</string>
+		<key>menu_image_on</key>
+		<string>tab-skyy-on.jpg</string>
+		<key>header_image</key>
+		<string>header-skyy.jpg</string>
+		<key>floorplans</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>floorplan-1.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>King West</string>
+		<key>menu_image</key>
+		<string>tab-king-west.jpg</string>
+		<key>menu_image_on</key>
+		<string>tab-king-west-on.jpg</string>
+		<key>header_image</key>
+		<string>header-king-west.jpg</string>
+		<key>floorplans</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>floorplan-1.png</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

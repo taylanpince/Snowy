@@ -20,31 +20,27 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-		UIButton *floorplansTab = [UIButton buttonWithType:UIButtonTypeCustom];
-		UIButton *calculatorTab = [UIButton buttonWithType:UIButtonTypeCustom];
-		UIButton *appointmentsTab = [UIButton buttonWithType:UIButtonTypeCustom];
-		UIButton *mycondoTab = [UIButton buttonWithType:UIButtonTypeCustom];
-		
-		[floorplansTab setImage:[UIImage imageNamed:@"tab-floorplans.png"] forState:UIControlStateNormal];
-		[calculatorTab setImage:[UIImage imageNamed:@"tab-calculator.png"] forState:UIControlStateNormal];
-		[appointmentsTab setImage:[UIImage imageNamed:@"tab-appointments.png"] forState:UIControlStateNormal];
-		[mycondoTab setImage:[UIImage imageNamed:@"tab-mycondo.png"] forState:UIControlStateNormal];
-		[floorplansTab setImage:[UIImage imageNamed:@"tab-floorplans-on.png"] forState:UIControlStateHighlighted];
-		[calculatorTab setImage:[UIImage imageNamed:@"tab-calculator-on.png"] forState:UIControlStateHighlighted];
-		[appointmentsTab setImage:[UIImage imageNamed:@"tab-appointments-on.png"] forState:UIControlStateHighlighted];
-		[mycondoTab setImage:[UIImage imageNamed:@"tab-mycondo-on.png"] forState:UIControlStateHighlighted];
-		
-		tabs = [[NSArray alloc] initWithObjects:floorplansTab, calculatorTab, appointmentsTab, mycondoTab, nil];
-		
-		for (UIButton *button in tabs) {
-			[button addTarget:self action:@selector(switchSection:) forControlEvents:UIControlEventTouchDown];
-			[self addSubview:button];
-		}
+		tabs = [[NSMutableArray alloc] init];
 		
 		[self setBackgroundColor:[UIColor darkGrayColor]];
     }
 	
     return self;
+}
+
+- (void)setCondos:(NSArray *)condos {
+	for (NSDictionary *condo in condos) {
+		UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+		
+		[button setImage:[UIImage imageNamed:[condo objectForKey:@"menu_image"]] forState:UIControlStateNormal];
+		[button setImage:[UIImage imageNamed:[condo objectForKey:@"menu_image_on"]] forState:UIControlStateHighlighted];
+		[button addTarget:self action:@selector(switchSection:) forControlEvents:UIControlEventTouchDown];
+		
+		[self addSubview:button];
+		[tabs addObject:button];
+	}
+	
+	[self setNeedsLayout];
 }
 
 - (void)switchSection:(id)sender {
@@ -55,7 +51,7 @@
 	NSInteger index = 0;;
 	
 	for (UIButton *button in tabs) {
-		[button setFrame:CGRectMake(160.0 * (index % 2), 209.0 * ((index / 2) % 2), 160.0, 209.0)];
+		[button setFrame:CGRectMake(160.0 * (index % 2), 230.0 * ((index / 2) % 2), 160.0, 230.0)];
 		
 		index += 1;
 	}

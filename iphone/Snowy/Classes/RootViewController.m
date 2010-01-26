@@ -8,10 +8,12 @@
 
 #import "HomeView.h"
 #import "RootViewController.h"
-#import "FloorplansViewController.h"
+#import "CondoViewController.h"
 
 
 @implementation RootViewController
+
+@synthesize condos;
 
 - (void)loadView {
 	HomeView *homeView = [[HomeView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
@@ -26,31 +28,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[self setTitle:@"minto"];
+	NSString *error;
+	NSPropertyListFormat format;
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"Condominiums" ofType:@"plist"];
+	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+	
+	condos = [(NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error] retain];
+	
+	if (!condos) {
+		NSLog(@"ERROR READING PLIST: %@ (%@)", [path UTF8String], [error UTF8String]);
+	}
+	
+	[error release];
+	[data release];
+	
+	[(HomeView *)[self view] setCondos:condos];
 }
 
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
-	switch (tabIndex) {
-		case 0: {
-			FloorplansViewController *controller = [[FloorplansViewController alloc] init];
-			
-			[self.navigationController pushViewController:controller animated:YES];
-			[controller release];
-			break;
-		}
-		case 1: {
-			NSLog(@"CALCULATOR");
-			break;
-		}
-		case 2: {
-			NSLog(@"APPOINTMENTS");
-			break;
-		}
-		case 3: {
-			NSLog(@"MY CONDO");
-			break;
-		}
-	}
+	CondoViewController *controller = [[CondoViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+	
+	[controller setCondo:[condos objectAtIndex:tabIndex]];
+	[navController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+	[self presentModalViewController:navController animated:YES];
+	
+	[controller release];
+	[navController release];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,6 +67,7 @@
 }
 
 - (void)dealloc {
+	[condos release];
     [super dealloc];
 }
 
