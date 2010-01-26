@@ -11,13 +11,15 @@
 
 @implementation FloorplanView
 
-@synthesize imagePath, imageView;
+@synthesize imagePath, imageView, bookmarkButton;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
 		imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+		bookmarkButton = [[UIButton buttonWithType:UIButtonTypeContactAdd] retain];
 		
 		[self addSubview:imageView];
+		[self addSubview:bookmarkButton];
 		[self setBackgroundColor:[UIColor darkGrayColor]];
     }
 	
@@ -39,11 +41,13 @@
 	[super layoutSubviews];
 	
 	[imageView setFrame:self.bounds];
+	[bookmarkButton setFrame:CGRectMake(self.frame.size.width - 40.0, 10.0, 30.0, 30.0)];
 }
 
 - (void)dealloc {
 	[imageView release];
 	[imagePath release];
+	[bookmarkButton release];
     [super dealloc];
 }
 
