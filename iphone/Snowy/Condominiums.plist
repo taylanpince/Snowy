@@ -17,6 +17,14 @@
 				<key>image</key>
 				<string>floorplan-1.png</string>
 			</dict>
+			<dict>
+				<key>image</key>
+				<string>floorplan-2.png</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>floorplan-3.png</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>

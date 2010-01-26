@@ -106,6 +106,7 @@
 		case 1: {
 			FloorplansViewController *controller = [[FloorplansViewController alloc] init];
 			
+			[controller setCondo:condo];
 			[self.navigationController pushViewController:controller animated:YES];
 			[controller release];
 			break;

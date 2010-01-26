@@ -6,8 +6,14 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
-@interface FloorplansViewController : UIViewController {
+@interface FloorplansViewController : UIViewController <UIScrollViewDelegate> {
+	NSMutableArray *floorplans;
+	NSDictionary *condo;
 	
+	BOOL pageControlUsed;
 }
+
+@property (nonatomic, retain) NSMutableArray *floorplans;
+@property (nonatomic, retain) NSDictionary *condo;
 
 @end
