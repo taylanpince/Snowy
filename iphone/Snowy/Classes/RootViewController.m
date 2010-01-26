@@ -50,12 +50,17 @@
 	CondoViewController *controller = [[CondoViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
 	
+	[controller setDelegate:self];
 	[controller setCondo:[condos objectAtIndex:tabIndex]];
 	[navController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 	[self presentModalViewController:navController animated:YES];
 	
 	[controller release];
 	[navController release];
+}
+
+- (void)condoViewControllerDidClose:(CondoViewController *)controller {
+	[self dismissModalViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

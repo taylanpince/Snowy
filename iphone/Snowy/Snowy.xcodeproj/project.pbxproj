@@ -24,6 +24,11 @@
 		EC21E4FC110F5106000B22F3 /* tab-skyy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F4110F5106000B22F3 /* tab-skyy.jpg */; };
 		EC21E4FD110F5106000B22F3 /* tab-st-thomas-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F5110F5106000B22F3 /* tab-st-thomas-on.jpg */; };
 		EC21E4FE110F5106000B22F3 /* tab-st-thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F6110F5106000B22F3 /* tab-st-thomas.jpg */; };
+		EC21E57E110F58CC000B22F3 /* header-king-west.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57A110F58CC000B22F3 /* header-king-west.jpg */; };
+		EC21E57F110F58CC000B22F3 /* header-midtown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57B110F58CC000B22F3 /* header-midtown.jpg */; };
+		EC21E580110F58CC000B22F3 /* header-skyy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57C110F58CC000B22F3 /* header-skyy.jpg */; };
+		EC21E581110F58CC000B22F3 /* header-st-thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */; };
+		EC21E698110F7721000B22F3 /* quadrant.png in Resources */ = {isa = PBXBuildFile; fileRef = EC21E697110F7721000B22F3 /* quadrant.png */; };
 		ECEC1BF0110E3B700064225E /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* HomeView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
 		ECEC1C59110E4B610064225E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* 1.png */; };
@@ -56,6 +61,11 @@
 		EC21E4F4110F5106000B22F3 /* tab-skyy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-skyy.jpg"; sourceTree = "<group>"; };
 		EC21E4F5110F5106000B22F3 /* tab-st-thomas-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-st-thomas-on.jpg"; sourceTree = "<group>"; };
 		EC21E4F6110F5106000B22F3 /* tab-st-thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-st-thomas.jpg"; sourceTree = "<group>"; };
+		EC21E57A110F58CC000B22F3 /* header-king-west.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-king-west.jpg"; sourceTree = "<group>"; };
+		EC21E57B110F58CC000B22F3 /* header-midtown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-midtown.jpg"; sourceTree = "<group>"; };
+		EC21E57C110F58CC000B22F3 /* header-skyy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-skyy.jpg"; sourceTree = "<group>"; };
+		EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-st-thomas.jpg"; sourceTree = "<group>"; };
+		EC21E697110F7721000B22F3 /* quadrant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadrant.png; sourceTree = "<group>"; };
 		ECEC1BEE110E3B700064225E /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		ECEC1BEF110E3B700064225E /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -158,6 +168,11 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC21E697110F7721000B22F3 /* quadrant.png */,
+				EC21E57A110F58CC000B22F3 /* header-king-west.jpg */,
+				EC21E57B110F58CC000B22F3 /* header-midtown.jpg */,
+				EC21E57C110F58CC000B22F3 /* header-skyy.jpg */,
+				EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */,
 				EC21E4EF110F5106000B22F3 /* tab-king-west-on.jpg */,
 				EC21E4F0110F5106000B22F3 /* tab-king-west.jpg */,
 				EC21E4F1110F5106000B22F3 /* tab-midtown-on.jpg */,
@@ -245,6 +260,11 @@
 				EC21E4FC110F5106000B22F3 /* tab-skyy.jpg in Resources */,
 				EC21E4FD110F5106000B22F3 /* tab-st-thomas-on.jpg in Resources */,
 				EC21E4FE110F5106000B22F3 /* tab-st-thomas.jpg in Resources */,
+				EC21E57E110F58CC000B22F3 /* header-king-west.jpg in Resources */,
+				EC21E57F110F58CC000B22F3 /* header-midtown.jpg in Resources */,
+				EC21E580110F58CC000B22F3 /* header-skyy.jpg in Resources */,
+				EC21E581110F58CC000B22F3 /* header-st-thomas.jpg in Resources */,
+				EC21E698110F7721000B22F3 /* quadrant.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

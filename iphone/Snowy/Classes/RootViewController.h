@@ -7,9 +7,10 @@
 //
 
 #import "HomeView.h"
+#import "CondoViewController.h"
 
 
-@interface RootViewController : UIViewController <HomeViewDelegate> {
+@interface RootViewController : UIViewController <HomeViewDelegate, CondoViewControllerDelegate> {
 	NSArray *condos;
 }
 
