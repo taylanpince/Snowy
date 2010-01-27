@@ -6,14 +6,19 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
+#import "Property.h"
+
+
 @interface FloorplansViewController : UIViewController <UIScrollViewDelegate> {
+	Property *property;
+	
 	NSMutableArray *floorplans;
-	NSDictionary *condo;
 	
 	BOOL pageControlUsed;
 }
 
+@property (nonatomic, retain) Property *property;
+
 @property (nonatomic, retain) NSMutableArray *floorplans;
-@property (nonatomic, retain) NSDictionary *condo;
 
 @end

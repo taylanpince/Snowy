@@ -6,6 +6,8 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
+#import "Property.h"
+#import "Floorplan.h"
 #import "FloorplanView.h"
 #import "FloorplanScrollerView.h"
 #import "FloorplansViewController.h"
@@ -19,7 +21,7 @@
 
 @implementation FloorplansViewController
 
-@synthesize floorplans, condo;
+@synthesize property, floorplans;
 
 - (void)loadView {
 	FloorplanScrollerView *scrollerView = [[FloorplanScrollerView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
@@ -35,7 +37,7 @@
 	
 	floorplans = [[NSMutableArray alloc] init];
 	
-	for (NSDictionary *floorplan in [condo objectForKey:@"floorplans"]) {
+	for (Floorplan *floorplan in property.floorplans) {
 		[floorplans addObject:[NSNull null]];
 	}
 	
@@ -62,15 +64,15 @@
     if (page >= [floorplans count]) return;
 	
 	FloorplanScrollerView *mainView = (FloorplanScrollerView *)[self view];
-	FloorplanView *floorplan = [floorplans objectAtIndex:page];
+	FloorplanView *floorplanView = [floorplans objectAtIndex:page];
 	
-	if ((NSNull *)floorplan == [NSNull null]) {
-		floorplan = [[FloorplanView alloc] initWithFrame:CGRectMake(mainView.scrollView.frame.size.width * page, 0.0, mainView.scrollView.frame.size.width, mainView.scrollView.frame.size.height)];
+	if ((NSNull *)floorplanView == [NSNull null]) {
+		floorplanView = [[FloorplanView alloc] initWithFrame:CGRectMake(mainView.scrollView.frame.size.width * page, 0.0, mainView.scrollView.frame.size.width, mainView.scrollView.frame.size.height)];
 		
-		[floorplan setImagePath:[[[condo objectForKey:@"floorplans"] objectAtIndex:page] objectForKey:@"image"]];
-		[floorplans replaceObjectAtIndex:page withObject:floorplan];
-		[mainView.scrollView addSubview:floorplan];
-		[floorplan release];
+		[floorplanView setImagePath:[(Floorplan *)[property.floorplans objectAtIndex:page] image_path]];
+		[floorplans replaceObjectAtIndex:page withObject:floorplanView];
+		[mainView.scrollView addSubview:floorplanView];
+		[floorplanView release];
 	}
 }
 
@@ -124,7 +126,7 @@
 }
 
 - (void)dealloc {
-	[condo release];
+	[property release];
 	[floorplans release];
     [super dealloc];
 }

@@ -7,6 +7,7 @@
 //
 
 #import "HomeView.h"
+#import "Location.h"
 
 
 @interface HomeView (PrivateMethods)
@@ -28,12 +29,12 @@
     return self;
 }
 
-- (void)setCondos:(NSArray *)condos {
-	for (NSDictionary *condo in condos) {
+- (void)setLocations:(NSArray *)locations {
+	for (Location *location in locations) {
 		UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 		
-		[button setImage:[UIImage imageNamed:[condo objectForKey:@"menu_image"]] forState:UIControlStateNormal];
-		[button setImage:[UIImage imageNamed:[condo objectForKey:@"menu_image_on"]] forState:UIControlStateHighlighted];
+		[button setImage:[UIImage imageNamed:location.image_path] forState:UIControlStateNormal];
+		[button setImage:[UIImage imageNamed:location.image_on_path] forState:UIControlStateHighlighted];
 		[button addTarget:self action:@selector(switchSection:) forControlEvents:UIControlEventTouchDown];
 		
 		[self addSubview:button];

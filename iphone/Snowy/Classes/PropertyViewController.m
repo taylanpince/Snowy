@@ -1,37 +1,27 @@
 //
-//  CondoViewController.m
+//  PropertyViewController.m
 //  Snowy
 //
 //  Created by Taylan Pince on 10-01-26.
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
+#import "Property.h"
 #import <QuartzCore/QuartzCore.h>
-#import "CondoViewController.h"
+#import "PropertyViewController.h"
 #import "FloorplansViewController.h"
 
 #define cellIdentifier @"cell"
 
 
-@interface CondoViewController (PrivateMethods)
-- (void)goHome:(id)sender;
-@end
+@implementation PropertyViewController
 
-
-
-@implementation CondoViewController
-
-@synthesize condo, delegate;
+@synthesize property;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[self setTitle:[condo objectForKey:@"name"]];
-	
-	UIBarButtonItem *homeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"quadrant.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(goHome:)];
-	
-	[self.navigationItem setLeftBarButtonItem:homeButton];
-	[homeButton release];
+	[self setTitle:property.name];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,10 +30,6 @@
 
 - (void)viewDidUnload {
 	
-}
-
-- (void)goHome:(id)sender {
-	[delegate condoViewControllerDidClose:self];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -69,7 +55,7 @@
 	
 	switch (indexPath.row) {
 		case 0: {
-			[cell.imageView setImage:[UIImage imageNamed:[condo objectForKey:@"header_image"]]];
+			[cell.imageView setImage:[UIImage imageNamed:property.header_image_path]];
 			break;
 		}
 		case 1: {
@@ -106,7 +92,7 @@
 		case 1: {
 			FloorplansViewController *controller = [[FloorplansViewController alloc] init];
 			
-			[controller setCondo:condo];
+			[controller setProperty:property];
 			[self.navigationController pushViewController:controller animated:YES];
 			[controller release];
 			break;
@@ -129,7 +115,7 @@
 }
 
 - (void)dealloc {
-	[condo release];
+	[property release];
     [super dealloc];
 }
 

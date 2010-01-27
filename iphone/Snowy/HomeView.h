@@ -18,7 +18,7 @@
 
 @property (nonatomic, assign) id <HomeViewDelegate> delegate;
 
-- (void)setCondos:(NSArray *)condos;
+- (void)setLocations:(NSArray *)locations;
 
 @end
 

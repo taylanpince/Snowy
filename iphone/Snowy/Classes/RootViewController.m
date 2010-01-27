@@ -7,13 +7,14 @@
 //
 
 #import "HomeView.h"
+#import "Location.h"
 #import "RootViewController.h"
-#import "CondoViewController.h"
+#import "LocationViewController.h"
 
 
 @implementation RootViewController
 
-@synthesize condos;
+@synthesize locations;
 
 - (void)loadView {
 	HomeView *homeView = [[HomeView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
@@ -33,25 +34,33 @@
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"Condominiums" ofType:@"plist"];
 	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+	NSArray *locationsList = [(NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error] retain];
 	
-	condos = [(NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error] retain];
-	
-	if (!condos) {
+	if (!locationsList) {
 		NSLog(@"ERROR READING PLIST: %@ (%@)", [path UTF8String], [error UTF8String]);
 	}
 	
 	[error release];
 	[data release];
 	
-	[(HomeView *)[self view] setCondos:condos];
+	locations = [[NSMutableArray alloc] init];
+	
+	for (NSDictionary *locationData in locationsList) {
+		Location *location = [[Location alloc] initWithDictionary:locationData];
+		
+		[locations addObject:location];
+		[location release];
+	}
+	
+	[(HomeView *)[self view] setLocations:locations];
 }
 
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
-	CondoViewController *controller = [[CondoViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	LocationViewController *controller = [[LocationViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
 	
 	[controller setDelegate:self];
-	[controller setCondo:[condos objectAtIndex:tabIndex]];
+	[controller setLocation:[locations objectAtIndex:tabIndex]];
 	[navController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 	[self presentModalViewController:navController animated:YES];
 	
@@ -59,7 +68,7 @@
 	[navController release];
 }
 
-- (void)condoViewControllerDidClose:(CondoViewController *)controller {
+- (void)locationViewControllerDidClose:(LocationViewController *)controller {
 	[self dismissModalViewControllerAnimated:YES];
 }
 
@@ -72,7 +81,7 @@
 }
 
 - (void)dealloc {
-	[condos release];
+	[locations release];
     [super dealloc];
 }
 

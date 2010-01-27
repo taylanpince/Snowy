@@ -4,77 +4,317 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>Midtown</string>
-		<key>menu_image</key>
-		<string>tab-midtown.jpg</string>
-		<key>menu_image_on</key>
-		<string>tab-midtown-on.jpg</string>
-		<key>header_image</key>
-		<string>header-midtown.jpg</string>
-		<key>floorplans</key>
+		<string>Toronto</string>
+		<key>image</key>
+		<string>tab-toronto.jpg</string>
+		<key>image_on</key>
+		<string>tab-toronto-on.jpg</string>
+		<key>properties</key>
 		<array>
 			<dict>
+				<key>name</key>
+				<string>King West</string>
 				<key>image</key>
-				<string>floorplan-1.png</string>
+				<string>king-west.jpg</string>
+				<key>header_image</key>
+				<string>header-king-west.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
 			</dict>
 			<dict>
-				<key>image</key>
-				<string>floorplan-2.png</string>
+				<key>name</key>
+				<string>Skyy</string>
+				<key>menu_image</key>
+				<string>tab-skyy.jpg</string>
+				<key>header_image</key>
+				<string>header-skyy.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
 			</dict>
 			<dict>
-				<key>image</key>
-				<string>floorplan-3.png</string>
+				<key>name</key>
+				<string>The St. Thomas</string>
+				<key>menu_image</key>
+				<string>st-thomas.jpg</string>
+				<key>header_image</key>
+				<string>header-st-thomas.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Midtown</string>
+				<key>menu_image</key>
+				<string>midtown.jpg</string>
+				<key>header_image</key>
+				<string>header-midtown.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>The St. Thomas</string>
-		<key>menu_image</key>
-		<string>tab-st-thomas.jpg</string>
-		<key>menu_image_on</key>
-		<string>tab-st-thomas-on.jpg</string>
-		<key>header_image</key>
-		<string>header-st-thomas.jpg</string>
-		<key>floorplans</key>
+		<string>Ottawa</string>
+		<key>image</key>
+		<string>tab-ottawa.jpg</string>
+		<key>image_on</key>
+		<string>tab-ottawa-on.jpg</string>
+		<key>properties</key>
 		<array>
 			<dict>
+				<key>name</key>
+				<string>King West</string>
 				<key>image</key>
-				<string>floorplan-1.png</string>
+				<string>king-west.jpg</string>
+				<key>header_image</key>
+				<string>header-king-west.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Skyy</string>
+				<key>menu_image</key>
+				<string>tab-skyy.jpg</string>
+				<key>header_image</key>
+				<string>header-skyy.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>The St. Thomas</string>
+				<key>menu_image</key>
+				<string>st-thomas.jpg</string>
+				<key>header_image</key>
+				<string>header-st-thomas.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Midtown</string>
+				<key>menu_image</key>
+				<string>midtown.jpg</string>
+				<key>header_image</key>
+				<string>header-midtown.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Skyy</string>
-		<key>menu_image</key>
-		<string>tab-skyy.jpg</string>
-		<key>menu_image_on</key>
-		<string>tab-skyy-on.jpg</string>
+		<string>Florida</string>
+		<key>image</key>
+		<string>tab-florida.jpg</string>
 		<key>header_image</key>
-		<string>header-skyy.jpg</string>
-		<key>floorplans</key>
+		<string>tab-florida-on.jpg</string>
+		<key>properties</key>
 		<array>
 			<dict>
+				<key>name</key>
+				<string>King West</string>
 				<key>image</key>
-				<string>floorplan-1.png</string>
+				<string>king-west.jpg</string>
+				<key>header_image</key>
+				<string>header-king-west.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Skyy</string>
+				<key>menu_image</key>
+				<string>tab-skyy.jpg</string>
+				<key>header_image</key>
+				<string>header-skyy.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>The St. Thomas</string>
+				<key>menu_image</key>
+				<string>st-thomas.jpg</string>
+				<key>header_image</key>
+				<string>header-st-thomas.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Midtown</string>
+				<key>menu_image</key>
+				<string>midtown.jpg</string>
+				<key>header_image</key>
+				<string>header-midtown.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>King West</string>
-		<key>menu_image</key>
-		<string>tab-king-west.jpg</string>
-		<key>menu_image_on</key>
-		<string>tab-king-west-on.jpg</string>
+		<string>Rentals</string>
+		<key>image</key>
+		<string>tab-rentals.jpg</string>
 		<key>header_image</key>
-		<string>header-king-west.jpg</string>
-		<key>floorplans</key>
+		<string>tab-rentals-on.jpg</string>
+		<key>properties</key>
 		<array>
 			<dict>
+				<key>name</key>
+				<string>King West</string>
 				<key>image</key>
-				<string>floorplan-1.png</string>
+				<string>king-west.jpg</string>
+				<key>header_image</key>
+				<string>header-king-west.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Skyy</string>
+				<key>menu_image</key>
+				<string>tab-skyy.jpg</string>
+				<key>header_image</key>
+				<string>header-skyy.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>The St. Thomas</string>
+				<key>menu_image</key>
+				<string>st-thomas.jpg</string>
+				<key>header_image</key>
+				<string>header-st-thomas.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Midtown</string>
+				<key>menu_image</key>
+				<string>midtown.jpg</string>
+				<key>header_image</key>
+				<string>header-midtown.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>

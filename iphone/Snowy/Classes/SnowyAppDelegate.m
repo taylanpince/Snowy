@@ -15,6 +15,7 @@
 @synthesize window, viewController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+	[window setBackgroundColor:[UIColor blackColor]];
 	[window addSubview:[viewController view]];
 	[window makeKeyAndVisible];
 }

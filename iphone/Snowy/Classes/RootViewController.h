@@ -7,13 +7,13 @@
 //
 
 #import "HomeView.h"
-#import "CondoViewController.h"
+#import "LocationViewController.h"
 
 
-@interface RootViewController : UIViewController <HomeViewDelegate, CondoViewControllerDelegate> {
-	NSArray *condos;
+@interface RootViewController : UIViewController <HomeViewDelegate, LocationViewControllerDelegate> {
+	NSMutableArray *locations;
 }
 
-@property (nonatomic, retain) NSArray *condos;
+@property (nonatomic, retain) NSMutableArray *locations;
 
 @end
