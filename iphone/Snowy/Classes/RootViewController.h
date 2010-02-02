@@ -11,9 +11,9 @@
 
 
 @interface RootViewController : UIViewController <HomeViewDelegate, LocationViewControllerDelegate> {
-	NSMutableArray *locations;
+	NSArray *locations;
 }
 
-@property (nonatomic, retain) NSMutableArray *locations;
+@property (nonatomic, retain) NSArray *locations;
 
 @end

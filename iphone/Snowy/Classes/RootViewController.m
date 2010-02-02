@@ -6,10 +6,15 @@
 //  Copyright Hippo Foundry 2010. All rights reserved.
 //
 
-#import "HomeView.h"
 #import "Location.h"
 #import "RootViewController.h"
 #import "LocationViewController.h"
+
+
+@interface RootViewController (PrivateMethods)
+- (void)didTapSettingsButton:(id)sender;
+- (void)launchLocationView;
+@end
 
 
 @implementation RootViewController
@@ -29,43 +34,69 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	[self setTitle:@"My Minto Condo"];
+	
 	NSString *error;
 	NSPropertyListFormat format;
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"Condominiums" ofType:@"plist"];
 	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
-	NSArray *locationsList = (NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
+	NSArray *locationsData = (NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
 	
-	if (!locationsList) {
+	if (!locationsData) {
 		NSLog(@"ERROR READING PLIST: %@ (%@)", [path UTF8String], [error UTF8String]);
 	}
 	
 	[error release];
 	[data release];
 	
-	locations = [[NSMutableArray alloc] init];
+	NSMutableArray *locationsList = [[NSMutableArray alloc] init];
 	
-	for (NSDictionary *locationData in locationsList) {
+	for (NSDictionary *locationData in locationsData) {
 		Location *location = [[Location alloc] initWithDictionary:locationData];
 		
-		[locations addObject:location];
+		[locationsList addObject:location];
 		[location release];
 	}
 	
-	[(HomeView *)[self view] setLocations:locations];
+	locations = [[NSArray alloc] initWithArray:locationsList];
+	
+	[locationsList release];
+	
+	UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gears.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(didTapSettingsButton:)];
+	
+	[self.navigationItem setRightBarButtonItem:settingsButton];
+	[settingsButton release];
 }
 
-- (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
-	LocationViewController *controller = [[LocationViewController alloc] initWithStyle:UITableViewStyleGrouped];
+- (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
+	
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	
+	if ([prefs integerForKey:@"activeLocation"] == 0) {
+		[self launchLocationView];
+	}
+}
+
+- (void)launchLocationView {
+	LocationViewController *controller = [[LocationViewController alloc] init];
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
 	
 	[controller setDelegate:self];
-	[controller setLocation:[locations objectAtIndex:tabIndex]];
-	[navController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+	[controller setLocations:locations];
 	[self presentModalViewController:navController animated:YES];
 	
 	[controller release];
 	[navController release];
+}
+
+- (void)didTapSettingsButton:(id)sender {
+	[self launchLocationView];
+}
+
+- (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
+	// TODO: Launch whatever tab was pressed
 }
 
 - (void)locationViewControllerDidClose:(LocationViewController *)controller {

@@ -48,12 +48,15 @@
 		EC8B78701118A00200519F86 /* header-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78601118A00200519F86 /* header-3.jpg */; };
 		EC8B78711118A00200519F86 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78611118A00200519F86 /* info.png */; };
 		EC8B78721118A00200519F86 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78621118A00200519F86 /* logo.png */; };
+		EC8B789D1118A2EC00519F86 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B789C1118A2EC00519F86 /* HomeView.m */; };
+		EC8B793C1118E55300519F86 /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B793B1118E55300519F86 /* gears.png */; };
+		EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B79A81118EB3700519F86 /* SectionButton.m */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
 		ECBC22E811188382000B4AB7 /* virtual-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E511188382000B4AB7 /* virtual-2.jpg */; };
 		ECBC22E911188382000B4AB7 /* virtual-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E611188382000B4AB7 /* virtual-3.jpg */; };
-		ECEC1BF0110E3B700064225E /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* HomeView.m */; };
+		ECEC1BF0110E3B700064225E /* LocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* LocationView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
 		ECEC1C59110E4B610064225E /* floorplan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* floorplan-1.png */; };
 		ECEC1C5A110E4B610064225E /* floorplan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C57110E4B610064225E /* floorplan-2.png */; };
@@ -115,6 +118,11 @@
 		EC8B78601118A00200519F86 /* header-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-3.jpg"; sourceTree = "<group>"; };
 		EC8B78611118A00200519F86 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		EC8B78621118A00200519F86 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EC8B789B1118A2EC00519F86 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		EC8B789C1118A2EC00519F86 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		EC8B793B1118E55300519F86 /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
+		EC8B79A71118EB3700519F86 /* SectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionButton.h; sourceTree = "<group>"; };
+		EC8B79A81118EB3700519F86 /* SectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionButton.m; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
@@ -122,8 +130,8 @@
 		ECBC22E411188382000B4AB7 /* virtual-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-1.jpg"; sourceTree = "<group>"; };
 		ECBC22E511188382000B4AB7 /* virtual-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-2.jpg"; sourceTree = "<group>"; };
 		ECBC22E611188382000B4AB7 /* virtual-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-3.jpg"; sourceTree = "<group>"; };
-		ECEC1BEE110E3B700064225E /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
-		ECEC1BEF110E3B700064225E /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		ECEC1BEE110E3B700064225E /* LocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationView.h; sourceTree = "<group>"; };
+		ECEC1BEF110E3B700064225E /* LocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ECEC1C56110E4B610064225E /* floorplan-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floorplan-1.png"; sourceTree = "<group>"; };
 		ECEC1C57110E4B610064225E /* floorplan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floorplan-2.png"; sourceTree = "<group>"; };
@@ -233,14 +241,18 @@
 		ECEC1BED110E3B620064225E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ECEC1BEE110E3B700064225E /* HomeView.h */,
-				ECEC1BEF110E3B700064225E /* HomeView.m */,
+				EC8B789B1118A2EC00519F86 /* HomeView.h */,
+				EC8B789C1118A2EC00519F86 /* HomeView.m */,
+				ECEC1BEE110E3B700064225E /* LocationView.h */,
+				ECEC1BEF110E3B700064225E /* LocationView.m */,
 				EC21E6D0110F7E49000B22F3 /* FloorplanView.h */,
 				EC21E6D1110F7E49000B22F3 /* FloorplanView.m */,
 				EC21E72D110F8832000B22F3 /* FloorplanScrollerView.h */,
 				EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */,
 				ECBC224011178613000B4AB7 /* VirtualTourView.h */,
 				ECBC224111178613000B4AB7 /* VirtualTourView.m */,
+				EC8B79A71118EB3700519F86 /* SectionButton.h */,
+				EC8B79A81118EB3700519F86 /* SectionButton.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -248,6 +260,7 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC8B793B1118E55300519F86 /* gears.png */,
 				EC8B78531118A00200519F86 /* bookmark-on.png */,
 				EC8B78541118A00200519F86 /* bookmark.png */,
 				EC8B78551118A00200519F86 /* bubble-on.png */,
@@ -377,6 +390,7 @@
 				EC8B78701118A00200519F86 /* header-3.jpg in Resources */,
 				EC8B78711118A00200519F86 /* info.png in Resources */,
 				EC8B78721118A00200519F86 /* logo.png in Resources */,
+				EC8B793C1118E55300519F86 /* gears.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +404,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SnowyAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				ECEC1BF0110E3B700064225E /* HomeView.m in Sources */,
+				ECEC1BF0110E3B700064225E /* LocationView.m in Sources */,
 				ECEC1C5E110E4B820064225E /* FloorplansViewController.m in Sources */,
 				EC21E455110F43DC000B22F3 /* PropertyViewController.m in Sources */,
 				EC21E6D2110F7E49000B22F3 /* FloorplanView.m in Sources */,
@@ -401,6 +415,8 @@
 				ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */,
 				ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */,
 				EC8B781C11188E3C00519F86 /* Bubble.m in Sources */,
+				EC8B789D1118A2EC00519F86 /* HomeView.m in Sources */,
+				EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

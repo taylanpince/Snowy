@@ -8,11 +8,11 @@
 
 @interface SnowyAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow *window;
-	UIViewController *viewController;
+	UINavigationController *navController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
 
 @end
 

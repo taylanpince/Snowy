@@ -7,27 +7,37 @@
 //
 
 #import "LocationViewController.h"
-#import "PropertyViewController.h"
-
-
-@interface LocationViewController (PrivateMethods)
-- (void)goHome:(id)sender;
-@end
 
 
 @implementation LocationViewController
 
-@synthesize location, delegate;
+@synthesize locations, delegate;
+
+- (void)loadView {
+	LocationView *locationView = [[LocationView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+	
+	[locationView setDelegate:self];
+	
+	self.view = locationView;
+	
+	[locationView release];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[self setTitle:location.name];
+	[self setTitle:@"I'm looking for..."];
+	[self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.08 green:0.247 blue:0.482 alpha:1.0]];
 	
-	UIBarButtonItem *homeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"quadrant.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(goHome:)];
+	[(LocationView *)[self view] setLocations:locations];
+}
+
+- (void)locationView:(LocationView *)locationView didSelectTab:(int)tabIndex {
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
 	
-	[self.navigationItem setLeftBarButtonItem:homeButton];
-	[homeButton release];
+	[prefs setInteger:(tabIndex + 1) forKey:@"activeLocation"];
+	
+	[delegate locationViewControllerDidClose:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,48 +48,8 @@
 	
 }
 
-- (void)goHome:(id)sender {
-	[delegate locationViewControllerDidClose:self];
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [location.properties count];
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-		
-		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
-    }
-    
-	Property *property = [location.properties objectAtIndex:indexPath.row];
-	
-	[cell.textLabel setText:property.name];
-	
-    return cell;
-}
-
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	PropertyViewController *controller = [[PropertyViewController alloc] initWithStyle:UITableViewStyleGrouped];
-	
-	[controller setProperty:[location.properties objectAtIndex:indexPath.row]];
-	[self.navigationController pushViewController:controller animated:YES];
-	
-	[controller release];
-}
-
 - (void)dealloc {
-	[location release];
+	[locations release];
     [super dealloc];
 }
 

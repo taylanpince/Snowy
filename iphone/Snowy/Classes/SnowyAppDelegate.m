@@ -7,21 +7,23 @@
 //
 
 #import "SnowyAppDelegate.h"
-#import "RootViewController.h"
 
 
 @implementation SnowyAppDelegate
 
-@synthesize window, viewController;
+@synthesize window, navController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	[window setBackgroundColor:[UIColor blackColor]];
-	[window addSubview:[viewController view]];
+	UIColor *mintoBlueColor = [UIColor colorWithRed:0.08 green:0.247 blue:0.482 alpha:1.0];
+	
+	[navController.navigationBar setTintColor:mintoBlueColor];
+	[window setBackgroundColor:mintoBlueColor];
+	[window addSubview:[navController view]];
 	[window makeKeyAndVisible];
 }
 
 - (void)dealloc {
-	[viewController release];
+	[navController release];
 	[window release];
 	[super dealloc];
 }

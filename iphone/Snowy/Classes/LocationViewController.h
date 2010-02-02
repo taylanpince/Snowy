@@ -6,18 +6,18 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
-#import "Location.h"
+#import "LocationView.h"
 
 
 @protocol LocationViewControllerDelegate;
 
-@interface LocationViewController : UITableViewController {
-	Location *location;
+@interface LocationViewController : UIViewController <LocationViewDelegate> {
+	NSArray *locations;
 	
 	id <LocationViewControllerDelegate> delegate;
 }
 
-@property (nonatomic, retain) Location *location;
+@property (nonatomic, retain) NSArray *locations;
 
 @property (nonatomic, assign) id <LocationViewControllerDelegate> delegate;
 
