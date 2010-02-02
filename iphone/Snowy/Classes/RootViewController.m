@@ -34,7 +34,7 @@
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"Condominiums" ofType:@"plist"];
 	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
-	NSArray *locationsList = [(NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error] retain];
+	NSArray *locationsList = (NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
 	
 	if (!locationsList) {
 		NSLog(@"ERROR READING PLIST: %@ (%@)", [path UTF8String], [error UTF8String]);

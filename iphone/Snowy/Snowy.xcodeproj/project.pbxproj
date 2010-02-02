@@ -35,6 +35,7 @@
 		EC21EC7C1110B60D000B22F3 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7B1110B60D000B22F3 /* Property.m */; };
 		EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
+		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECEC1BF0110E3B700064225E /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* HomeView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
 		ECEC1C59110E4B610064225E /* floorplan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* floorplan-1.png */; };
@@ -84,6 +85,8 @@
 		EC21EC7E1110B61A000B22F3 /* Floorplan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Floorplan.m; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
+		ECBC224111178613000B4AB7 /* VirtualTourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualTourView.m; sourceTree = "<group>"; };
 		ECEC1BEE110E3B700064225E /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		ECEC1BEF110E3B700064225E /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				EC21E6D1110F7E49000B22F3 /* FloorplanView.m */,
 				EC21E72D110F8832000B22F3 /* FloorplanScrollerView.h */,
 				EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */,
+				ECBC224011178613000B4AB7 /* VirtualTourView.h */,
+				ECBC224111178613000B4AB7 /* VirtualTourView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				EC21EC7C1110B60D000B22F3 /* Property.m in Sources */,
 				EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */,
 				ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */,
+				ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

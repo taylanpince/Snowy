@@ -7,14 +7,17 @@
 //
 
 #import "Property.h"
+#import "FloorplanView.h"
+#import "VirtualTourView.h"
 
 
-@interface FloorplansViewController : UIViewController <UIScrollViewDelegate> {
+@interface FloorplansViewController : UIViewController <UIScrollViewDelegate, FloorplanViewDelegate, VirtualTourViewDelegate> {
 	Property *property;
 	
 	NSMutableArray *floorplans;
 	
 	BOOL pageControlUsed;
+	BOOL inVirtualTour;
 }
 
 @property (nonatomic, retain) Property *property;
