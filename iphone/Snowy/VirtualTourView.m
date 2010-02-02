@@ -25,6 +25,9 @@
 		imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
 		scrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
 		
+		[scrollView setShowsVerticalScrollIndicator:NO];
+		[scrollView setShowsHorizontalScrollIndicator:NO];
+		
 		[self addSubview:scrollView];
 		[scrollView addSubview:imageView];
 		
@@ -32,6 +35,8 @@
 		
 		[infoButton addTarget:self action:@selector(didTouchInfoButton:) forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:infoButton];
+		
+		imagePath = nil;
     }
 	
     return self;
@@ -54,7 +59,8 @@
 - (void)layoutSubviews {
 	[super layoutSubviews];
 	
-	[imageView setFrame:self.bounds];
+	[imageView sizeToFit];
+	[scrollView setFrame:self.bounds];
 	[infoButton setFrame:CGRectMake(self.bounds.size.width - 40.0, self.bounds.size.height - 40.0, 30.0, 30.0)];
 }
 

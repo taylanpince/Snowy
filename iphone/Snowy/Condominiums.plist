@@ -21,8 +21,22 @@
 				<key>floorplans</key>
 				<array>
 					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
 						<key>image</key>
 						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
 					</dict>
 				</array>
 			</dict>
@@ -66,14 +80,20 @@
 				<key>floorplans</key>
 				<array>
 					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
 						<key>image</key>
 						<string>floorplan-1.png</string>
 					</dict>
 					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
 						<key>image</key>
 						<string>floorplan-2.png</string>
 					</dict>
 					<dict>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
 						<key>image</key>
 						<string>floorplan-3.png</string>
 					</dict>

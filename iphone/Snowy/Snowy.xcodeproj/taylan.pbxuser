@@ -36,9 +36,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1420, 1496}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1420, 1462}}";
 			sepNavSelRange = "{1372, 0}";
-			sepNavVisRange = "{532, 1561}";
+			sepNavVisRange = "{936, 1260}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -227,6 +227,53 @@
 			ECBC22C911187E20000B4AB7 /* PBXTextBookmark */ = ECBC22C911187E20000B4AB7 /* PBXTextBookmark */;
 			ECBC22CA11187E20000B4AB7 /* PBXTextBookmark */ = ECBC22CA11187E20000B4AB7 /* PBXTextBookmark */;
 			ECBC22CC11187E45000B4AB7 /* PBXTextBookmark */ = ECBC22CC11187E45000B4AB7 /* PBXTextBookmark */;
+			ECBC22D111188317000B4AB7 /* PlistBookmark */ = ECBC22D111188317000B4AB7 /* PlistBookmark */;
+			ECBC22D211188317000B4AB7 /* PBXTextBookmark */ = ECBC22D211188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D311188317000B4AB7 /* PBXTextBookmark */ = ECBC22D311188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D411188317000B4AB7 /* PBXTextBookmark */ = ECBC22D411188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D511188317000B4AB7 /* PBXTextBookmark */ = ECBC22D511188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D611188317000B4AB7 /* PBXTextBookmark */ = ECBC22D611188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D711188317000B4AB7 /* PBXTextBookmark */ = ECBC22D711188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D811188317000B4AB7 /* PBXTextBookmark */ = ECBC22D811188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22D911188317000B4AB7 /* PBXTextBookmark */ = ECBC22D911188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22DA11188317000B4AB7 /* PBXTextBookmark */ = ECBC22DA11188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22DB11188317000B4AB7 /* PBXTextBookmark */ = ECBC22DB11188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22DC11188317000B4AB7 /* PBXTextBookmark */ = ECBC22DC11188317000B4AB7 /* PBXTextBookmark */;
+			ECBC22DD11188318000B4AB7 /* PBXTextBookmark */ = ECBC22DD11188318000B4AB7 /* PBXTextBookmark */;
+			ECBC22DF11188326000B4AB7 /* PBXTextBookmark */ = ECBC22DF11188326000B4AB7 /* PBXTextBookmark */;
+			ECBC22E011188326000B4AB7 /* PBXTextBookmark */ = ECBC22E011188326000B4AB7 /* PBXTextBookmark */;
+			ECBC22E111188335000B4AB7 /* PBXTextBookmark */ = ECBC22E111188335000B4AB7 /* PBXTextBookmark */;
+			ECBC22E211188335000B4AB7 /* PlistBookmark */ = ECBC22E211188335000B4AB7 /* PlistBookmark */;
+			ECBC22E311188335000B4AB7 /* PlistBookmark */ = ECBC22E311188335000B4AB7 /* PlistBookmark */;
+			ECBC22EC11188384000B4AB7 /* PlistBookmark */ = ECBC22EC11188384000B4AB7 /* PlistBookmark */;
+			ECBC22ED11188385000B4AB7 /* PlistBookmark */ = ECBC22ED11188385000B4AB7 /* PlistBookmark */;
+			ECBC22EF11188396000B4AB7 /* PBXTextBookmark */ = ECBC22EF11188396000B4AB7 /* PBXTextBookmark */;
+			ECBC22F011188396000B4AB7 /* PlistBookmark */ = ECBC22F011188396000B4AB7 /* PlistBookmark */;
+			ECBC22F11118839D000B4AB7 /* PlistBookmark */ = ECBC22F11118839D000B4AB7 /* PlistBookmark */;
+			ECBC22F4111883B9000B4AB7 /* PlistBookmark */ = ECBC22F4111883B9000B4AB7 /* PlistBookmark */;
+			ECBC22F5111883B9000B4AB7 /* PBXTextBookmark */ = ECBC22F5111883B9000B4AB7 /* PBXTextBookmark */;
+			ECBC22F6111883B9000B4AB7 /* PBXTextBookmark */ = ECBC22F6111883B9000B4AB7 /* PBXTextBookmark */;
+			ECBC22F7111883B9000B4AB7 /* PBXTextBookmark */ = ECBC22F7111883B9000B4AB7 /* PBXTextBookmark */;
+			ECBC22F9111883C8000B4AB7 /* PlistBookmark */ = ECBC22F9111883C8000B4AB7 /* PlistBookmark */;
+			ECBC22FA111883C8000B4AB7 /* PBXTextBookmark */ = ECBC22FA111883C8000B4AB7 /* PBXTextBookmark */;
+			ECBC22FD111883E2000B4AB7 /* PBXTextBookmark */ = ECBC22FD111883E2000B4AB7 /* PBXTextBookmark */;
+			ECBC22FE111883E3000B4AB7 /* PBXTextBookmark */ = ECBC22FE111883E3000B4AB7 /* PBXTextBookmark */;
+			ECBC230011188503000B4AB7 /* PBXTextBookmark */ = ECBC230011188503000B4AB7 /* PBXTextBookmark */;
+			ECBC230311188578000B4AB7 /* PBXTextBookmark */ = ECBC230311188578000B4AB7 /* PBXTextBookmark */;
+			ECBC230411188578000B4AB7 /* PBXTextBookmark */ = ECBC230411188578000B4AB7 /* PBXTextBookmark */;
+			ECBC2306111885FA000B4AB7 /* PBXTextBookmark */ = ECBC2306111885FA000B4AB7 /* PBXTextBookmark */;
+			ECBC230B1118864B000B4AB7 /* PBXTextBookmark */ = ECBC230B1118864B000B4AB7 /* PBXTextBookmark */;
+			ECBC230C1118864B000B4AB7 /* PBXTextBookmark */ = ECBC230C1118864B000B4AB7 /* PBXTextBookmark */;
+			ECBC230D1118864B000B4AB7 /* PBXTextBookmark */ = ECBC230D1118864B000B4AB7 /* PBXTextBookmark */;
+			ECBC230E1118864C000B4AB7 /* PBXTextBookmark */ = ECBC230E1118864C000B4AB7 /* PBXTextBookmark */;
+			ECBC231011188665000B4AB7 /* PBXTextBookmark */ = ECBC231011188665000B4AB7 /* PBXTextBookmark */;
+			ECBC231111188665000B4AB7 /* PBXTextBookmark */ = ECBC231111188665000B4AB7 /* PBXTextBookmark */;
+			ECBC231411188668000B4AB7 /* PBXTextBookmark */ = ECBC231411188668000B4AB7 /* PBXTextBookmark */;
+			ECBC231511188668000B4AB7 /* PBXTextBookmark */ = ECBC231511188668000B4AB7 /* PBXTextBookmark */;
+			ECBC231711188688000B4AB7 /* PBXTextBookmark */ = ECBC231711188688000B4AB7 /* PBXTextBookmark */;
+			ECBC231A111886AE000B4AB7 /* PBXTextBookmark */ = ECBC231A111886AE000B4AB7 /* PBXTextBookmark */;
+			ECBC231B111886AE000B4AB7 /* PBXTextBookmark */ = ECBC231B111886AE000B4AB7 /* PBXTextBookmark */;
+			ECBC231D111886E2000B4AB7 /* PBXTextBookmark */ = ECBC231D111886E2000B4AB7 /* PBXTextBookmark */;
 			ECEC1BF5110E3BAF0064225E = ECEC1BF5110E3BAF0064225E /* PBXTextBookmark */;
 			ECEC1BF6110E3BAF0064225E = ECEC1BF6110E3BAF0064225E /* PBXTextBookmark */;
 		};
@@ -351,15 +398,15 @@
 	EC21EC7D1110B61A000B22F3 /* Floorplan.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 745}}";
-			sepNavSelRange = "{133, 0}";
-			sepNavVisRange = "{0, 298}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{0, 387}";
 		};
 	};
 	EC21EC7E1110B61A000B22F3 /* Floorplan.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 745}}";
-			sepNavSelRange = "{394, 0}";
-			sepNavVisRange = "{0, 423}";
+			sepNavSelRange = "{514, 0}";
+			sepNavVisRange = "{0, 633}";
 		};
 	};
 	ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {
@@ -583,7 +630,7 @@
 		fRef = EC21EC7D1110B61A000B22F3 /* Floorplan.h */;
 		name = "Floorplan.h: 16";
 		rLen = 0;
-		rLoc = 292;
+		rLoc = 381;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 0;
@@ -593,7 +640,7 @@
 		fRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */;
 		name = "Floorplan.m: 25";
 		rLen = 0;
-		rLoc = 394;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 0;
@@ -783,7 +830,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 85";
 		rLen = 0;
-		rLoc = 4520;
+		rLoc = 4452;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 1613;
@@ -793,7 +840,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 85";
 		rLen = 0;
-		rLoc = 4520;
+		rLoc = 4452;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 1613;
@@ -803,7 +850,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 85";
 		rLen = 0;
-		rLoc = 4520;
+		rLoc = 4452;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 1613;
@@ -838,8 +885,8 @@
 	ECBC224111178613000B4AB7 /* VirtualTourView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1375, 1326}}";
-			sepNavSelRange = "{1494, 0}";
-			sepNavVisRange = "{1341, 337}";
+			sepNavSelRange = "{731, 0}";
+			sepNavVisRange = "{628, 428}";
 		};
 	};
 	ECBC2247111786C2000B4AB7 /* PBXTextBookmark */ = {
@@ -867,7 +914,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 27";
 		rLen = 0;
-		rLoc = 1685;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 0;
@@ -957,7 +1004,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 27";
 		rLen = 0;
-		rLoc = 1685;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 0;
@@ -1017,7 +1064,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 26";
 		rLen = 0;
-		rLoc = 920;
+		rLoc = 1049;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 25;
@@ -1037,7 +1084,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 123";
 		rLen = 0;
-		rLoc = 4600;
+		rLoc = 4532;
 		rType = 0;
 		vrLen = 1600;
 		vrLoc = 2919;
@@ -1077,7 +1124,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 49";
 		rLen = 0;
-		rLoc = 1194;
+		rLoc = 1323;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 697;
@@ -1097,7 +1144,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 4291;
+		rLoc = 4223;
 		rType = 0;
 		vrLen = 1756;
 		vrLoc = 2419;
@@ -1167,7 +1214,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 107";
 		rLen = 0;
-		rLoc = 3524;
+		rLoc = 3455;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 2540;
@@ -1177,7 +1224,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1648;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 660;
@@ -1187,7 +1234,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1648;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 660;
@@ -1197,7 +1244,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1648;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 660;
@@ -1217,7 +1264,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1648;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 1341;
@@ -1227,7 +1274,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 55";
 		rLen = 0;
-		rLoc = 1303;
+		rLoc = 1432;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 697;
@@ -1237,7 +1284,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 107";
 		rLen = 0;
-		rLoc = 3524;
+		rLoc = 3455;
 		rType = 0;
 		vrLen = 1635;
 		vrLoc = 2540;
@@ -1247,7 +1294,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 1730;
 		vrLoc = 2542;
@@ -1257,7 +1304,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 1644;
 		vrLoc = 2542;
@@ -1267,7 +1314,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1648;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 1341;
@@ -1277,7 +1324,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 3710;
@@ -1287,7 +1334,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 4925;
@@ -1326,7 +1373,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 3710;
@@ -1386,7 +1433,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 115";
 		rLen = 0;
-		rLoc = 3954;
+		rLoc = 3891;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 4708;
@@ -1396,7 +1443,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 189";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 4925;
@@ -1406,7 +1453,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 189";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 858;
 		vrLoc = 4925;
@@ -1426,7 +1473,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 189";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 149;
 		vrLoc = 5638;
@@ -1436,7 +1483,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 193";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 4927;
@@ -1446,7 +1493,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 193";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 4927;
@@ -1456,7 +1503,7 @@
 		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
 		name = "FloorplansViewController.m: 193";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 151;
 		vrLoc = 5638;
@@ -1540,6 +1587,497 @@
 		rType = 0;
 		vrLen = 572;
 		vrLoc = 2724;
+	};
+	ECBC22D111188317000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			0,
+			floorplans,
+			0,
+			virtual_tour,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22D211188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21EC7D1110B61A000B22F3 /* Floorplan.h */;
+		name = "Floorplan.h: 16";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 387;
+		vrLoc = 0;
+	};
+	ECBC22D311188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */;
+		name = "Floorplan.m: 25";
+		rLen = 0;
+		rLoc = 514;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 0;
+	};
+	ECBC22D411188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72D110F8832000B22F3 /* FloorplanScrollerView.h */;
+		name = "FloorplanScrollerView.h: 16";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	ECBC22D511188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
+		name = "VirtualTourView.h: 23";
+		rLen = 0;
+		rLoc = 566;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	ECBC22D611188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SnowyAppDelegate.h */;
+		name = "SnowyAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	ECBC22D711188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 20";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	ECBC22D811188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 55";
+		rLen = 0;
+		rLoc = 1372;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 936;
+	};
+	ECBC22D911188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5C110E4B820064225E /* FloorplansViewController.h */;
+		name = "FloorplansViewController.h: 24";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	ECBC22DA11188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 109";
+		rLen = 0;
+		rLoc = 3562;
+		rType = 0;
+		vrLen = 1913;
+		vrLoc = 2691;
+	};
+	ECBC22DB11188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 55";
+		rLen = 0;
+		rLoc = 1432;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 697;
+	};
+	ECBC22DC11188317000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1072;
+		vrLoc = 628;
+	};
+	ECBC22DD11188318000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 628;
+	};
+	ECBC22DF11188326000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 106";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 2724;
+	};
+	ECBC22E011188326000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 775;
+	};
+	ECBC22E111188335000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1072;
+		vrLoc = 628;
+	};
+	ECBC22E211188335000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			0,
+			floorplans,
+			0,
+			virtual_tour,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 13;
+		rLoc = 0;
+	};
+	ECBC22E311188335000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22EC11188384000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22ED11188385000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22EF11188396000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 775;
+	};
+	ECBC22F011188396000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22F11118839D000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22F4111883B9000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22F5111883B9000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 36";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 628;
+	};
+	ECBC22F6111883B9000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 43";
+		rLen = 0;
+		rLoc = 1126;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 291;
+	};
+	ECBC22F7111883B9000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 43";
+		rLen = 0;
+		rLoc = 1126;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 291;
+	};
+	ECBC22F9111883C8000B4AB7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ECBC22FA111883C8000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 43";
+		rLen = 0;
+		rLoc = 1126;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 775;
+	};
+	ECBC22FD111883E2000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 61";
+		rLen = 0;
+		rLoc = 1492;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 291;
+	};
+	ECBC22FE111883E3000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 61";
+		rLen = 0;
+		rLoc = 1492;
+		rType = 0;
+		vrLen = 1248;
+		vrLoc = 291;
+	};
+	ECBC230011188503000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 61";
+		rLen = 0;
+		rLoc = 1492;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 700;
+	};
+	ECBC230311188578000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 29";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 257;
+	};
+	ECBC230411188578000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 29";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 257;
+	};
+	ECBC2306111885FA000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 29";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 628;
+	};
+	ECBC230B1118864B000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 29";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 257;
+	};
+	ECBC230C1118864B000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 109";
+		rLen = 0;
+		rLoc = 3562;
+		rType = 0;
+		vrLen = 1845;
+		vrLoc = 2691;
+	};
+	ECBC230D1118864B000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 1917;
+		vrLoc = 2691;
+	};
+	ECBC230E1118864C000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 2691;
+	};
+	ECBC231011188665000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 29";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 628;
+	};
+	ECBC231111188665000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 3962;
+	};
+	ECBC231411188668000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 1917;
+		vrLoc = 2691;
+	};
+	ECBC231511188668000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 2691;
+	};
+	ECBC231711188688000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 121";
+		rLen = 0;
+		rLoc = 3989;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 3962;
+	};
+	ECBC231A111886AE000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 106";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 2443;
+	};
+	ECBC231B111886AE000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 106";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 1587;
+		vrLoc = 2443;
+	};
+	ECBC231D111886E2000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 106";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 3670;
 	};
 	ECEC1BBE110E34E90064225E /* Snowy */ = {
 		isa = PBXExecutable;
@@ -1630,9 +2168,9 @@
 	};
 	ECEC1C5D110E4B820064225E /* FloorplansViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1612, 3060}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1375, 3026}}";
 			sepNavSelRange = "{3324, 0}";
-			sepNavVisRange = "{2724, 572}";
+			sepNavVisRange = "{3670, 393}";
 		};
 	};
 }

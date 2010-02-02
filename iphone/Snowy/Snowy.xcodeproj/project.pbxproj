@@ -36,6 +36,9 @@
 		EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
+		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
+		ECBC22E811188382000B4AB7 /* virtual-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E511188382000B4AB7 /* virtual-2.jpg */; };
+		ECBC22E911188382000B4AB7 /* virtual-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E611188382000B4AB7 /* virtual-3.jpg */; };
 		ECEC1BF0110E3B700064225E /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* HomeView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
 		ECEC1C59110E4B610064225E /* floorplan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* floorplan-1.png */; };
@@ -87,6 +90,9 @@
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
 		ECBC224111178613000B4AB7 /* VirtualTourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualTourView.m; sourceTree = "<group>"; };
+		ECBC22E411188382000B4AB7 /* virtual-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-1.jpg"; sourceTree = "<group>"; };
+		ECBC22E511188382000B4AB7 /* virtual-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-2.jpg"; sourceTree = "<group>"; };
+		ECBC22E611188382000B4AB7 /* virtual-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virtual-3.jpg"; sourceTree = "<group>"; };
 		ECEC1BEE110E3B700064225E /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		ECEC1BEF110E3B700064225E /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -233,6 +239,9 @@
 		ECEC1C55110E4B610064225E /* Floorplans */ = {
 			isa = PBXGroup;
 			children = (
+				ECBC22E411188382000B4AB7 /* virtual-1.jpg */,
+				ECBC22E511188382000B4AB7 /* virtual-2.jpg */,
+				ECBC22E611188382000B4AB7 /* virtual-3.jpg */,
 				ECEC1C56110E4B610064225E /* floorplan-1.png */,
 				ECEC1C57110E4B610064225E /* floorplan-2.png */,
 				ECEC1C58110E4B610064225E /* floorplan-3.png */,
@@ -308,6 +317,9 @@
 				EC21E580110F58CC000B22F3 /* header-skyy.jpg in Resources */,
 				EC21E581110F58CC000B22F3 /* header-st-thomas.jpg in Resources */,
 				EC21E698110F7721000B22F3 /* quadrant.png in Resources */,
+				ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */,
+				ECBC22E811188382000B4AB7 /* virtual-2.jpg in Resources */,
+				ECBC22E911188382000B4AB7 /* virtual-3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

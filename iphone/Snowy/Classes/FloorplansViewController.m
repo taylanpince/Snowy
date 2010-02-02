@@ -103,19 +103,19 @@
 	[UIView setAnimationDidStopSelector:@selector(transitionDidStop:finished:context:)];
 	
     if (!inVirtualTour) {
-		VirtualTourView *virtualTourView = [[VirtualTourView alloc] initWithFrame:CGRectMake(pageWidth * page, 0.0, pageWidth, mainView.scrollView.frame.size.height)];
+		VirtualTourView *virtualTourView = [[VirtualTourView alloc] initWithFrame:mainView.frame];
 		
 		[virtualTourView setDelegate:self];
-		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:mainView.scrollView cache:YES];
-		[panel removeFromSuperview];
-		[mainView.scrollView addSubview:virtualTourView];
+		[virtualTourView setImagePath:[(Floorplan *)[property.floorplans objectAtIndex:page] virtual_tour_path]];
+		
+		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:mainView cache:YES];
+		[mainView.scrollView removeFromSuperview];
+		[mainView addSubview:virtualTourView];
 		[virtualTourView release];
     } else {
-		FloorplanView *floorplanView = (FloorplanView *)[floorplans objectAtIndex:page];
-		
-        [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:mainView.scrollView cache:YES];
+        [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:mainView cache:YES];
         [panel removeFromSuperview];
-        [mainView.scrollView addSubview:floorplanView];
+        [mainView addSubview:mainView.scrollView];
     }
 	
 	[UIView commitAnimations];
