@@ -36,9 +36,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1420, 1462}}";
-			sepNavSelRange = "{1372, 0}";
-			sepNavVisRange = "{936, 1260}";
+			sepNavIntBoundsRect = "{{0, 0}, {1420, 1530}}";
+			sepNavSelRange = "{354, 8}";
+			sepNavVisRange = "{249, 1126}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -717,9 +717,9 @@
 	};
 	ECBC224111178613000B4AB7 /* VirtualTourView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 2210}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1375, 2278}}";
 			sepNavSelRange = "{3747, 0}";
-			sepNavVisRange = "{2562, 1466}";
+			sepNavVisRange = "{2932, 214}";
 		};
 	};
 	ECBC227511187BCA000B4AB7 /* PBXTextBookmark */ = {
@@ -921,16 +921,16 @@
 	};
 	ECEC1BEE110E3B700064225E /* HomeView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 512}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 745}}";
 			sepNavSelRange = "{521, 0}";
 			sepNavVisRange = "{0, 521}";
 		};
 	};
 	ECEC1BEF110E3B700064225E /* HomeView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1037}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1122}}";
 			sepNavSelRange = "{27, 0}";
-			sepNavVisRange = "{3, 1048}";
+			sepNavVisRange = "{173, 1163}";
 		};
 	};
 	ECEC1BF5110E3BAF0064225E /* PBXTextBookmark */ = {

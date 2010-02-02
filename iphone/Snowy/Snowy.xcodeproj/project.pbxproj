@@ -24,10 +24,6 @@
 		EC21E4FC110F5106000B22F3 /* tab-florida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F4110F5106000B22F3 /* tab-florida.jpg */; };
 		EC21E4FD110F5106000B22F3 /* tab-ottawa-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F5110F5106000B22F3 /* tab-ottawa-on.jpg */; };
 		EC21E4FE110F5106000B22F3 /* tab-ottawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E4F6110F5106000B22F3 /* tab-ottawa.jpg */; };
-		EC21E57E110F58CC000B22F3 /* header-king-west.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57A110F58CC000B22F3 /* header-king-west.jpg */; };
-		EC21E57F110F58CC000B22F3 /* header-midtown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57B110F58CC000B22F3 /* header-midtown.jpg */; };
-		EC21E580110F58CC000B22F3 /* header-skyy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57C110F58CC000B22F3 /* header-skyy.jpg */; };
-		EC21E581110F58CC000B22F3 /* header-st-thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */; };
 		EC21E698110F7721000B22F3 /* quadrant.png in Resources */ = {isa = PBXBuildFile; fileRef = EC21E697110F7721000B22F3 /* quadrant.png */; };
 		EC21E6D2110F7E49000B22F3 /* FloorplanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21E6D1110F7E49000B22F3 /* FloorplanView.m */; };
 		EC21E72F110F8832000B22F3 /* FloorplanScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */; };
@@ -36,6 +32,22 @@
 		EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */; };
 		EC8B781C11188E3C00519F86 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B781B11188E3C00519F86 /* Bubble.m */; };
 		EC8B78241118928400519F86 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78231118928400519F86 /* bubble.png */; };
+		EC8B78631118A00200519F86 /* bookmark-on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78531118A00200519F86 /* bookmark-on.png */; };
+		EC8B78641118A00200519F86 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78541118A00200519F86 /* bookmark.png */; };
+		EC8B78651118A00200519F86 /* bubble-on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78551118A00200519F86 /* bubble-on.png */; };
+		EC8B78661118A00200519F86 /* button-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78561118A00200519F86 /* button-calculator.png */; };
+		EC8B78671118A00200519F86 /* button-floorplans.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78571118A00200519F86 /* button-floorplans.png */; };
+		EC8B78681118A00200519F86 /* button-neighborhoods.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78581118A00200519F86 /* button-neighborhoods.png */; };
+		EC8B78691118A00200519F86 /* button-properties.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78591118A00200519F86 /* button-properties.png */; };
+		EC8B786A1118A00200519F86 /* button-reps.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785A1118A00200519F86 /* button-reps.png */; };
+		EC8B786B1118A00200519F86 /* button-reviews.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785B1118A00200519F86 /* button-reviews.png */; };
+		EC8B786C1118A00200519F86 /* button-share.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785C1118A00200519F86 /* button-share.png */; };
+		EC8B786D1118A00200519F86 /* button-tips.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785D1118A00200519F86 /* button-tips.png */; };
+		EC8B786E1118A00200519F86 /* header-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785E1118A00200519F86 /* header-1.jpg */; };
+		EC8B786F1118A00200519F86 /* header-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B785F1118A00200519F86 /* header-2.jpg */; };
+		EC8B78701118A00200519F86 /* header-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78601118A00200519F86 /* header-3.jpg */; };
+		EC8B78711118A00200519F86 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78611118A00200519F86 /* info.png */; };
+		EC8B78721118A00200519F86 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78621118A00200519F86 /* logo.png */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
@@ -73,10 +85,6 @@
 		EC21E4F4110F5106000B22F3 /* tab-florida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-florida.jpg"; sourceTree = "<group>"; };
 		EC21E4F5110F5106000B22F3 /* tab-ottawa-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-ottawa-on.jpg"; sourceTree = "<group>"; };
 		EC21E4F6110F5106000B22F3 /* tab-ottawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tab-ottawa.jpg"; sourceTree = "<group>"; };
-		EC21E57A110F58CC000B22F3 /* header-king-west.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-king-west.jpg"; sourceTree = "<group>"; };
-		EC21E57B110F58CC000B22F3 /* header-midtown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-midtown.jpg"; sourceTree = "<group>"; };
-		EC21E57C110F58CC000B22F3 /* header-skyy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-skyy.jpg"; sourceTree = "<group>"; };
-		EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-st-thomas.jpg"; sourceTree = "<group>"; };
 		EC21E697110F7721000B22F3 /* quadrant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadrant.png; sourceTree = "<group>"; };
 		EC21E6D0110F7E49000B22F3 /* FloorplanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorplanView.h; sourceTree = "<group>"; };
 		EC21E6D1110F7E49000B22F3 /* FloorplanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorplanView.m; sourceTree = "<group>"; };
@@ -91,6 +99,22 @@
 		EC8B781A11188E3C00519F86 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
 		EC8B781B11188E3C00519F86 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
 		EC8B78231118928400519F86 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		EC8B78531118A00200519F86 /* bookmark-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-on.png"; sourceTree = "<group>"; };
+		EC8B78541118A00200519F86 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		EC8B78551118A00200519F86 /* bubble-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-on.png"; sourceTree = "<group>"; };
+		EC8B78561118A00200519F86 /* button-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-calculator.png"; sourceTree = "<group>"; };
+		EC8B78571118A00200519F86 /* button-floorplans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-floorplans.png"; sourceTree = "<group>"; };
+		EC8B78581118A00200519F86 /* button-neighborhoods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-neighborhoods.png"; sourceTree = "<group>"; };
+		EC8B78591118A00200519F86 /* button-properties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-properties.png"; sourceTree = "<group>"; };
+		EC8B785A1118A00200519F86 /* button-reps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-reps.png"; sourceTree = "<group>"; };
+		EC8B785B1118A00200519F86 /* button-reviews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-reviews.png"; sourceTree = "<group>"; };
+		EC8B785C1118A00200519F86 /* button-share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-share.png"; sourceTree = "<group>"; };
+		EC8B785D1118A00200519F86 /* button-tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-tips.png"; sourceTree = "<group>"; };
+		EC8B785E1118A00200519F86 /* header-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-1.jpg"; sourceTree = "<group>"; };
+		EC8B785F1118A00200519F86 /* header-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-2.jpg"; sourceTree = "<group>"; };
+		EC8B78601118A00200519F86 /* header-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header-3.jpg"; sourceTree = "<group>"; };
+		EC8B78611118A00200519F86 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		EC8B78621118A00200519F86 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
@@ -224,12 +248,24 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC8B78531118A00200519F86 /* bookmark-on.png */,
+				EC8B78541118A00200519F86 /* bookmark.png */,
+				EC8B78551118A00200519F86 /* bubble-on.png */,
+				EC8B78561118A00200519F86 /* button-calculator.png */,
+				EC8B78571118A00200519F86 /* button-floorplans.png */,
+				EC8B78581118A00200519F86 /* button-neighborhoods.png */,
+				EC8B78591118A00200519F86 /* button-properties.png */,
+				EC8B785A1118A00200519F86 /* button-reps.png */,
+				EC8B785B1118A00200519F86 /* button-reviews.png */,
+				EC8B785C1118A00200519F86 /* button-share.png */,
+				EC8B785D1118A00200519F86 /* button-tips.png */,
+				EC8B785E1118A00200519F86 /* header-1.jpg */,
+				EC8B785F1118A00200519F86 /* header-2.jpg */,
+				EC8B78601118A00200519F86 /* header-3.jpg */,
+				EC8B78611118A00200519F86 /* info.png */,
+				EC8B78621118A00200519F86 /* logo.png */,
 				EC8B78231118928400519F86 /* bubble.png */,
 				EC21E697110F7721000B22F3 /* quadrant.png */,
-				EC21E57A110F58CC000B22F3 /* header-king-west.jpg */,
-				EC21E57B110F58CC000B22F3 /* header-midtown.jpg */,
-				EC21E57C110F58CC000B22F3 /* header-skyy.jpg */,
-				EC21E57D110F58CC000B22F3 /* header-st-thomas.jpg */,
 				EC21E4EF110F5106000B22F3 /* tab-rentals-on.jpg */,
 				EC21E4F0110F5106000B22F3 /* tab-rentals.jpg */,
 				EC21E4F1110F5106000B22F3 /* tab-toronto-on.jpg */,
@@ -320,15 +356,27 @@
 				EC21E4FC110F5106000B22F3 /* tab-florida.jpg in Resources */,
 				EC21E4FD110F5106000B22F3 /* tab-ottawa-on.jpg in Resources */,
 				EC21E4FE110F5106000B22F3 /* tab-ottawa.jpg in Resources */,
-				EC21E57E110F58CC000B22F3 /* header-king-west.jpg in Resources */,
-				EC21E57F110F58CC000B22F3 /* header-midtown.jpg in Resources */,
-				EC21E580110F58CC000B22F3 /* header-skyy.jpg in Resources */,
-				EC21E581110F58CC000B22F3 /* header-st-thomas.jpg in Resources */,
 				EC21E698110F7721000B22F3 /* quadrant.png in Resources */,
 				ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */,
 				ECBC22E811188382000B4AB7 /* virtual-2.jpg in Resources */,
 				ECBC22E911188382000B4AB7 /* virtual-3.jpg in Resources */,
 				EC8B78241118928400519F86 /* bubble.png in Resources */,
+				EC8B78631118A00200519F86 /* bookmark-on.png in Resources */,
+				EC8B78641118A00200519F86 /* bookmark.png in Resources */,
+				EC8B78651118A00200519F86 /* bubble-on.png in Resources */,
+				EC8B78661118A00200519F86 /* button-calculator.png in Resources */,
+				EC8B78671118A00200519F86 /* button-floorplans.png in Resources */,
+				EC8B78681118A00200519F86 /* button-neighborhoods.png in Resources */,
+				EC8B78691118A00200519F86 /* button-properties.png in Resources */,
+				EC8B786A1118A00200519F86 /* button-reps.png in Resources */,
+				EC8B786B1118A00200519F86 /* button-reviews.png in Resources */,
+				EC8B786C1118A00200519F86 /* button-share.png in Resources */,
+				EC8B786D1118A00200519F86 /* button-tips.png in Resources */,
+				EC8B786E1118A00200519F86 /* header-1.jpg in Resources */,
+				EC8B786F1118A00200519F86 /* header-2.jpg in Resources */,
+				EC8B78701118A00200519F86 /* header-3.jpg in Resources */,
+				EC8B78711118A00200519F86 /* info.png in Resources */,
+				EC8B78721118A00200519F86 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
