@@ -34,6 +34,8 @@
 		EC21EC791110B5F8000B22F3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC781110B5F8000B22F3 /* Location.m */; };
 		EC21EC7C1110B60D000B22F3 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7B1110B60D000B22F3 /* Property.m */; };
 		EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */ = {isa = PBXBuildFile; fileRef = EC21EC7E1110B61A000B22F3 /* Floorplan.m */; };
+		EC8B781C11188E3C00519F86 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B781B11188E3C00519F86 /* Bubble.m */; };
+		EC8B78241118928400519F86 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B78231118928400519F86 /* bubble.png */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
@@ -86,6 +88,9 @@
 		EC21EC7B1110B60D000B22F3 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
 		EC21EC7D1110B61A000B22F3 /* Floorplan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floorplan.h; sourceTree = "<group>"; };
 		EC21EC7E1110B61A000B22F3 /* Floorplan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Floorplan.m; sourceTree = "<group>"; };
+		EC8B781A11188E3C00519F86 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
+		EC8B781B11188E3C00519F86 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		EC8B78231118928400519F86 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
@@ -195,6 +200,8 @@
 				EC21EC7B1110B60D000B22F3 /* Property.m */,
 				EC21EC7D1110B61A000B22F3 /* Floorplan.h */,
 				EC21EC7E1110B61A000B22F3 /* Floorplan.m */,
+				EC8B781A11188E3C00519F86 /* Bubble.h */,
+				EC8B781B11188E3C00519F86 /* Bubble.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -217,6 +224,7 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC8B78231118928400519F86 /* bubble.png */,
 				EC21E697110F7721000B22F3 /* quadrant.png */,
 				EC21E57A110F58CC000B22F3 /* header-king-west.jpg */,
 				EC21E57B110F58CC000B22F3 /* header-midtown.jpg */,
@@ -320,6 +328,7 @@
 				ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */,
 				ECBC22E811188382000B4AB7 /* virtual-2.jpg in Resources */,
 				ECBC22E911188382000B4AB7 /* virtual-3.jpg in Resources */,
+				EC8B78241118928400519F86 /* bubble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 				EC21EC7F1110B61A000B22F3 /* Floorplan.m in Sources */,
 				ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */,
 				ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */,
+				EC8B781C11188E3C00519F86 /* Bubble.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

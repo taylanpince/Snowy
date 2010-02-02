@@ -14,6 +14,7 @@
 	UIButton *infoButton;
 	NSString *imagePath;
 	UIToolbar *toolBar;
+	NSArray *infoBubbles;
 	
 	id <VirtualTourViewDelegate> delegate;
 }
@@ -23,6 +24,7 @@
 @property (nonatomic, retain) UIButton *infoButton;
 @property (nonatomic, retain) NSString *imagePath;
 @property (nonatomic, retain) UIToolbar *toolBar;
+@property (nonatomic, retain) NSArray *infoBubbles;
 
 @property (nonatomic, assign) id <VirtualTourViewDelegate> delegate;
 

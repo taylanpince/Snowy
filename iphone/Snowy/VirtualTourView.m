@@ -7,16 +7,18 @@
 //
 
 #import "VirtualTourView.h"
+#import "Bubble.h"
 
 
 @interface VirtualTourView (PrivateMethods)
 - (void)didTouchInfoButton:(id)sender;
+- (void)didTouchInfoBubble:(id)sender;
 @end
 
 
 @implementation VirtualTourView
 
-@synthesize imageView, imagePath, scrollView, infoButton, toolBar, delegate;
+@synthesize imageView, imagePath, scrollView, infoButton, infoBubbles, toolBar, delegate;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -53,6 +55,7 @@
 		[labelItem release];
 		
 		imagePath = nil;
+		infoBubbles = nil;
     }
 	
     return self;
@@ -72,6 +75,36 @@
 	}
 }
 
+- (void)setInfoBubbles:(NSArray *)newInfoBubbles {
+	if (infoBubbles != newInfoBubbles) {
+		if (infoBubbles) {
+			for (UIButton *bubbleButton in infoBubbles) {
+				[bubbleButton removeFromSuperview];
+			}
+		}
+		
+		[infoBubbles release];
+		
+		NSMutableArray *bubbles = [[NSMutableArray alloc] init];
+		
+		for (Bubble *bubble in newInfoBubbles) {
+			UIButton *bubbleButton = [UIButton buttonWithType:UIButtonTypeCustom];
+			
+			[bubbleButton setFrame:CGRectMake(bubble.position_x, bubble.position_y, 20.0, 20.0)];
+			[bubbleButton setTitle:bubble.label forState:UIControlStateNormal];
+			[bubbleButton setImage:[UIImage imageNamed:@"bubble.png"] forState:UIControlStateNormal];
+			[bubbleButton addTarget:self action:@selector(didTouchInfoBubble:) forControlEvents:UIControlEventTouchUpInside];
+			
+			[scrollView addSubview:bubbleButton];
+		}
+		
+		infoBubbles = [[NSArray alloc] initWithArray:bubbles];
+		
+		[bubbles release];
+		[self setNeedsLayout];
+	}
+}
+
 - (void)layoutSubviews {
 	[super layoutSubviews];
 	
@@ -80,6 +113,10 @@
 	[toolBar setFrame:CGRectMake(0.0, self.bounds.size.height - 44.0, self.bounds.size.width, 44.0)];
 	[[[[toolBar items] objectAtIndex:0] customView] setFrame:CGRectInset(toolBar.bounds, 10.0, 6.0)];
 	[infoButton setFrame:CGRectMake(self.bounds.size.width - 40.0, self.bounds.size.height - 84.0, 30.0, 30.0)];
+}
+
+- (void)didTouchInfoBubble:(id)sender {
+	[(UILabel *)[[[toolBar items] objectAtIndex:0] customView] setText:[(UIButton *)sender titleForState:UIControlStateNormal]];
 }
 
 - (void)didTouchInfoButton:(id)sender {
@@ -92,6 +129,7 @@
 	[scrollView release];
 	[infoButton release];
 	[toolBar release];
+	[infoBubbles release];
     [super dealloc];
 }
 

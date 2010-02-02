@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>EC8B78381118928600519F86</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Condominiums.plist</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>EC8B78391118928600519F86</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Condominiums.plist</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>EC8B78521118931600519F86</string>
+						<key>history</key>
+						<array>
+							<string>EC8B781811188D5300519F86</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1174, 715}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>19 117 1174 756 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>1436</integer>
@@ -278,8 +319,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>8</integer>
+									<integer>34</integer>
+									<integer>33</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -331,7 +372,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ECBC233F11188BDB000B4AB7</string>
+										<string>EC8B78511118931600519F86</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BF5110E3BAF0064225E</string>
@@ -363,17 +404,19 @@
 											<string>ECBC227511187BCA000B4AB7</string>
 											<string>ECBC227611187BCA000B4AB7</string>
 											<string>ECBC22AC11187D39000B4AB7</string>
-											<string>ECBC22D211188317000B4AB7</string>
-											<string>ECBC22D311188317000B4AB7</string>
 											<string>ECBC22D411188317000B4AB7</string>
 											<string>ECBC22D611188317000B4AB7</string>
 											<string>ECBC22D711188317000B4AB7</string>
 											<string>ECBC22D811188317000B4AB7</string>
 											<string>ECBC22F4111883B9000B4AB7</string>
 											<string>ECBC232611188AA5000B4AB7</string>
-											<string>ECBC232711188AA5000B4AB7</string>
-											<string>ECBC232811188AA5000B4AB7</string>
-											<string>ECBC233E11188BD9000B4AB7</string>
+											<string>EC8B78271118928600519F86</string>
+											<string>EC8B78281118928600519F86</string>
+											<string>EC8B78291118928600519F86</string>
+											<string>EC8B782A1118928600519F86</string>
+											<string>EC8B782B1118928600519F86</string>
+											<string>EC8B782C1118928600519F86</string>
+											<string>EC8B78501118931600519F86</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,6 +456,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1207, -27}}</string>
+										<key>RubberWindowFrame</key>
+										<string>4 55 1436 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -466,9 +511,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1207, -27}}</string>
-										<key>RubberWindowFrame</key>
-										<string>4 55 1436 823 0 0 1440 878 </string>
+										<string>{{0, 0}, {568, 405}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -496,11 +539,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ECBC221E111778B1000B4AB7</string>
+				<string>EC8B78301118928600519F86</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>ECBC221F111778B1000B4AB7</string>
+				<string>EC8B78311118928600519F86</string>
 				<string>ECEC1BCA110E34FA0064225E</string>
-				<string>ECBC2220111778B1000B4AB7</string>
+				<string>EC8B78321118928600519F86</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -649,13 +692,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ECBC2221111778B1000B4AB7</string>
+				<string>EC8B78331118928600519F86</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>ECBC2222111778B1000B4AB7</string>
-				<string>ECBC2223111778B1000B4AB7</string>
-				<string>ECBC2224111778B1000B4AB7</string>
-				<string>ECBC2225111778B1000B4AB7</string>
+				<string>EC8B78341118928600519F86</string>
+				<string>EC8B78351118928600519F86</string>
+				<string>EC8B78361118928600519F86</string>
+				<string>EC8B78371118928600519F86</string>
 				<string>ECEC1BCA110E34FA0064225E</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -690,8 +733,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ECBC22B111187D39000B4AB7</string>
-		<string>ECBC22A211187D07000B4AB7</string>
+		<string>EC8B7846111892C900519F86</string>
+		<string>EC8B783C1118928600519F86</string>
+		<string>EC8B78381118928600519F86</string>
 		<string>/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

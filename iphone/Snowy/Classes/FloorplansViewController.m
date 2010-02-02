@@ -107,6 +107,7 @@
 		
 		[virtualTourView setDelegate:self];
 		[virtualTourView setImagePath:[(Floorplan *)[property.floorplans objectAtIndex:page] virtual_tour_path]];
+		[virtualTourView setInfoBubbles:[(Floorplan *)[property.floorplans objectAtIndex:page] info_bubbles]];
 		
 		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:mainView cache:YES];
 		[mainView.scrollView removeFromSuperview];

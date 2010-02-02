@@ -7,11 +7,12 @@
 //
 
 #import "Floorplan.h"
+#import "Bubble.h"
 
 
 @implementation Floorplan
 
-@synthesize image_path, virtual_tour_path;
+@synthesize image_path, virtual_tour_path, info_bubbles;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
@@ -22,6 +23,23 @@
 		} else {
 			self.virtual_tour_path = nil;
 		}
+		
+		if ([dict objectForKey:@"bubbles"]) {
+			NSMutableArray *bubbles = [[NSMutableArray alloc] init];
+			
+			for (NSDictionary *bubbleData in [dict objectForKey:@"bubbles"]) {
+				Bubble *bubble = [[Bubble alloc] initWithDictionary:bubbleData];
+				
+				[bubbles addObject:bubble];
+				[bubble release];
+			}
+			
+			self.info_bubbles = [[NSArray alloc] initWithArray:bubbles];
+			
+			[bubbles release];
+		} else {
+			self.info_bubbles = nil;
+		}
 	}
 	
 	return self;
@@ -30,6 +48,7 @@
 - (void)dealloc {
 	[image_path release];
 	[virtual_tour_path release];
+	[info_bubbles release];
 	[super dealloc];
 }
 

@@ -21,6 +21,33 @@
 				<key>floorplans</key>
 				<array>
 					<dict>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>150</integer>
+								<key>y</key>
+								<integer>100</integer>
+								<key>text</key>
+								<string>Amazing something</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>200</integer>
+								<key>y</key>
+								<integer>150</integer>
+								<key>text</key>
+								<string>Yay for my condo</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>50</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>Awesome floors</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-1.jpg</string>
 						<key>image</key>
