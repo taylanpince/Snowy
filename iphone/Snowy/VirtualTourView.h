@@ -13,6 +13,7 @@
 	UIScrollView *scrollView;
 	UIButton *infoButton;
 	NSString *imagePath;
+	UIToolbar *toolBar;
 	
 	id <VirtualTourViewDelegate> delegate;
 }
@@ -21,6 +22,7 @@
 @property (nonatomic, retain) UIScrollView *scrollView;
 @property (nonatomic, retain) UIButton *infoButton;
 @property (nonatomic, retain) NSString *imagePath;
+@property (nonatomic, retain) UIToolbar *toolBar;
 
 @property (nonatomic, assign) id <VirtualTourViewDelegate> delegate;
 

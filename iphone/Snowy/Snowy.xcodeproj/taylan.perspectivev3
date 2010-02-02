@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -271,8 +271,6 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>ECEC1C1D110E43980064225E</string>
-								<string>ECEC1C55110E4B610064225E</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -280,8 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>17</integer>
+									<integer>15</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -302,6 +300,8 @@
 							<string>MainColumn</string>
 							<real>207</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>4 55 1436 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -312,12 +312,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>ECEC1BCA110E34FA0064225E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FloorplansViewController.m</string>
+								<string>VirtualTourView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>ECEC1BCB110E34FA0064225E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FloorplansViewController.m</string>
+										<string>VirtualTourView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ECBC231B111886AE000B4AB7</string>
+										<string>ECBC233F11188BDB000B4AB7</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BF5110E3BAF0064225E</string>
@@ -364,14 +366,14 @@
 											<string>ECBC22D211188317000B4AB7</string>
 											<string>ECBC22D311188317000B4AB7</string>
 											<string>ECBC22D411188317000B4AB7</string>
-											<string>ECBC22D511188317000B4AB7</string>
 											<string>ECBC22D611188317000B4AB7</string>
 											<string>ECBC22D711188317000B4AB7</string>
 											<string>ECBC22D811188317000B4AB7</string>
-											<string>ECBC22D911188317000B4AB7</string>
 											<string>ECBC22F4111883B9000B4AB7</string>
-											<string>ECBC230B1118864B000B4AB7</string>
-											<string>ECBC231711188688000B4AB7</string>
+											<string>ECBC232611188AA5000B4AB7</string>
+											<string>ECBC232711188AA5000B4AB7</string>
+											<string>ECBC232811188AA5000B4AB7</string>
+											<string>ECBC233E11188BD9000B4AB7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -386,6 +388,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1207, 777}}</string>
+								<key>RubberWindowFrame</key>
+								<string>4 55 1436 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -463,6 +467,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1207, -27}}</string>
+										<key>RubberWindowFrame</key>
+										<string>4 55 1436 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -535,8 +541,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -548,8 +552,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1436, 322}}</string>
-						<key>RubberWindowFrame</key>
-						<string>4 55 1436 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -624,11 +626,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{701, 0}, {735, 220}}</string>
-							<key>RubberWindowFrame</key>
-							<string>4 55 1436 823 0 0 1440 878 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>4 55 1436 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -692,7 +690,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ECBC231C111886AE000B4AB7</string>
 		<string>ECBC22B111187D39000B4AB7</string>
 		<string>ECBC22A211187D07000B4AB7</string>
 		<string>/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy.xcodeproj</string>

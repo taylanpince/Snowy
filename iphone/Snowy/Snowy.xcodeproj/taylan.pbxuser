@@ -274,6 +274,21 @@
 			ECBC231A111886AE000B4AB7 /* PBXTextBookmark */ = ECBC231A111886AE000B4AB7 /* PBXTextBookmark */;
 			ECBC231B111886AE000B4AB7 /* PBXTextBookmark */ = ECBC231B111886AE000B4AB7 /* PBXTextBookmark */;
 			ECBC231D111886E2000B4AB7 /* PBXTextBookmark */ = ECBC231D111886E2000B4AB7 /* PBXTextBookmark */;
+			ECBC232611188AA5000B4AB7 /* PBXTextBookmark */ = ECBC232611188AA5000B4AB7 /* PBXTextBookmark */;
+			ECBC232711188AA5000B4AB7 /* PBXTextBookmark */ = ECBC232711188AA5000B4AB7 /* PBXTextBookmark */;
+			ECBC232811188AA5000B4AB7 /* PBXTextBookmark */ = ECBC232811188AA5000B4AB7 /* PBXTextBookmark */;
+			ECBC232911188AA5000B4AB7 /* PBXTextBookmark */ = ECBC232911188AA5000B4AB7 /* PBXTextBookmark */;
+			ECBC232A11188AA5000B4AB7 /* PBXTextBookmark */ = ECBC232A11188AA5000B4AB7 /* PBXTextBookmark */;
+			ECBC232B11188AA6000B4AB7 /* PBXTextBookmark */ = ECBC232B11188AA6000B4AB7 /* PBXTextBookmark */;
+			ECBC232D11188ADF000B4AB7 /* PBXTextBookmark */ = ECBC232D11188ADF000B4AB7 /* PBXTextBookmark */;
+			ECBC232E11188ADF000B4AB7 /* PBXTextBookmark */ = ECBC232E11188ADF000B4AB7 /* PBXTextBookmark */;
+			ECBC233311188B5D000B4AB7 /* PBXTextBookmark */ = ECBC233311188B5D000B4AB7 /* PBXTextBookmark */;
+			ECBC233411188B5E000B4AB7 /* PBXTextBookmark */ = ECBC233411188B5E000B4AB7 /* PBXTextBookmark */;
+			ECBC233611188B6A000B4AB7 /* PBXTextBookmark */ = ECBC233611188B6A000B4AB7 /* PBXTextBookmark */;
+			ECBC233B11188BC4000B4AB7 /* PBXTextBookmark */ = ECBC233B11188BC4000B4AB7 /* PBXTextBookmark */;
+			ECBC233C11188BC4000B4AB7 /* PBXTextBookmark */ = ECBC233C11188BC4000B4AB7 /* PBXTextBookmark */;
+			ECBC233E11188BD9000B4AB7 /* PBXTextBookmark */ = ECBC233E11188BD9000B4AB7 /* PBXTextBookmark */;
+			ECBC233F11188BDB000B4AB7 /* PBXTextBookmark */ = ECBC233F11188BDB000B4AB7 /* PBXTextBookmark */;
 			ECEC1BF5110E3BAF0064225E = ECEC1BF5110E3BAF0064225E /* PBXTextBookmark */;
 			ECEC1BF6110E3BAF0064225E = ECEC1BF6110E3BAF0064225E /* PBXTextBookmark */;
 		};
@@ -878,15 +893,15 @@
 	ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 745}}";
-			sepNavSelRange = "{566, 0}";
-			sepNavVisRange = "{0, 749}";
+			sepNavSelRange = "{637, 0}";
+			sepNavVisRange = "{0, 820}";
 		};
 	};
 	ECBC224111178613000B4AB7 /* VirtualTourView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1375, 1326}}";
-			sepNavSelRange = "{731, 0}";
-			sepNavVisRange = "{628, 428}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1734}}";
+			sepNavSelRange = "{1548, 0}";
+			sepNavVisRange = "{405, 1486}";
 		};
 	};
 	ECBC2247111786C2000B4AB7 /* PBXTextBookmark */ = {
@@ -914,7 +929,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 27";
 		rLen = 0;
-		rLoc = 1839;
+		rLoc = 2787;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 0;
@@ -1004,7 +1019,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 27";
 		rLen = 0;
-		rLoc = 1839;
+		rLoc = 2787;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 0;
@@ -1014,7 +1029,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 412;
 		vrLoc = 0;
@@ -1024,7 +1039,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 412;
 		vrLoc = 0;
@@ -1044,7 +1059,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 205;
 		vrLoc = 200;
@@ -1054,7 +1069,7 @@
 		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
 		name = "VirtualTourView.h: 13";
 		rLen = 0;
-		rLoc = 351;
+		rLoc = 372;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -1064,7 +1079,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 26";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 25;
@@ -1114,7 +1129,7 @@
 		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
 		name = "VirtualTourView.h: 23";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 637;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -1124,7 +1139,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 49";
 		rLen = 0;
-		rLoc = 1323;
+		rLoc = 1988;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 697;
@@ -1174,7 +1189,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 23";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 220;
 		vrLoc = 38;
@@ -1194,7 +1209,7 @@
 		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
 		name = "VirtualTourView.h: 23";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 637;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -1224,7 +1239,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1648;
+		rLoc = 2576;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 660;
@@ -1234,7 +1249,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1648;
+		rLoc = 2576;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 660;
@@ -1244,7 +1259,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1648;
+		rLoc = 2576;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 660;
@@ -1264,7 +1279,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1648;
+		rLoc = 2576;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 1341;
@@ -1274,7 +1289,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 55";
 		rLen = 0;
-		rLoc = 1432;
+		rLoc = 2097;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 697;
@@ -1314,7 +1329,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 62";
 		rLen = 0;
-		rLoc = 1648;
+		rLoc = 2576;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 1341;
@@ -1640,7 +1655,7 @@
 		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
 		name = "VirtualTourView.h: 23";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 637;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -1700,7 +1715,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 55";
 		rLen = 0;
-		rLoc = 1432;
+		rLoc = 2097;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 697;
@@ -1710,7 +1725,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 628;
@@ -1720,7 +1735,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 628;
@@ -1740,7 +1755,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 304;
 		vrLoc = 775;
@@ -1750,7 +1765,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 628;
@@ -1810,7 +1825,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 304;
 		vrLoc = 775;
@@ -1853,7 +1868,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 36";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1714;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 628;
@@ -1863,7 +1878,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 43";
 		rLen = 0;
-		rLoc = 1126;
+		rLoc = 1791;
 		rType = 0;
 		vrLen = 1226;
 		vrLoc = 291;
@@ -1873,7 +1888,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 43";
 		rLen = 0;
-		rLoc = 1126;
+		rLoc = 1791;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 291;
@@ -1894,7 +1909,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 43";
 		rLen = 0;
-		rLoc = 1126;
+		rLoc = 1791;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 775;
@@ -1904,7 +1919,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 61";
 		rLen = 0;
-		rLoc = 1492;
+		rLoc = 2222;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 291;
@@ -1914,7 +1929,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 61";
 		rLen = 0;
-		rLoc = 1492;
+		rLoc = 2222;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 291;
@@ -1924,7 +1939,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 61";
 		rLen = 0;
-		rLoc = 1492;
+		rLoc = 2222;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 700;
@@ -1934,7 +1949,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 29";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 257;
@@ -1944,7 +1959,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 29";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 257;
@@ -1954,7 +1969,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 29";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 428;
 		vrLoc = 628;
@@ -1964,7 +1979,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 29";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 257;
@@ -2004,7 +2019,7 @@
 		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
 		name = "VirtualTourView.m: 29";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 428;
 		vrLoc = 628;
@@ -2078,6 +2093,156 @@
 		rType = 0;
 		vrLen = 393;
 		vrLoc = 3670;
+	};
+	ECBC232611188AA5000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5C110E4B820064225E /* FloorplansViewController.h */;
+		name = "FloorplansViewController.h: 24";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	ECBC232711188AA5000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 132";
+		rLen = 0;
+		rLoc = 4426;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 2493;
+	};
+	ECBC232811188AA5000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224011178613000B4AB7 /* VirtualTourView.h */;
+		name = "VirtualTourView.h: 25";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	ECBC232911188AA5000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 41";
+		rLen = 0;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 373;
+	};
+	ECBC232A11188AA5000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 44";
+		rLen = 0;
+		rLoc = 1552;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 741;
+	};
+	ECBC232B11188AA6000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 44";
+		rLen = 0;
+		rLoc = 1552;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 741;
+	};
+	ECBC232D11188ADF000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 106";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 3670;
+	};
+	ECBC232E11188ADF000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 44";
+		rLen = 0;
+		rLoc = 1552;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 1101;
+	};
+	ECBC233311188B5D000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 75";
+		rLen = 0;
+		rLoc = 2422;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 1098;
+	};
+	ECBC233411188B5E000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 75";
+		rLen = 0;
+		rLoc = 2422;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 1098;
+	};
+	ECBC233611188B6A000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 75";
+		rLen = 0;
+		rLoc = 2422;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 1098;
+	};
+	ECBC233B11188BC4000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 48";
+		rLen = 0;
+		rLoc = 1548;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 405;
+	};
+	ECBC233C11188BC4000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 48";
+		rLen = 0;
+		rLoc = 1548;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 405;
+	};
+	ECBC233E11188BD9000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 48";
+		rLen = 0;
+		rLoc = 1548;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 891;
+	};
+	ECBC233F11188BDB000B4AB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */;
+		name = "VirtualTourView.m: 48";
+		rLen = 0;
+		rLoc = 1548;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 405;
 	};
 	ECEC1BBE110E34E90064225E /* Snowy */ = {
 		isa = PBXExecutable;
