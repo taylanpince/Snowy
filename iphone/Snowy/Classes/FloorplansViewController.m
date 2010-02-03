@@ -22,7 +22,7 @@
 
 @implementation FloorplansViewController
 
-@synthesize property, floorplans;
+@synthesize floorplans, floorplanViews;
 
 - (void)loadView {
 	FloorplanScrollerView *scrollerView = [[FloorplanScrollerView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
@@ -37,16 +37,16 @@
 	
 	[self setTitle:@"Floorplans"];
 	
-	floorplans = [[NSMutableArray alloc] init];
+	floorplanViews = [[NSMutableArray alloc] init];
 	
-	for (Floorplan *floorplan in property.floorplans) {
-		[floorplans addObject:[NSNull null]];
+	for (Floorplan *floorplan in floorplans) {
+		[floorplanViews addObject:[NSNull null]];
 	}
 	
 	FloorplanScrollerView *mainView = (FloorplanScrollerView *)[self view];
 	
 	[mainView.scrollView setDelegate:self];
-	[mainView.pageControl setNumberOfPages:[floorplans count]];
+	[mainView.pageControl setNumberOfPages:[floorplanViews count]];
 	[mainView.pageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
 	
 	inVirtualTour = NO;
@@ -57,7 +57,7 @@
 	
 	FloorplanScrollerView *mainView = (FloorplanScrollerView *)[self view];
 	
-	[mainView.scrollView setContentSize:CGSizeMake([floorplans count] * mainView.scrollView.frame.size.width, mainView.scrollView.frame.size.height)];
+	[mainView.scrollView setContentSize:CGSizeMake([floorplanViews count] * mainView.scrollView.frame.size.width, mainView.scrollView.frame.size.height)];
 	
 	[self loadScrollViewWithPage:0];
     [self loadScrollViewWithPage:1];
@@ -65,17 +65,19 @@
 
 - (void)loadScrollViewWithPage:(int)page {
     if (page < 0) return;
-    if (page >= [floorplans count]) return;
+    if (page >= [floorplanViews count]) return;
 	
 	FloorplanScrollerView *mainView = (FloorplanScrollerView *)[self view];
-	FloorplanView *floorplanView = [floorplans objectAtIndex:page];
+	FloorplanView *floorplanView = [floorplanViews objectAtIndex:page];
+	Floorplan *floorplan = (Floorplan *)[floorplans objectAtIndex:page];
 	
 	if ((NSNull *)floorplanView == [NSNull null]) {
 		floorplanView = [[FloorplanView alloc] initWithFrame:CGRectMake(mainView.scrollView.frame.size.width * page, 0.0, mainView.scrollView.frame.size.width, mainView.scrollView.frame.size.height)];
 		
 		[floorplanView setDelegate:self];
-		[floorplanView setImagePath:[(Floorplan *)[property.floorplans objectAtIndex:page] image_path]];
-		[floorplans replaceObjectAtIndex:page withObject:floorplanView];
+		[floorplanView setImagePath:floorplan.image_path];
+		[floorplanView setBookmarked:[floorplan isBookmarked]];
+		[floorplanViews replaceObjectAtIndex:page withObject:floorplanView];
 		[mainView.scrollView addSubview:floorplanView];
 		[floorplanView release];
 	}
@@ -106,8 +108,8 @@
 		VirtualTourView *virtualTourView = [[VirtualTourView alloc] initWithFrame:mainView.frame];
 		
 		[virtualTourView setDelegate:self];
-		[virtualTourView setImagePath:[(Floorplan *)[property.floorplans objectAtIndex:page] virtual_tour_path]];
-		[virtualTourView setInfoBubbles:[(Floorplan *)[property.floorplans objectAtIndex:page] info_bubbles]];
+		[virtualTourView setImagePath:[(Floorplan *)[floorplans objectAtIndex:page] virtual_tour_path]];
+		[virtualTourView setInfoBubbles:[(Floorplan *)[floorplans objectAtIndex:page] info_bubbles]];
 		
 		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:mainView cache:YES];
 		[mainView.scrollView removeFromSuperview];
@@ -130,7 +132,12 @@
 }
 
 - (void)floorplanViewDidTouchBookmarkButton:(FloorplanView *)view {
-	NSLog(@"TOGGLE BOOKMARK");
+	FloorplanScrollerView *mainView = (FloorplanScrollerView *)[self view];
+	CGFloat pageWidth = mainView.scrollView.frame.size.width;
+    int page = floor((mainView.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+	Floorplan *floorplan = (Floorplan *)[floorplans objectAtIndex:page];
+	
+	[floorplan toggleBookmark];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender {
@@ -187,8 +194,8 @@
 }
 
 - (void)dealloc {
-	[property release];
 	[floorplans release];
+	[floorplanViews release];
     [super dealloc];
 }
 

@@ -23,6 +23,8 @@
 
 @property (nonatomic, assign) id <HomeViewDelegate> delegate;
 
+- (void)setFloorplanCount:(NSInteger)count;
+
 @end
 
 @protocol HomeViewDelegate

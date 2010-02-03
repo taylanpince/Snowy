@@ -7,12 +7,17 @@
 //
 
 #import <MapKit/MapKit.h>
+#import "Location.h"
 
 
 @interface Property : NSObject <MKAnnotation> {
+	int number;
+	
 	NSString *name;
 	NSString *header_image_path;
 	NSMutableArray *floorplans;
+	
+	Location *location;
 	
 	double latitude;
 	double longitude;
@@ -22,9 +27,13 @@
 	NSString *subtitle;
 }
 
+@property (nonatomic, assign) int number;
+
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *header_image_path;
 @property (nonatomic, retain) NSMutableArray *floorplans;
+
+@property (nonatomic, retain) Location *location;
 
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;

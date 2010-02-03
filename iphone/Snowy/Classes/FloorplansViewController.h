@@ -6,22 +6,19 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
-#import "Property.h"
 #import "FloorplanView.h"
 #import "VirtualTourView.h"
 
 
 @interface FloorplansViewController : UIViewController <UIScrollViewDelegate, FloorplanViewDelegate, VirtualTourViewDelegate> {
-	Property *property;
-	
-	NSMutableArray *floorplans;
+	NSArray *floorplans;
+	NSMutableArray *floorplanViews;
 	
 	BOOL pageControlUsed;
 	BOOL inVirtualTour;
 }
 
-@property (nonatomic, retain) Property *property;
-
-@property (nonatomic, retain) NSMutableArray *floorplans;
+@property (nonatomic, retain) NSArray *floorplans;
+@property (nonatomic, retain) NSMutableArray *floorplanViews;
 
 @end

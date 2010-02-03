@@ -10,9 +10,11 @@
 @interface PropertyViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	NSArray *properties;
 	UIImageView *headerView;
+	UITableView *optionsTableView;
 }
 
 @property (nonatomic, retain) NSArray *properties;
 @property (nonatomic, retain) UIImageView *headerView;
+@property (nonatomic, retain) UITableView *optionsTableView;
 
 @end

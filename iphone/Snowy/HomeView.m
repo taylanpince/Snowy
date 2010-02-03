@@ -69,6 +69,10 @@
     return self;
 }
 
+- (void)setFloorplanCount:(NSInteger)count {
+	[(SectionButton *)[tabs objectAtIndex:2] setBadgeCount:count];
+}
+
 - (void)layoutSubviews {
 	[super layoutSubviews];
 	

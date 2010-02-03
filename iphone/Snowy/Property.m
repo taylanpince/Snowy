@@ -12,10 +12,11 @@
 
 @implementation Property
 
-@synthesize name, header_image_path, floorplans, latitude, longitude;
+@synthesize number, name, header_image_path, floorplans, latitude, longitude, location;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
+		self.number = [[dict objectForKey:@"id"] intValue];
 		self.name = [dict objectForKey:@"name"];
 		self.header_image_path = [dict objectForKey:@"header_image"];
 		self.floorplans = [[NSMutableArray alloc] init];
@@ -23,6 +24,7 @@
 		for (NSDictionary *floorplanData in [dict objectForKey:@"floorplans"]) {
 			Floorplan *floorplan = [[Floorplan alloc] initWithDictionary:floorplanData];
 			
+			[floorplan setProperty:self];
 			[self.floorplans addObject:floorplan];
 			[floorplan release];
 		}
@@ -35,12 +37,12 @@
 }
 
 - (CLLocationCoordinate2D)coordinate {
-	CLLocationCoordinate2D location;
+	CLLocationCoordinate2D locationCoordinate;
 	
-	location.latitude = self.latitude;
-	location.longitude = self.longitude;
+	locationCoordinate.latitude = self.latitude;
+	locationCoordinate.longitude = self.longitude;
 	
-	return location;
+	return locationCoordinate;
 }
 
 - (NSString *)title {
@@ -55,6 +57,7 @@
 	[name release];
 	[header_image_path release];
 	[floorplans release];
+	[location release];
 	[super dealloc];
 }
 

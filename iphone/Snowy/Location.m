@@ -12,10 +12,11 @@
 
 @implementation Location
 
-@synthesize name, image_path, image_on_path, properties, latitude, longitude;
+@synthesize number, name, image_path, image_on_path, properties, latitude, longitude;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
+		self.number = [[dict objectForKey:@"id"] intValue];
 		self.name = [dict objectForKey:@"name"];
 		self.image_path = [dict objectForKey:@"image"];
 		self.image_on_path = [dict objectForKey:@"image_on"];
@@ -24,6 +25,7 @@
 		for (NSDictionary *propertyData in [dict objectForKey:@"properties"]) {
 			Property *property = [[Property alloc] initWithDictionary:propertyData];
 			
+			[property setLocation:self];
 			[self.properties addObject:property];
 			[property release];
 		}
@@ -33,6 +35,16 @@
 	}
 	
 	return self;
+}
+
+- (NSArray *)allFloorplans {
+	NSMutableArray *floorplans = [NSMutableArray array];
+	
+	for (Property *property in properties) {
+		[floorplans addObjectsFromArray:property.floorplans];
+	}
+	
+	return [NSArray arrayWithArray:floorplans];
 }
 
 - (void)dealloc {

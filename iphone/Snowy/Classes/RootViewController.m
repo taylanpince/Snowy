@@ -11,6 +11,7 @@
 #import "LocationViewController.h"
 #import "PropertyViewController.h"
 #import "PropertyMapViewController.h"
+#import "SnowyAppDelegate.h"
 
 
 @interface RootViewController (PrivateMethods)
@@ -20,8 +21,6 @@
 
 
 @implementation RootViewController
-
-@synthesize locations;
 
 - (void)loadView {
 	HomeView *homeView = [[HomeView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
@@ -38,33 +37,6 @@
 	
 	[self setTitle:@"My Minto Condo"];
 	
-	NSString *error;
-	NSPropertyListFormat format;
-	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"Condominiums" ofType:@"plist"];
-	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
-	NSArray *locationsData = (NSArray *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
-	
-	if (!locationsData) {
-		NSLog(@"ERROR READING PLIST: %@ (%@)", [path UTF8String], [error UTF8String]);
-	}
-	
-	[error release];
-	[data release];
-	
-	NSMutableArray *locationsList = [[NSMutableArray alloc] init];
-	
-	for (NSDictionary *locationData in locationsData) {
-		Location *location = [[Location alloc] initWithDictionary:locationData];
-		
-		[locationsList addObject:location];
-		[location release];
-	}
-	
-	locations = [[NSArray alloc] initWithArray:locationsList];
-	
-	[locationsList release];
-	
 	UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gears.png"] style:UIBarButtonItemStylePlain target:self action:@selector(didTapSettingsButton:)];
 	
 	[self.navigationItem setRightBarButtonItem:settingsButton];
@@ -79,6 +51,8 @@
 	if ([prefs integerForKey:@"activeLocation"] == 0) {
 		[self launchLocationView];
 	}
+	
+	[(HomeView *)[self view] setFloorplanCount:[[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count]];
 }
 
 - (void)launchLocationView {
@@ -86,7 +60,7 @@
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
 	
 	[controller setDelegate:self];
-	[controller setLocations:locations];
+	[controller setLocations:[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] locations]];
 	[self presentModalViewController:navController animated:YES];
 	
 	[controller release];
@@ -101,7 +75,7 @@
 	switch (tabIndex) {
 		case 0: {
 			NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-			Location *location = [locations objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
+			Location *location = [[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] locations] objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
 			PropertyMapViewController *controller = [[PropertyMapViewController alloc] init];
 			
 			[controller setLocation:location];
@@ -115,7 +89,7 @@
 		}
 		case 2: {
 			NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-			Location *location = [locations objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
+			Location *location = [[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] locations] objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
 			PropertyViewController *controller = [[PropertyViewController alloc] init];
 			
 			[controller setProperties:location.properties];
@@ -159,7 +133,6 @@
 }
 
 - (void)dealloc {
-	[locations release];
     [super dealloc];
 }
 

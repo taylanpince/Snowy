@@ -8,6 +8,8 @@
 
 
 @interface Location : NSObject {
+	int number;
+	
 	NSString *name;
 	NSString *image_path;
 	NSString *image_on_path;
@@ -16,6 +18,8 @@
 	double latitude;
 	double longitude;
 }
+
+@property (nonatomic, assign) int number;
 
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *image_path;
@@ -26,5 +30,6 @@
 @property (nonatomic, assign) double longitude;
 
 - (id)initWithDictionary:(NSDictionary *)dict;
+- (NSArray *)allFloorplans;
 
 @end
