@@ -9,10 +9,16 @@
 #import "Property.h"
 
 
-@interface PropertyDetailViewController : UIViewController {
+@interface PropertyDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	Property *property;
+	
+	UIImageView *headerView;
+	UITableView *optionsTableView;
 }
 
 @property (nonatomic, retain) Property *property;
+
+@property (nonatomic, retain) UIImageView *headerView;
+@property (nonatomic, retain) UITableView *optionsTableView;
 
 @end

@@ -14,6 +14,7 @@
 	int number;
 	
 	NSString *name;
+	NSString *address;
 	NSString *header_image_path;
 	NSMutableArray *floorplans;
 	
@@ -30,6 +31,7 @@
 @property (nonatomic, assign) int number;
 
 @property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *address;
 @property (nonatomic, retain) NSString *header_image_path;
 @property (nonatomic, retain) NSMutableArray *floorplans;
 

@@ -11,7 +11,7 @@
 
 
 @interface RootViewController : UIViewController <HomeViewDelegate, LocationViewControllerDelegate> {
-	
+	BOOL initialLaunch;
 }
 
 @end

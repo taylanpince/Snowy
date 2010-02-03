@@ -9,9 +9,9 @@
 #import "SectionButton.h"
 
 
-@interface SectionButton (PrivateMethods)
+/*@interface SectionButton (PrivateMethods)
 - (void)didTouchIconButton:(id)sender;
-@end
+@end*/
 
 
 @implementation SectionButton
@@ -23,7 +23,8 @@
 		titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 		iconButton = [[UIButton alloc] initWithFrame:CGRectZero];
 		
-		[iconButton addTarget:self action:@selector(didTouchIconButton:) forControlEvents:UIControlEventTouchUpInside];
+		//[iconButton addTarget:self action:@selector(didTouchIconButton:) forControlEvents:UIControlEventTouchUpInside];
+		[iconButton setUserInteractionEnabled:NO];
 		
 		[titleLabel setFont:[UIFont boldSystemFontOfSize:11.0]];
 		[titleLabel setTextAlignment:UITextAlignmentCenter];
@@ -86,7 +87,16 @@
 	}
 }
 
-- (void)didTouchIconButton:(id)sender {
+/*- (void)didTouchIconButton:(id)sender {
+	[delegate didTouchSectionButton:self];
+}*/
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	[iconButton setHighlighted:YES];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	[iconButton setHighlighted:NO];
 	[delegate didTouchSectionButton:self];
 }
 

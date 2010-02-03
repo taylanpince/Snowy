@@ -41,6 +41,8 @@
 	
 	[self.navigationItem setRightBarButtonItem:settingsButton];
 	[settingsButton release];
+	
+	initialLaunch = YES;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -48,7 +50,9 @@
 	
 	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
 	
-	if ([prefs integerForKey:@"activeLocation"] == 0) {
+	if ([prefs integerForKey:@"activeLocation"] == 0 || initialLaunch == YES) {
+		initialLaunch = NO;
+		
 		[self launchLocationView];
 	}
 	

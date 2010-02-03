@@ -35,7 +35,7 @@
 		
 		[button setImage:[UIImage imageNamed:location.image_path] forState:UIControlStateNormal];
 		[button setImage:[UIImage imageNamed:location.image_on_path] forState:UIControlStateHighlighted];
-		[button addTarget:self action:@selector(switchSection:) forControlEvents:UIControlEventTouchDown];
+		[button addTarget:self action:@selector(switchSection:) forControlEvents:UIControlEventTouchUpInside];
 		
 		[self addSubview:button];
 		[tabs addObject:button];

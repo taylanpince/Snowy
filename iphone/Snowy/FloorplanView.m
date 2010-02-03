@@ -66,8 +66,8 @@
 	[super layoutSubviews];
 	
 	[imageView setFrame:self.bounds];
-	[bookmarkButton setFrame:CGRectMake(self.frame.size.width - 40.0, 10.0, 30.0, 30.0)];
-	[infoButton setFrame:CGRectMake(self.frame.size.width - 40.0, self.frame.size.height - 40.0, 30.0, 30.0)];
+	[bookmarkButton setFrame:CGRectMake(self.frame.size.width - 44.0, 18.0, 40.0, 40.0)];
+	[infoButton setFrame:CGRectMake(self.frame.size.width - 44.0, self.frame.size.height - 44.0, 40.0, 40.0)];
 }
 
 - (void)didTouchInfoButton:(id)sender {

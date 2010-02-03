@@ -14,6 +14,11 @@
 #define cellIdentifier @"cell"
 
 
+@interface PropertyViewController (PrivateMethods)
+- (void)didTouchHomeButton:(id)sender;
+@end
+
+
 @implementation PropertyViewController
 
 @synthesize properties, headerView, optionsTableView;
@@ -26,7 +31,6 @@
 	
 	headerView = [[UIImageView alloc] initWithFrame:CGRectMake(4.0, 0.0, 312.0, 206.0)];
 	
-	[headerView setImage:[UIImage imageNamed:@"header.jpg"]];
 	[self.view addSubview:headerView];
 	
 	optionsTableView = [[UITableView alloc] initWithFrame:CGRectMake(4.0, 206.0, 312.0, 212.0)];
@@ -35,6 +39,11 @@
 	[optionsTableView setDataSource:self];
 	
 	[self.view addSubview:optionsTableView];
+	
+	UIBarButtonItem *homeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"quadrant.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(didTouchHomeButton:)];
+	
+	[self.navigationItem setLeftBarButtonItem:homeButton];
+	[homeButton release];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,6 +58,22 @@
 	[super viewDidAppear:animated];
 	
 	[optionsTableView reloadData];
+	
+	NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+	
+	[optionsTableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionTop];
+	
+	if ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0) {
+		[headerView setImage:[UIImage imageNamed:@"header.jpg"]];
+	} else {
+		Property *property = [properties objectAtIndex:0];
+		
+		[headerView setImage:[UIImage imageNamed:property.header_image_path]];
+	}
+}
+
+- (void)didTouchHomeButton:(id)sender {
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -83,9 +108,9 @@
 	return 40.0;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+/*- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	return ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0 && section == 0) ? @"Saved Floorplans" : @"Properties";
-}
+}*/
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[UIView beginAnimations:nil context:nil];

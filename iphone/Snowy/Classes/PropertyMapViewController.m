@@ -13,6 +13,11 @@
 #define cellIdentifier @"mapCell"
 
 
+@interface PropertyMapViewController (PrivateMethods)
+- (void)didTouchHomeButton:(id)sender;
+@end
+
+
 @implementation PropertyMapViewController
 
 @synthesize location;
@@ -32,6 +37,11 @@
 	
 	[self setTitle:location.name];
 	[self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.08 green:0.247 blue:0.482 alpha:1.0]];
+	
+	UIBarButtonItem *homeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"quadrant.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(didTouchHomeButton:)];
+	
+	[self.navigationItem setLeftBarButtonItem:homeButton];
+	[homeButton release];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -43,8 +53,8 @@
 	
 	coordinates.latitude = location.latitude;
 	coordinates.longitude = location.longitude;
-	span.latitudeDelta = 0.2;
-	span.longitudeDelta = 0.2;
+	span.latitudeDelta = 0.5;
+	span.longitudeDelta = 0.5;
 	region.span = span;
 	region.center = coordinates;
 	
@@ -54,6 +64,10 @@
 	for (Property *property in location.properties) {
 		[(MKMapView *)self.view addAnnotation:property];
 	}
+}
+
+- (void)didTouchHomeButton:(id)sender {
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {

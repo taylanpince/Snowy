@@ -12,12 +12,13 @@
 
 @implementation Property
 
-@synthesize number, name, header_image_path, floorplans, latitude, longitude, location;
+@synthesize number, name, address, header_image_path, floorplans, latitude, longitude, location;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
 		self.number = [[dict objectForKey:@"id"] intValue];
 		self.name = [dict objectForKey:@"name"];
+		self.address = [dict objectForKey:@"address"];
 		self.header_image_path = [dict objectForKey:@"header_image"];
 		self.floorplans = [[NSMutableArray alloc] init];
 		
@@ -50,11 +51,12 @@
 }
 
 - (NSString *)subtitle {
-	return self.name;
+	return self.address;
 }
 
 - (void)dealloc {
 	[name release];
+	[address release];
 	[header_image_path release];
 	[floorplans release];
 	[location release];

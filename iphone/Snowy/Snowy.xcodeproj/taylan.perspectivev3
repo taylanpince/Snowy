@@ -278,7 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>31</integer>
+									<integer>37</integer>
 									<integer>23</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>ECEC1BCA110E34FA0064225E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PropertyViewController.m</string>
+								<string>PropertyDetailViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,16 +327,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>ECEC1BCB110E34FA0064225E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PropertyViewController.m</string>
+										<string>PropertyDetailViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EC2921A81119FB6C00BC5E0C</string>
+										<string>EC2922EF111A274400BC5E0C</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BF5110E3BAF0064225E</string>
 											<string>ECBC22AC11187D39000B4AB7</string>
-											<string>ECBC22F4111883B9000B4AB7</string>
 											<string>EC8B78291118928600519F86</string>
 											<string>EC8B78861118A09200519F86</string>
 											<string>EC8B79471118E63C00519F86</string>
@@ -371,40 +370,41 @@
 											<string>EC8B79641118E63C00519F86</string>
 											<string>EC8B79651118E63C00519F86</string>
 											<string>EC8B79661118E63C00519F86</string>
-											<string>EC8B7A971118FBC800519F86</string>
-											<string>ECBF3E891119D1F800EB5C1E</string>
-											<string>ECBF3E8A1119D1F800EB5C1E</string>
 											<string>ECBF3E8B1119D1F800EB5C1E</string>
-											<string>ECBF3EB31119D57300EB5C1E</string>
-											<string>ECBF3ED81119D80700EB5C1E</string>
-											<string>ECBF3EF31119D8A500EB5C1E</string>
-											<string>ECBF3F211119E75200EB5C1E</string>
 											<string>ECBF3F221119E75200EB5C1E</string>
-											<string>ECBF3F231119E75200EB5C1E</string>
-											<string>ECBF3F251119E75200EB5C1E</string>
-											<string>ECBF3F2B1119E75200EB5C1E</string>
-											<string>ECBF3F2D1119E75200EB5C1E</string>
 											<string>ECBF3F301119E75200EB5C1E</string>
 											<string>ECBF3F481119E9C200EB5C1E</string>
-											<string>ECBF3F491119E9C200EB5C1E</string>
-											<string>ECBF3F551119EC7000EB5C1E</string>
 											<string>ECBF3F6C1119EF5600EB5C1E</string>
 											<string>ECBF3F9A1119F19600EB5C1E</string>
 											<string>ECBF3F9B1119F19600EB5C1E</string>
-											<string>ECBF3F9C1119F19600EB5C1E</string>
-											<string>ECBF3FD51119F28F00EB5C1E</string>
-											<string>ECBF3FF21119F6F700EB5C1E</string>
 											<string>ECBF3FF51119F6F700EB5C1E</string>
 											<string>ECBF3FF61119F6F700EB5C1E</string>
 											<string>ECBF3FF71119F6F700EB5C1E</string>
-											<string>ECBF3FF91119F6F700EB5C1E</string>
-											<string>ECBF3FFF1119F77200EB5C1E</string>
 											<string>ECBF40001119F77200EB5C1E</string>
 											<string>ECBF40021119F77200EB5C1E</string>
-											<string>ECBF40121119F82200EB5C1E</string>
-											<string>EC29218E1119FA9900BC5E0C</string>
 											<string>EC29218F1119FA9900BC5E0C</string>
-											<string>EC2921A71119FB6800BC5E0C</string>
+											<string>EC2921B71119FC0800BC5E0C</string>
+											<string>EC2921B81119FC0800BC5E0C</string>
+											<string>EC2921D6111A14B800BC5E0C</string>
+											<string>EC2921EA111A15EA00BC5E0C</string>
+											<string>EC292203111A16F400BC5E0C</string>
+											<string>EC292206111A16F400BC5E0C</string>
+											<string>EC292207111A16F400BC5E0C</string>
+											<string>EC292243111A188800BC5E0C</string>
+											<string>EC292250111A196600BC5E0C</string>
+											<string>EC292252111A196600BC5E0C</string>
+											<string>EC292253111A196600BC5E0C</string>
+											<string>EC292254111A196600BC5E0C</string>
+											<string>EC29226C111A1C6E00BC5E0C</string>
+											<string>EC29226D111A1C6E00BC5E0C</string>
+											<string>EC29226F111A1C6E00BC5E0C</string>
+											<string>EC292291111A1F0600BC5E0C</string>
+											<string>EC2922AB111A248700BC5E0C</string>
+											<string>EC2922BD111A254C00BC5E0C</string>
+											<string>EC2922DB111A266F00BC5E0C</string>
+											<string>EC2922DC111A266F00BC5E0C</string>
+											<string>EC2922DD111A266F00BC5E0C</string>
+											<string>EC2922EE111A274100BC5E0C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -721,6 +721,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>EC2921E0111A158600BC5E0C</string>
 		<string>EC29219C1119FA9900BC5E0C</string>
 		<string>EC29219D1119FA9900BC5E0C</string>
 		<string>/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy.xcodeproj</string>

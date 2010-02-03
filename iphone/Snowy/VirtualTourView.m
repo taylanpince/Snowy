@@ -93,7 +93,7 @@
 		for (Bubble *bubble in newInfoBubbles) {
 			UIButton *bubbleButton = [UIButton buttonWithType:UIButtonTypeCustom];
 			
-			[bubbleButton setFrame:CGRectMake(bubble.position_x, bubble.position_y, 27.0, 27.0)];
+			[bubbleButton setFrame:CGRectMake(bubble.position_x, bubble.position_y, 35.0, 35.0)];
 			[bubbleButton setTitle:bubble.label forState:UIControlStateNormal];
 			[bubbleButton setImage:[UIImage imageNamed:@"bubble.png"] forState:UIControlStateNormal];
 			[bubbleButton setImage:[UIImage imageNamed:@"bubble-on.png"] forState:UIControlStateSelected];
@@ -117,7 +117,7 @@
 	[scrollView setFrame:CGRectMake(0.0, 0.0, self.bounds.size.width, self.bounds.size.height - 44.0)];
 	[toolBar setFrame:CGRectMake(0.0, self.bounds.size.height - 44.0, self.bounds.size.width, 44.0)];
 	[[[[toolBar items] objectAtIndex:0] customView] setFrame:CGRectInset(toolBar.bounds, 10.0, 6.0)];
-	[infoButton setFrame:CGRectMake(self.bounds.size.width - 40.0, self.bounds.size.height - 84.0, 30.0, 30.0)];
+	[infoButton setFrame:CGRectMake(self.bounds.size.width - 44.0, self.bounds.size.height - 86.0, 40.0, 40.0)];
 }
 
 - (void)didTouchInfoBubble:(id)sender {

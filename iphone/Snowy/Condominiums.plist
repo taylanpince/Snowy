@@ -6,9 +6,9 @@
 		<key>id</key>
 		<integer>1</integer>
 		<key>longitude</key>
-		<real>-79.383774</real>
+		<real>-75.736313</real>
 		<key>latitude</key>
-		<real>43.719472</real>
+		<real>45.279718</real>
 		<key>name</key>
 		<string>Toronto</string>
 		<key>image</key>
@@ -18,16 +18,144 @@
 		<key>properties</key>
 		<array>
 			<dict>
+				<key>address</key>
+				<string>796 Clearbrook Drive,
+Nepean, ON
+K2J 0B9</string>
+				<key>id</key>
+				<integer>7</integer>
+				<key>longitude</key>
+				<real>-75.718203</real>
+				<key>latitude</key>
+				<real>45.276004</real>
+				<key>name</key>
+				<string>Minto Chapman Mills</string>
+				<key>header_image</key>
+				<string>header-chapman-mills.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
 				<key>id</key>
 				<integer>1</integer>
 				<key>longitude</key>
-				<real>-79.410574</real>
+				<real>-75.480891</real>
 				<key>latitude</key>
-				<real>43.761331</real>
+				<real>45.449082</real>
 				<key>name</key>
-				<string>Spring</string>
+				<string>Minto Avalon</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-avalon.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -37,27 +165,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -67,7 +195,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -75,7 +230,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -84,16 +266,20 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>3-188 Paseo Private,
+Ottawa, ON
+K2G 4N7</string>
 				<key>id</key>
 				<integer>2</integer>
 				<key>longitude</key>
-				<real>-79.406004</real>
+				<real>-75.763693</real>
 				<key>latitude</key>
-				<real>43.642908</real>
+				<real>45.343248</real>
 				<key>name</key>
-				<string>King West</string>
+				<string>Minto Centro</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-centro.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -103,27 +289,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -133,7 +319,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -141,7 +354,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -150,63 +390,52 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>1095 Halton Terrace, 
+Kanata, ON
+K2W 1G8</string>
 				<key>id</key>
 				<integer>3</integer>
 				<key>latitude</key>
-				<real>43.684601</real>
+				<real>45.355206</real>
 				<key>longitude</key>
-				<real>-79.357209</real>
+				<real>-75.9337539</real>
 				<key>name</key>
-				<string>Skyy</string>
+				<string>Minto Morgan&apos;s Grant</string>
 				<key>header_image</key>
-				<string>header-2.jpg</string>
+				<string>header-morgans-grant.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
 						<key>id</key>
 						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>4</integer>
-				<key>latitude</key>
-				<real>43.668182</real>
-				<key>longitude</key>
-				<real>-79.390168</real>
-				<key>name</key>
-				<string>The St. Thomas</string>
-				<key>header_image</key>
-				<string>header-3.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>5</integer>
-				<key>latitude</key>
-				<real>43.705639</real>
-				<key>longitude</key>
-				<real>-79.397206</real>
-				<key>name</key>
-				<string>Midtown</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-1.jpg</string>
 						<key>image</key>
@@ -214,7 +443,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -222,7 +478,402 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
+				<key>id</key>
+				<integer>4</integer>
+				<key>latitude</key>
+				<real>45.433876</real>
+				<key>longitude</key>
+				<real>-75.515213</real>
+				<key>name</key>
+				<string>Minto Trails Edge</string>
+				<key>header_image</key>
+				<string>header-trails-edge.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>5</integer>
+				<key>latitude</key>
+				<real>45.300973</real>
+				<key>longitude</key>
+				<real>-75.934496</real>
+				<key>name</key>
+				<string>Minto Arcadia</string>
+				<key>header_image</key>
+				<string>header-arcadia.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>6</integer>
+				<key>latitude</key>
+				<real>45.212278</real>
+				<key>longitude</key>
+				<real>-75.6897929</real>
+				<key>name</key>
+				<string>Minto Mahogany</string>
+				<key>header_image</key>
+				<string>header-mahogany.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -233,249 +884,159 @@
 		</array>
 	</dict>
 	<dict>
-		<key>properties</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>1</integer>
-				<key>longitude</key>
-				<real>-79.410574</real>
-				<key>latitude</key>
-				<real>43.761331</real>
-				<key>name</key>
-				<string>Spring</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>bubbles</key>
-						<array>
-							<dict>
-								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
-								<key>y</key>
-								<integer>75</integer>
-								<key>text</key>
-								<string>Awesome floors</string>
-							</dict>
-						</array>
-						<key>virtual_tour</key>
-						<string>virtual-1.jpg</string>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>2</integer>
-						<key>virtual_tour</key>
-						<string>virtual-2.jpg</string>
-						<key>image</key>
-						<string>floorplan-2.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>3</integer>
-						<key>virtual_tour</key>
-						<string>virtual-3.jpg</string>
-						<key>image</key>
-						<string>floorplan-3.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>2</integer>
-				<key>longitude</key>
-				<real>-79.406004</real>
-				<key>latitude</key>
-				<real>43.642908</real>
-				<key>name</key>
-				<string>King West</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>bubbles</key>
-						<array>
-							<dict>
-								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
-								<key>y</key>
-								<integer>75</integer>
-								<key>text</key>
-								<string>Awesome floors</string>
-							</dict>
-						</array>
-						<key>virtual_tour</key>
-						<string>virtual-1.jpg</string>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>2</integer>
-						<key>virtual_tour</key>
-						<string>virtual-2.jpg</string>
-						<key>image</key>
-						<string>floorplan-2.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>3</integer>
-						<key>virtual_tour</key>
-						<string>virtual-3.jpg</string>
-						<key>image</key>
-						<string>floorplan-3.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>3</integer>
-				<key>latitude</key>
-				<real>43.684601</real>
-				<key>longitude</key>
-				<real>-79.357209</real>
-				<key>name</key>
-				<string>Skyy</string>
-				<key>header_image</key>
-				<string>header-2.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>4</integer>
-				<key>latitude</key>
-				<real>43.668182</real>
-				<key>longitude</key>
-				<real>-79.390168</real>
-				<key>name</key>
-				<string>The St. Thomas</string>
-				<key>header_image</key>
-				<string>header-3.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>5</integer>
-				<key>latitude</key>
-				<real>43.705639</real>
-				<key>longitude</key>
-				<real>-79.397206</real>
-				<key>name</key>
-				<string>Midtown</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>virtual_tour</key>
-						<string>virtual-1.jpg</string>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>2</integer>
-						<key>virtual_tour</key>
-						<string>virtual-2.jpg</string>
-						<key>image</key>
-						<string>floorplan-2.png</string>
-					</dict>
-					<dict>
-						<key>id</key>
-						<integer>3</integer>
-						<key>virtual_tour</key>
-						<string>virtual-3.jpg</string>
-						<key>image</key>
-						<string>floorplan-3.png</string>
-					</dict>
-				</array>
-			</dict>
-		</array>
 		<key>id</key>
 		<integer>2</integer>
 		<key>latitude</key>
-		<real>43.719472</real>
+		<real>45.279718</real>
 		<key>longitude</key>
-		<real>-79.383774</real>
+		<real>-75.736313</real>
 		<key>name</key>
 		<string>Ottawa</string>
 		<key>image</key>
 		<string>tab-ottawa.jpg</string>
 		<key>image_on</key>
 		<string>tab-ottawa-on.jpg</string>
-	</dict>
-	<dict>
 		<key>properties</key>
 		<array>
 			<dict>
+				<key>address</key>
+				<string>796 Clearbrook Drive,
+Nepean, ON
+K2J 0B9</string>
+				<key>id</key>
+				<integer>7</integer>
+				<key>longitude</key>
+				<real>-75.718203</real>
+				<key>latitude</key>
+				<real>45.276004</real>
+				<key>name</key>
+				<string>Minto Chapman Mills</string>
+				<key>header_image</key>
+				<string>header-chapman-mills.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
 				<key>id</key>
 				<integer>1</integer>
 				<key>longitude</key>
-				<real>-79.410574</real>
+				<real>-75.480891</real>
 				<key>latitude</key>
-				<real>43.761331</real>
+				<real>45.449082</real>
 				<key>name</key>
-				<string>Spring</string>
+				<string>Minto Avalon</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-avalon.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -485,27 +1046,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -515,7 +1076,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -523,7 +1111,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -532,16 +1147,20 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>3-188 Paseo Private,
+Ottawa, ON
+K2G 4N7</string>
 				<key>id</key>
 				<integer>2</integer>
 				<key>longitude</key>
-				<real>-79.406004</real>
+				<real>-75.763693</real>
 				<key>latitude</key>
-				<real>43.642908</real>
+				<real>45.343248</real>
 				<key>name</key>
-				<string>King West</string>
+				<string>Minto Centro</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-centro.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -551,27 +1170,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -581,7 +1200,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -589,7 +1235,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -598,63 +1271,52 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>1095 Halton Terrace, 
+Kanata, ON
+K2W 1G8</string>
 				<key>id</key>
 				<integer>3</integer>
 				<key>latitude</key>
-				<real>43.684601</real>
+				<real>45.355206</real>
 				<key>longitude</key>
-				<real>-79.357209</real>
+				<real>-75.9337539</real>
 				<key>name</key>
-				<string>Skyy</string>
+				<string>Minto Morgan&apos;s Grant</string>
 				<key>header_image</key>
-				<string>header-2.jpg</string>
+				<string>header-morgans-grant.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
 						<key>id</key>
 						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>4</integer>
-				<key>latitude</key>
-				<real>43.668182</real>
-				<key>longitude</key>
-				<real>-79.390168</real>
-				<key>name</key>
-				<string>The St. Thomas</string>
-				<key>header_image</key>
-				<string>header-3.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>5</integer>
-				<key>latitude</key>
-				<real>43.705639</real>
-				<key>longitude</key>
-				<real>-79.397206</real>
-				<key>name</key>
-				<string>Midtown</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-1.jpg</string>
 						<key>image</key>
@@ -662,7 +1324,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -670,7 +1359,402 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
+				<key>id</key>
+				<integer>4</integer>
+				<key>latitude</key>
+				<real>45.433876</real>
+				<key>longitude</key>
+				<real>-75.515213</real>
+				<key>name</key>
+				<string>Minto Trails Edge</string>
+				<key>header_image</key>
+				<string>header-trails-edge.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>5</integer>
+				<key>latitude</key>
+				<real>45.300973</real>
+				<key>longitude</key>
+				<real>-75.934496</real>
+				<key>name</key>
+				<string>Minto Arcadia</string>
+				<key>header_image</key>
+				<string>header-arcadia.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>6</integer>
+				<key>latitude</key>
+				<real>45.212278</real>
+				<key>longitude</key>
+				<real>-75.6897929</real>
+				<key>name</key>
+				<string>Minto Mahogany</string>
+				<key>header_image</key>
+				<string>header-mahogany.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -679,6 +1763,8 @@
 				</array>
 			</dict>
 		</array>
+	</dict>
+	<dict>
 		<key>id</key>
 		<integer>3</integer>
 		<key>latitude</key>
@@ -691,21 +1777,147 @@
 		<string>tab-florida.jpg</string>
 		<key>header_image</key>
 		<string>tab-florida-on.jpg</string>
-	</dict>
-	<dict>
 		<key>properties</key>
 		<array>
 			<dict>
+				<key>address</key>
+				<string>796 Clearbrook Drive,
+Nepean, ON
+K2J 0B9</string>
+				<key>id</key>
+				<integer>7</integer>
+				<key>longitude</key>
+				<real>-75.718203</real>
+				<key>latitude</key>
+				<real>45.276004</real>
+				<key>name</key>
+				<string>Minto Chapman Mills</string>
+				<key>header_image</key>
+				<string>header-chapman-mills.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
 				<key>id</key>
 				<integer>1</integer>
 				<key>longitude</key>
-				<real>-79.410574</real>
+				<real>-75.480891</real>
 				<key>latitude</key>
-				<real>43.761331</real>
+				<real>45.449082</real>
 				<key>name</key>
-				<string>Spring</string>
+				<string>Minto Avalon</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-avalon.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -715,27 +1927,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -745,7 +1957,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -753,7 +1992,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -762,16 +2028,20 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>3-188 Paseo Private,
+Ottawa, ON
+K2G 4N7</string>
 				<key>id</key>
 				<integer>2</integer>
 				<key>longitude</key>
-				<real>-79.406004</real>
+				<real>-75.763693</real>
 				<key>latitude</key>
-				<real>43.642908</real>
+				<real>45.343248</real>
 				<key>name</key>
-				<string>King West</string>
+				<string>Minto Centro</string>
 				<key>header_image</key>
-				<string>header-1.jpg</string>
+				<string>header-centro.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -781,27 +2051,27 @@
 						<array>
 							<dict>
 								<key>x</key>
-								<integer>150</integer>
-								<key>y</key>
-								<integer>100</integer>
-								<key>text</key>
-								<string>Amazing something</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>200</integer>
-								<key>y</key>
-								<integer>150</integer>
-								<key>text</key>
-								<string>Yay for my condo</string>
-							</dict>
-							<dict>
-								<key>x</key>
-								<integer>50</integer>
+								<integer>88</integer>
 								<key>y</key>
 								<integer>75</integer>
 								<key>text</key>
-								<string>Awesome floors</string>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
 							</dict>
 						</array>
 						<key>virtual_tour</key>
@@ -811,7 +2081,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -819,7 +2116,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -828,63 +2152,52 @@
 				</array>
 			</dict>
 			<dict>
+				<key>address</key>
+				<string>1095 Halton Terrace, 
+Kanata, ON
+K2W 1G8</string>
 				<key>id</key>
 				<integer>3</integer>
 				<key>latitude</key>
-				<real>43.684601</real>
+				<real>45.355206</real>
 				<key>longitude</key>
-				<real>-79.357209</real>
+				<real>-75.9337539</real>
 				<key>name</key>
-				<string>Skyy</string>
+				<string>Minto Morgan&apos;s Grant</string>
 				<key>header_image</key>
-				<string>header-2.jpg</string>
+				<string>header-morgans-grant.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
 						<key>id</key>
 						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>4</integer>
-				<key>latitude</key>
-				<real>43.668182</real>
-				<key>longitude</key>
-				<real>-79.390168</real>
-				<key>name</key>
-				<string>The St. Thomas</string>
-				<key>header_image</key>
-				<string>header-3.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
-						<key>image</key>
-						<string>floorplan-1.png</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>5</integer>
-				<key>latitude</key>
-				<real>43.705639</real>
-				<key>longitude</key>
-				<real>-79.397206</real>
-				<key>name</key>
-				<string>Midtown</string>
-				<key>header_image</key>
-				<string>header-1.jpg</string>
-				<key>floorplans</key>
-				<array>
-					<dict>
-						<key>id</key>
-						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-1.jpg</string>
 						<key>image</key>
@@ -892,7 +2205,34 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>2</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-2.jpg</string>
 						<key>image</key>
@@ -900,7 +2240,402 @@
 					</dict>
 					<dict>
 						<key>id</key>
-						<integer>3</integer>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
+				<key>id</key>
+				<integer>4</integer>
+				<key>latitude</key>
+				<real>45.433876</real>
+				<key>longitude</key>
+				<real>-75.515213</real>
+				<key>name</key>
+				<string>Minto Trails Edge</string>
+				<key>header_image</key>
+				<string>header-trails-edge.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>5</integer>
+				<key>latitude</key>
+				<real>45.300973</real>
+				<key>longitude</key>
+				<real>-75.934496</real>
+				<key>name</key>
+				<string>Minto Arcadia</string>
+				<key>header_image</key>
+				<string>header-arcadia.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>6</integer>
+				<key>latitude</key>
+				<real>45.212278</real>
+				<key>longitude</key>
+				<real>-75.6897929</real>
+				<key>name</key>
+				<string>Minto Mahogany</string>
+				<key>header_image</key>
+				<string>header-mahogany.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
 						<key>virtual_tour</key>
 						<string>virtual-3.jpg</string>
 						<key>image</key>
@@ -909,6 +2644,8 @@
 				</array>
 			</dict>
 		</array>
+	</dict>
+	<dict>
 		<key>id</key>
 		<integer>4</integer>
 		<key>latitude</key>
@@ -921,6 +2658,873 @@
 		<string>tab-rentals.jpg</string>
 		<key>header_image</key>
 		<string>tab-rentals-on.jpg</string>
+		<key>properties</key>
+		<array>
+			<dict>
+				<key>address</key>
+				<string>796 Clearbrook Drive,
+Nepean, ON
+K2J 0B9</string>
+				<key>id</key>
+				<integer>7</integer>
+				<key>longitude</key>
+				<real>-75.718203</real>
+				<key>latitude</key>
+				<real>45.276004</real>
+				<key>name</key>
+				<string>Minto Chapman Mills</string>
+				<key>header_image</key>
+				<string>header-chapman-mills.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
+				<key>id</key>
+				<integer>1</integer>
+				<key>longitude</key>
+				<real>-75.480891</real>
+				<key>latitude</key>
+				<real>45.449082</real>
+				<key>name</key>
+				<string>Minto Avalon</string>
+				<key>header_image</key>
+				<string>header-avalon.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>3-188 Paseo Private,
+Ottawa, ON
+K2G 4N7</string>
+				<key>id</key>
+				<integer>2</integer>
+				<key>longitude</key>
+				<real>-75.763693</real>
+				<key>latitude</key>
+				<real>45.343248</real>
+				<key>name</key>
+				<string>Minto Centro</string>
+				<key>header_image</key>
+				<string>header-centro.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>1095 Halton Terrace, 
+Kanata, ON
+K2W 1G8</string>
+				<key>id</key>
+				<integer>3</integer>
+				<key>latitude</key>
+				<real>45.355206</real>
+				<key>longitude</key>
+				<real>-75.9337539</real>
+				<key>name</key>
+				<string>Minto Morgan&apos;s Grant</string>
+				<key>header_image</key>
+				<string>header-morgans-grant.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>204 Monaco Place,
+Orleans, ON
+K4A 0G9</string>
+				<key>id</key>
+				<integer>4</integer>
+				<key>latitude</key>
+				<real>45.433876</real>
+				<key>longitude</key>
+				<real>-75.515213</real>
+				<key>name</key>
+				<string>Minto Trails Edge</string>
+				<key>header_image</key>
+				<string>header-trails-edge.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>5</integer>
+				<key>latitude</key>
+				<real>45.300973</real>
+				<key>longitude</key>
+				<real>-75.934496</real>
+				<key>name</key>
+				<string>Minto Arcadia</string>
+				<key>header_image</key>
+				<string>header-arcadia.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string></string>
+				<key>id</key>
+				<integer>6</integer>
+				<key>latitude</key>
+				<real>45.212278</real>
+				<key>longitude</key>
+				<real>-75.6897929</real>
+				<key>name</key>
+				<string>Minto Mahogany</string>
+				<key>header_image</key>
+				<string>header-mahogany.jpg</string>
+				<key>floorplans</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-1.jpg</string>
+						<key>image</key>
+						<string>floorplan-1.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-2.jpg</string>
+						<key>image</key>
+						<string>floorplan-2.png</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<integer>1</integer>
+						<key>bubbles</key>
+						<array>
+							<dict>
+								<key>x</key>
+								<integer>88</integer>
+								<key>y</key>
+								<integer>75</integer>
+								<key>text</key>
+								<string>We use low-E, double-glazed windows.</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>328</integer>
+								<key>y</key>
+								<integer>133</integer>
+								<key>text</key>
+								<string>Choose a moulding upgrade</string>
+							</dict>
+							<dict>
+								<key>x</key>
+								<integer>175</integer>
+								<key>y</key>
+								<integer>305</integer>
+								<key>text</key>
+								<string>Pick between 25 styles of flooring</string>
+							</dict>
+						</array>
+						<key>virtual_tour</key>
+						<string>virtual-3.jpg</string>
+						<key>image</key>
+						<string>floorplan-3.png</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
 	</dict>
 </array>
 </plist>
