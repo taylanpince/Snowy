@@ -7,6 +7,7 @@
 //
 
 #import "HomeView.h"
+#import "SectionButton.h"
 
 
 @implementation HomeView
@@ -38,7 +39,7 @@
 			[NSDictionary dictionaryWithObjectsAndKeys:@"Minto\nProperties", @"label", @"button-properties.png", @"image_path", nil],
 			[NSDictionary dictionaryWithObjectsAndKeys:@"Find a\nMinto Rep", @"label", @"button-reps.png", @"image_path", nil],
 			[NSDictionary dictionaryWithObjectsAndKeys:@"Floorplans", @"label", @"button-floorplans.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Budget Calculator", @"label", @"button-calculator.png", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Budget\nCalculator", @"label", @"button-calculator.png", @"image_path", nil],
 			[NSDictionary dictionaryWithObjectsAndKeys:@"Share\nwith a friend", @"label", @"button-share.png", @"image_path", nil],
 			[NSDictionary dictionaryWithObjectsAndKeys:@"Reviews\nand Ratings", @"label", @"button-reviews.png", @"image_path", nil],
 			[NSDictionary dictionaryWithObjectsAndKeys:@"My\nNeighbourhoods", @"label", @"button-neighborhoods.png", @"image_path", nil],
@@ -48,8 +49,10 @@
 		NSMutableArray *sectionButtons = [[NSMutableArray alloc] init];
 		
 		for (NSDictionary *section in sections) {
-			UIImageView *button = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[section objectForKey:@"image_path"]]];
+			SectionButton *button = [[SectionButton alloc] initWithFrame:CGRectZero];
 			
+			[button.iconView setImage:[UIImage imageNamed:[section objectForKey:@"image_path"]]];
+			[button.titleLabel setText:[section objectForKey:@"label"]];
 			[self addSubview:button];
 			[sectionButtons addObject:button];
 			[button release];
@@ -73,8 +76,8 @@
 	CGFloat topOffset = 0.0;
 	CGFloat leftOffset = 0.0;
 	
-	for (UIImageView *button in tabs) {
-		[button setFrame:CGRectMake(20.0 + leftOffset, 37.0 + topOffset, 67.0, 51.0)];
+	for (SectionButton *button in tabs) {
+		[button setFrame:CGRectMake(leftOffset, topOffset, 106.0, 125.0)];
 		
 		index += (index == 3) ? 2 : 1;
 		leftOffset = (index % 3 == 0) ? 0.0 : leftOffset + 106.0;

@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EC8B7A3C1118F36000519F86</string>
+						<string>EC8B7A9A1118FBC800519F86</string>
 						<key>history</key>
 						<array>
 							<string>EC8B781811188D5300519F86</string>
@@ -320,7 +320,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>22</integer>
 									<integer>10</integer>
 									<integer>0</integer>
 								</array>
@@ -361,7 +361,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>ECEC1BCA110E34FA0064225E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HomeView.m</string>
+								<string>SectionButton.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -369,11 +369,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>ECEC1BCB110E34FA0064225E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HomeView.m</string>
+										<string>SectionButton.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EC8B7A3B1118F36000519F86</string>
+										<string>EC8B7A991118FBC800519F86</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BF5110E3BAF0064225E</string>
@@ -435,14 +435,14 @@
 											<string>EC8B79661118E63C00519F86</string>
 											<string>EC8B79671118E63C00519F86</string>
 											<string>EC8B797A1118E74000519F86</string>
-											<string>EC8B79B01118EDCB00519F86</string>
-											<string>EC8B79B11118EDCB00519F86</string>
-											<string>EC8B79B21118EDCB00519F86</string>
 											<string>EC8B7A1F1118F2D000519F86</string>
 											<string>EC8B7A201118F2D000519F86</string>
 											<string>EC8B7A211118F2D000519F86</string>
-											<string>EC8B7A221118F2D000519F86</string>
-											<string>EC8B7A3A1118F34F00519F86</string>
+											<string>EC8B7A4A1118F9E500519F86</string>
+											<string>EC8B7A581118FB0E00519F86</string>
+											<string>EC8B7A811118FB6C00519F86</string>
+											<string>EC8B7A971118FBC800519F86</string>
+											<string>EC8B7A981118FBC800519F86</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

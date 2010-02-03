@@ -8,7 +8,15 @@
 
 
 @interface SectionButton : UIView {
+	UILabel *titleLabel;
+	UIImageView *iconView;
 	
+	NSInteger sectionIndex;
 }
+
+@property (nonatomic, retain) UILabel *titleLabel;
+@property (nonatomic, retain) UIImageView *iconView;
+
+@property (nonatomic, assign, setter=setSectionIndex:) NSInteger sectionIndex;
 
 @end
