@@ -15,6 +15,8 @@
 	UIButton *bookmarkButton;
 	UIButton *infoButton;
 	
+	BOOL bookmarked;
+	
 	id <FloorplanViewDelegate> delegate;
 }
 
@@ -22,6 +24,8 @@
 @property (nonatomic, retain) UIImageView *imageView;
 @property (nonatomic, retain) UIButton *bookmarkButton;
 @property (nonatomic, retain) UIButton *infoButton;
+
+@property (nonatomic, assign, setter=setBookmarked:) BOOL bookmarked;
 
 @property (nonatomic, assign) id <FloorplanViewDelegate> delegate;
 

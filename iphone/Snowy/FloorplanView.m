@@ -17,13 +17,17 @@
 
 @implementation FloorplanView
 
-@synthesize imagePath, imageView, bookmarkButton, infoButton, delegate;
+@synthesize imagePath, imageView, bookmarkButton, infoButton, bookmarked, delegate;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
 		imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
-		bookmarkButton = [[UIButton buttonWithType:UIButtonTypeContactAdd] retain];
-		infoButton = [[UIButton buttonWithType:UIButtonTypeInfoDark] retain];
+		bookmarkButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
+		infoButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
+		
+		[bookmarkButton setImage:[UIImage imageNamed:@"bookmark.png"] forState:UIControlStateNormal];
+		[bookmarkButton setImage:[UIImage imageNamed:@"bookmark-on.png"] forState:UIControlStateSelected];
+		[infoButton setImage:[UIImage imageNamed:@"info.png"] forState:UIControlStateNormal];
 		
 		[infoButton addTarget:self action:@selector(didTouchInfoButton:) forControlEvents:UIControlEventTouchUpInside];
 		[bookmarkButton	addTarget:self action:@selector(didTouchBookmarkButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -32,9 +36,19 @@
 		[self addSubview:bookmarkButton];
 		[self addSubview:infoButton];
 		[self setBackgroundColor:[UIColor darkGrayColor]];
+		
+		bookmarked = NO;
     }
 	
     return self;
+}
+
+- (void)setBookmarked:(BOOL)state {
+	if (state != bookmarked) {
+		bookmarked = state;
+		
+		[bookmarkButton setSelected:bookmarked];
+	}
 }
 
 - (void)setImagePath:(NSString *)newImagePath {
@@ -61,6 +75,7 @@
 }
 
 - (void)didTouchBookmarkButton:(id)sender {
+	[self setBookmarked:!bookmarked];
 	[delegate floorplanViewDidTouchBookmarkButton:self];
 }
 

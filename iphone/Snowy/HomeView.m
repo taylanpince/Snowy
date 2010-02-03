@@ -35,14 +35,14 @@
 		[labelItem release];
 		
 		NSArray *sections = [NSArray arrayWithObjects:
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Minto\nProperties", @"label", @"button-properties.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Find a\nMinto Rep", @"label", @"button-reps.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Floorplans", @"label", @"button-floorplans.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Budget\nCalculator", @"label", @"button-calculator.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Share\nwith a friend", @"label", @"button-share.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Reviews\nand Ratings", @"label", @"button-reviews.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"My\nNeighbourhoods", @"label", @"button-neighborhoods.png", @"image_path", nil],
-			[NSDictionary dictionaryWithObjectsAndKeys:@"Minto\nTips", @"label", @"button-tips.png", @"image_path", nil], nil
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Minto\nProperties", @"label", @"button-properties", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Find a\nMinto Rep", @"label", @"button-reps", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Floorplans", @"label", @"button-floorplans", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Budget\nCalculator", @"label", @"button-calculator", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Share\nwith a friend", @"label", @"button-share", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Reviews\nand Ratings", @"label", @"button-reviews", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"My\nNeighbourhoods", @"label", @"button-neighborhoods", @"image_path", nil],
+			[NSDictionary dictionaryWithObjectsAndKeys:@"Minto\nTips", @"label", @"button-tips", @"image_path", nil], nil
 		];
 		
 		NSMutableArray *sectionButtons = [[NSMutableArray alloc] init];
@@ -50,7 +50,8 @@
 		for (NSDictionary *section in sections) {
 			SectionButton *button = [[SectionButton alloc] initWithFrame:CGRectZero];
 			
-			[button.iconButton setImage:[UIImage imageNamed:[section objectForKey:@"image_path"]] forState:UIControlStateNormal];
+			[button.iconButton setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@.png", [section objectForKey:@"image_path"]]] forState:UIControlStateNormal];
+			[button.iconButton setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@-on.png", [section objectForKey:@"image_path"]]] forState:UIControlStateHighlighted];
 			[button.titleLabel setText:[section objectForKey:@"label"]];
 			[button setSectionIndex:[sections indexOfObject:section]];
 			[button setDelegate:self];

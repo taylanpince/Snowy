@@ -33,9 +33,11 @@
 		[self addSubview:scrollView];
 		[scrollView addSubview:imageView];
 		
-		infoButton = [[UIButton buttonWithType:UIButtonTypeInfoDark] retain];
+		infoButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
 		
+		[infoButton setImage:[UIImage imageNamed:@"info.png"] forState:UIControlStateNormal];
 		[infoButton addTarget:self action:@selector(didTouchInfoButton:) forControlEvents:UIControlEventTouchUpInside];
+		
 		[self addSubview:infoButton];
 		
 		toolBar = [[UIToolbar alloc] initWithFrame:CGRectZero];
@@ -91,12 +93,14 @@
 		for (Bubble *bubble in newInfoBubbles) {
 			UIButton *bubbleButton = [UIButton buttonWithType:UIButtonTypeCustom];
 			
-			[bubbleButton setFrame:CGRectMake(bubble.position_x, bubble.position_y, 20.0, 20.0)];
+			[bubbleButton setFrame:CGRectMake(bubble.position_x, bubble.position_y, 27.0, 27.0)];
 			[bubbleButton setTitle:bubble.label forState:UIControlStateNormal];
 			[bubbleButton setImage:[UIImage imageNamed:@"bubble.png"] forState:UIControlStateNormal];
+			[bubbleButton setImage:[UIImage imageNamed:@"bubble-on.png"] forState:UIControlStateSelected];
 			[bubbleButton addTarget:self action:@selector(didTouchInfoBubble:) forControlEvents:UIControlEventTouchUpInside];
 			
 			[scrollView addSubview:bubbleButton];
+			[bubbles addObject:bubbleButton];
 		}
 		
 		infoBubbles = [[NSArray alloc] initWithArray:bubbles];
@@ -117,6 +121,10 @@
 }
 
 - (void)didTouchInfoBubble:(id)sender {
+	for (UIButton *bubbleButton in infoBubbles) {
+		[bubbleButton setSelected:(UIButton *)sender == bubbleButton];
+	}
+	
 	[(UILabel *)[[[toolBar items] objectAtIndex:0] customView] setText:[(UIButton *)sender titleForState:UIControlStateNormal]];
 }
 

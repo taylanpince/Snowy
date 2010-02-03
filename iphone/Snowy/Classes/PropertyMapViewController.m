@@ -8,6 +8,7 @@
 
 #import "Property.h"
 #import "PropertyMapViewController.h"
+#import "PropertyDetailViewController.h"
 
 #define cellIdentifier @"mapCell"
 
@@ -74,7 +75,11 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-	NSLog(@"PROPERTY TAPPED");
+	PropertyDetailViewController *controller = [[PropertyDetailViewController alloc] init];
+	
+	[controller setProperty:(Property *)[view annotation]];
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
 }
 
 - (void)didReceiveMemoryWarning {
