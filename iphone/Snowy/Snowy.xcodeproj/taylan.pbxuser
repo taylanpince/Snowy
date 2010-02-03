@@ -44,7 +44,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = ECEC1BBE110E34E90064225E /* Snowy */;
-		activeSDKPreference = iphonesimulator3.0;
+		activeSDKPreference = iphoneos3.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Snowy */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Snowy */,
@@ -300,6 +300,10 @@
 			EC2922EC111A26FD00BC5E0C /* PBXTextBookmark */ = EC2922EC111A26FD00BC5E0C /* PBXTextBookmark */;
 			EC2922EE111A274100BC5E0C /* PBXTextBookmark */ = EC2922EE111A274100BC5E0C /* PBXTextBookmark */;
 			EC2922EF111A274400BC5E0C /* PBXTextBookmark */ = EC2922EF111A274400BC5E0C /* PBXTextBookmark */;
+			EC2922F4111A278400BC5E0C /* PBXTextBookmark */ = EC2922F4111A278400BC5E0C /* PBXTextBookmark */;
+			EC2922F5111A278500BC5E0C /* PBXTextBookmark */ = EC2922F5111A278500BC5E0C /* PBXTextBookmark */;
+			EC2922F7111A28D100BC5E0C /* PBXTextBookmark */ = EC2922F7111A28D100BC5E0C /* PBXTextBookmark */;
+			EC2922FD111A292F00BC5E0C /* PBXTextBookmark */ = EC2922FD111A292F00BC5E0C /* PBXTextBookmark */;
 			EC8B78291118928600519F86 = EC8B78291118928600519F86 /* PBXTextBookmark */;
 			EC8B78861118A09200519F86 = EC8B78861118A09200519F86 /* PBXBookmark */;
 			EC8B79471118E63C00519F86 = EC8B79471118E63C00519F86 /* PBXBookmark */;
@@ -2548,6 +2552,46 @@
 		vrLoc = 2140;
 	};
 	EC2922EF111A274400BC5E0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */;
+		name = "PropertyDetailViewController.m: 99";
+		rLen = 0;
+		rLoc = 2382;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 1669;
+	};
+	EC2922F4111A278400BC5E0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */;
+		name = "PropertyDetailViewController.m: 99";
+		rLen = 0;
+		rLoc = 2382;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 1669;
+	};
+	EC2922F5111A278500BC5E0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */;
+		name = "PropertyDetailViewController.m: 99";
+		rLen = 0;
+		rLoc = 2382;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1669;
+	};
+	EC2922F7111A28D100BC5E0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */;
+		name = "PropertyDetailViewController.m: 99";
+		rLen = 0;
+		rLoc = 2382;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 2140;
+	};
+	EC2922FD111A292F00BC5E0C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */;
 		name = "PropertyDetailViewController.m: 99";
