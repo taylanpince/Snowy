@@ -9,14 +9,21 @@
 #import "SectionButton.h"
 
 
+@interface SectionButton (PrivateMethods)
+- (void)didTouchIconButton:(id)sender;
+@end
+
+
 @implementation SectionButton
 
-@synthesize titleLabel, iconView, sectionIndex;
+@synthesize titleLabel, iconButton, sectionIndex, delegate;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
 		titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-		iconView = [[UIImageView alloc] initWithFrame:CGRectZero];
+		iconButton = [[UIButton alloc] initWithFrame:CGRectZero];
+		
+		[iconButton addTarget:self action:@selector(didTouchIconButton:) forControlEvents:UIControlEventTouchUpInside];
 		
 		[titleLabel setFont:[UIFont boldSystemFontOfSize:11.0]];
 		[titleLabel setTextAlignment:UITextAlignmentCenter];
@@ -26,7 +33,7 @@
 		[titleLabel setLineBreakMode:UILineBreakModeWordWrap];
 		
 		[self addSubview:titleLabel];
-		[self addSubview:iconView];
+		[self addSubview:iconButton];
 		[self setBackgroundColor:[UIColor whiteColor]];
     }
 	
@@ -43,12 +50,16 @@
 	[super layoutSubviews];
 	
 	[titleLabel setFrame:CGRectMake(0.0, 71.0, self.bounds.size.width, 40.0)];
-	[iconView setFrame:CGRectMake(20.0, 20.0, 67.0, 51.0)];
+	[iconButton setFrame:CGRectMake(20.0, 20.0, 67.0, 51.0)];
+}
+
+- (void)didTouchIconButton:(id)sender {
+	[delegate didTouchSectionButton:self];
 }
 
 - (void)dealloc {
 	[titleLabel release];
-	[iconView release];
+	[iconButton release];
     [super dealloc];
 }
 

@@ -7,7 +7,6 @@
 //
 
 #import "HomeView.h"
-#import "SectionButton.h"
 
 
 @implementation HomeView
@@ -51,8 +50,11 @@
 		for (NSDictionary *section in sections) {
 			SectionButton *button = [[SectionButton alloc] initWithFrame:CGRectZero];
 			
-			[button.iconView setImage:[UIImage imageNamed:[section objectForKey:@"image_path"]]];
+			[button.iconButton setImage:[UIImage imageNamed:[section objectForKey:@"image_path"]] forState:UIControlStateNormal];
 			[button.titleLabel setText:[section objectForKey:@"label"]];
+			[button setSectionIndex:[sections indexOfObject:section]];
+			[button setDelegate:self];
+			
 			[self addSubview:button];
 			[sectionButtons addObject:button];
 			[button release];
@@ -91,6 +93,10 @@
 	[super drawRect:rect];
 	
 	[[UIImage imageNamed:@"logo.png"] drawInRect:CGRectMake(121.0, 149.0, 77.0, 77.0)];
+}
+
+- (void)didTouchSectionButton:(SectionButton *)section {
+	[delegate homeView:self didSelectTab:section.sectionIndex];
 }
 
 - (void)dealloc {

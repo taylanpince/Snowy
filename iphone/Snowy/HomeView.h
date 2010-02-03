@@ -6,9 +6,12 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
+#import "SectionButton.h"
+
+
 @protocol HomeViewDelegate;
 
-@interface HomeView : UIView {
+@interface HomeView : UIView <SectionButtonDelegate> {
 	NSArray *tabs;
 	UIToolbar *toolBar;
 	

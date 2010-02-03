@@ -63,7 +63,7 @@
 	
 	[locationsList release];
 	
-	UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gears.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(didTapSettingsButton:)];
+	UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gears.png"] style:UIBarButtonItemStylePlain target:self action:@selector(didTapSettingsButton:)];
 	
 	[self.navigationItem setRightBarButtonItem:settingsButton];
 	[settingsButton release];
@@ -96,7 +96,40 @@
 }
 
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
-	// TODO: Launch whatever tab was pressed
+	switch (tabIndex) {
+		case 0: {
+			NSLog(@"PROPERTIES");
+			break;
+		}
+		case 1: {
+			NSLog(@"FIND A REP");
+			break;
+		}
+		case 2: {
+			NSLog(@"FLOORPLANS");
+			break;
+		}
+		case 3: {
+			NSLog(@"CALCULATOR");
+			break;
+		}
+		case 4: {
+			NSLog(@"SHARE");
+			break;
+		}
+		case 5: {
+			NSLog(@"REVIEWS");
+			break;
+		}
+		case 6: {
+			NSLog(@"NEIGHBOURHOODS");
+			break;
+		}
+		case 7: {
+			NSLog(@"TIPS");
+			break;
+		}
+	}
 }
 
 - (void)locationViewControllerDidClose:(LocationViewController *)controller {
