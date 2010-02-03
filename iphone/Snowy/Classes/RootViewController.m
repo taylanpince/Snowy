@@ -10,6 +10,7 @@
 #import "RootViewController.h"
 #import "LocationViewController.h"
 #import "PropertyViewController.h"
+#import "PropertyMapViewController.h"
 
 
 @interface RootViewController (PrivateMethods)
@@ -99,7 +100,13 @@
 - (void)homeView:(HomeView *)homeView didSelectTab:(NSInteger)tabIndex {
 	switch (tabIndex) {
 		case 0: {
-			NSLog(@"PROPERTIES");
+			NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+			Location *location = [locations objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
+			PropertyMapViewController *controller = [[PropertyMapViewController alloc] init];
+			
+			[controller setLocation:location];
+			[self.navigationController pushViewController:controller animated:YES];
+			[controller release];
 			break;
 		}
 		case 1: {

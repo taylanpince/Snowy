@@ -12,12 +12,11 @@
 
 @implementation Property
 
-@synthesize name, image_path, header_image_path, floorplans;
+@synthesize name, header_image_path, floorplans, latitude, longitude;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
 		self.name = [dict objectForKey:@"name"];
-		self.image_path	= [dict objectForKey:@"image"];
 		self.header_image_path = [dict objectForKey:@"header_image"];
 		self.floorplans = [[NSMutableArray alloc] init];
 		
@@ -27,14 +26,34 @@
 			[self.floorplans addObject:floorplan];
 			[floorplan release];
 		}
+		
+		self.latitude = [[dict objectForKey:@"latitude"] doubleValue];
+		self.longitude = [[dict objectForKey:@"longitude"] doubleValue];
 	}
 	
 	return self;
 }
 
+- (CLLocationCoordinate2D)coordinate {
+	CLLocationCoordinate2D location;
+	
+	location.latitude = self.latitude;
+	location.longitude = self.longitude;
+	
+	return location;
+}
+
+- (NSString *)title {
+	return self.name;
+}
+
+- (NSString *)subtitle {
+	return self.name;
+}
+
 - (void)dealloc {
 	[name release];
-	[image_path release];
+	[header_image_path release];
 	[floorplans release];
 	[super dealloc];
 }

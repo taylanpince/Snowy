@@ -52,6 +52,8 @@
 		EC8B793C1118E55300519F86 /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B793B1118E55300519F86 /* gears.png */; };
 		EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B79A81118EB3700519F86 /* SectionButton.m */; };
 		EC8B7B1E1119288F00519F86 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B7B1D1119288F00519F86 /* header.jpg */; };
+		EC8B7B43111929A600519F86 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8B7B42111929A600519F86 /* MapKit.framework */; };
+		EC8B7B53111929C100519F86 /* PropertyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B7B52111929C100519F86 /* PropertyMapViewController.m */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
@@ -125,6 +127,9 @@
 		EC8B79A71118EB3700519F86 /* SectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionButton.h; sourceTree = "<group>"; };
 		EC8B79A81118EB3700519F86 /* SectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionButton.m; sourceTree = "<group>"; };
 		EC8B7B1D1119288F00519F86 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		EC8B7B42111929A600519F86 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC8B7B51111929C100519F86 /* PropertyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyMapViewController.h; sourceTree = "<group>"; };
+		EC8B7B52111929C100519F86 /* PropertyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMapViewController.m; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				EC8B7B43111929A600519F86 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +175,8 @@
 				EC21E454110F43DC000B22F3 /* PropertyViewController.m */,
 				ECEC1C5C110E4B820064225E /* FloorplansViewController.h */,
 				ECEC1C5D110E4B820064225E /* FloorplansViewController.m */,
+				EC8B7B51111929C100519F86 /* PropertyMapViewController.h */,
+				EC8B7B52111929C100519F86 /* PropertyMapViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -218,6 +226,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC8B7B42111929A600519F86 /* MapKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
@@ -421,6 +430,7 @@
 				EC8B781C11188E3C00519F86 /* Bubble.m in Sources */,
 				EC8B789D1118A2EC00519F86 /* HomeView.m in Sources */,
 				EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */,
+				EC8B7B53111929C100519F86 /* PropertyMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

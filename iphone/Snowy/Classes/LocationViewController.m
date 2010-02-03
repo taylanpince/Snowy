@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[self setTitle:@"I'm looking for..."];
+	[self setTitle:@"I'm looking for…"];
 	[self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.08 green:0.247 blue:0.482 alpha:1.0]];
 	
 	[(LocationView *)[self view] setLocations:locations];

@@ -12,12 +12,18 @@
 	NSString *image_path;
 	NSString *image_on_path;
 	NSMutableArray *properties;
+	
+	double latitude;
+	double longitude;
 }
 
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *image_path;
 @property (nonatomic, retain) NSString *image_on_path;
 @property (nonatomic, retain) NSMutableArray *properties;
+
+@property (nonatomic, assign) double latitude;
+@property (nonatomic, assign) double longitude;
 
 - (id)initWithDictionary:(NSDictionary *)dict;
 

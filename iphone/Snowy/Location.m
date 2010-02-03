@@ -12,7 +12,7 @@
 
 @implementation Location
 
-@synthesize name, image_path, image_on_path, properties;
+@synthesize name, image_path, image_on_path, properties, latitude, longitude;
 
 - (id)initWithDictionary:(NSDictionary *)dict {
 	if (self = [super init]) {
@@ -27,6 +27,9 @@
 			[self.properties addObject:property];
 			[property release];
 		}
+		
+		self.latitude = [[dict objectForKey:@"latitude"] doubleValue];
+		self.longitude = [[dict objectForKey:@"longitude"] doubleValue];
 	}
 	
 	return self;
