@@ -9,6 +9,7 @@
 #import "Location.h"
 #import "RootViewController.h"
 #import "LocationViewController.h"
+#import "PropertyViewController.h"
 
 
 @interface RootViewController (PrivateMethods)
@@ -106,7 +107,13 @@
 			break;
 		}
 		case 2: {
-			NSLog(@"FLOORPLANS");
+			NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+			Location *location = [locations objectAtIndex:[prefs integerForKey:@"activeLocation"] - 1];
+			PropertyViewController *controller = [[PropertyViewController alloc] init];
+			
+			[controller setProperties:location.properties];
+			[self.navigationController pushViewController:controller animated:YES];
+			[controller release];
 			break;
 		}
 		case 3: {

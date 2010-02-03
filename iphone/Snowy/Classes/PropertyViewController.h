@@ -6,13 +6,13 @@
 //  Copyright 2010 Hippo Foundry. All rights reserved.
 //
 
-#import "Property.h"
 
-
-@interface PropertyViewController : UITableViewController {
-	Property *property;
+@interface PropertyViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+	NSArray *properties;
+	UIImageView *headerView;
 }
 
-@property (nonatomic, retain) Property *property;
+@property (nonatomic, retain) NSArray *properties;
+@property (nonatomic, retain) UIImageView *headerView;
 
 @end

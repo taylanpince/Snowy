@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EC8B7AE01119230000519F86</string>
+						<string>EC8B7B3B1119294400519F86</string>
 						<key>history</key>
 						<array>
-							<string>EC8B781811188D5300519F86</string>
+							<string>EC8B7B28111928E900519F86</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -312,7 +312,6 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>ECEC1C1D110E43980064225E</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -320,7 +319,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
+									<integer>31</integer>
 									<integer>23</integer>
 									<integer>0</integer>
 								</array>
@@ -361,7 +360,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>ECEC1BCA110E34FA0064225E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RootViewController.m</string>
+								<string>PropertyViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -369,11 +368,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>ECEC1BCB110E34FA0064225E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RootViewController.m</string>
+										<string>PropertyViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EC8B7ADF1119230000519F86</string>
+										<string>EC8B7B3A1119294400519F86</string>
 										<key>history</key>
 										<array>
 											<string>ECEC1BF5110E3BAF0064225E</string>
@@ -392,10 +391,7 @@
 											<string>EC8B78281118928600519F86</string>
 											<string>EC8B78291118928600519F86</string>
 											<string>EC8B782B1118928600519F86</string>
-											<string>EC8B782C1118928600519F86</string>
 											<string>EC8B78861118A09200519F86</string>
-											<string>EC8B78A41118E0CE00519F86</string>
-											<string>EC8B78A51118E0CE00519F86</string>
 											<string>EC8B78A81118E0CE00519F86</string>
 											<string>EC8B792D1118E47700519F86</string>
 											<string>EC8B792E1118E47700519F86</string>
@@ -433,8 +429,6 @@
 											<string>EC8B79641118E63C00519F86</string>
 											<string>EC8B79651118E63C00519F86</string>
 											<string>EC8B79661118E63C00519F86</string>
-											<string>EC8B79671118E63C00519F86</string>
-											<string>EC8B7A1F1118F2D000519F86</string>
 											<string>EC8B7A201118F2D000519F86</string>
 											<string>EC8B7A211118F2D000519F86</string>
 											<string>EC8B7A971118FBC800519F86</string>
@@ -442,7 +436,12 @@
 											<string>EC8B7AAD1119214800519F86</string>
 											<string>EC8B7AAE1119214800519F86</string>
 											<string>EC8B7AAF1119214800519F86</string>
-											<string>EC8B7ADE111922FB00519F86</string>
+											<string>EC8B7AE2111923E100519F86</string>
+											<string>EC8B7AF31119268700519F86</string>
+											<string>EC8B7B02111927E000519F86</string>
+											<string>EC8B7B2D1119291800519F86</string>
+											<string>EC8B7B331119292900519F86</string>
+											<string>EC8B7B391119294200519F86</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

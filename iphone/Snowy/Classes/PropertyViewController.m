@@ -7,7 +7,6 @@
 //
 
 #import "Property.h"
-#import <QuartzCore/QuartzCore.h>
 #import "PropertyViewController.h"
 #import "FloorplansViewController.h"
 
@@ -16,12 +15,26 @@
 
 @implementation PropertyViewController
 
-@synthesize property;
+@synthesize properties, headerView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[self setTitle:property.name];
+	[self setTitle:@"Choose a Property"];
+	[self.view setBackgroundColor:[UIColor colorWithRed:0.08 green:0.247 blue:0.482 alpha:1.0]];
+	
+	headerView = [[UIImageView alloc] initWithFrame:CGRectMake(4.0, 0.0, 312.0, 206.0)];
+	
+	[headerView setImage:[UIImage imageNamed:@"header.jpg"]];
+	[self.view addSubview:headerView];
+	
+	UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(4.0, 206.0, 312.0, 212.0)];
+	
+	[tableView setDelegate:self];
+	[tableView setDataSource:self];
+	
+	[self.view addSubview:tableView];
+	[tableView release];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,7 +50,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return [properties count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -46,76 +59,46 @@
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
 		
-		[cell.imageView.layer setCornerRadius:10.0];
-		[cell.imageView.layer setMasksToBounds:YES];
-		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+		[cell setAccessoryType:UITableViewCellAccessoryDetailDisclosureButton];
 	}
 	
-	[cell setSelectionStyle:((indexPath.row > 0) ? UITableViewCellSelectionStyleBlue : UITableViewCellSelectionStyleNone)];
+	Property *property = [properties objectAtIndex:indexPath.row];
 	
-	switch (indexPath.row) {
-		case 0: {
-			[cell.imageView setImage:[UIImage imageNamed:property.header_image_path]];
-			break;
-		}
-		case 1: {
-			[cell.textLabel setText:@"Floorplans"];
-			break;
-		}
-		case 2: {
-			[cell.textLabel setText:@"Budget Calculator"];
-			break;
-		}
-		case 3: {
-			[cell.textLabel setText:@"Choose a Rep"];
-			break;
-		}
-		case 4: {
-			[cell.textLabel setText:@"My Condo"];
-			break;
-		}
-	}
+	[cell.textLabel setText:property.name];
 	
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-	if (indexPath.row == 0) {
-		return 160.0;
-	} else {
-		return 40.0;
-	}
+	return 40.0;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	switch (indexPath.row) {
-		case 1: {
-			FloorplansViewController *controller = [[FloorplansViewController alloc] init];
-			
-			[controller setProperty:property];
-			[self.navigationController pushViewController:controller animated:YES];
-			[controller release];
-			break;
-		}
-		case 2: {
-			NSLog(@"LAUNCH CALCULATOR");
-			break;
-		}
-		case 3: {
-			NSLog(@"LAUNCH REP SELECTOR");
-			break;
-		}
-		case 4: {
-			NSLog(@"LAUNCH MY CONDO");
-			break;
-		}
-	}
+	Property *property = [properties objectAtIndex:indexPath.row];
 	
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDuration:0.75];
+	[UIView	setAnimationBeginsFromCurrentState:YES];
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:headerView cache:YES];
+	
+	[headerView setImage:[UIImage imageNamed:property.header_image_path]];
+	
+	[UIView commitAnimations];
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+	Property *property = [properties objectAtIndex:indexPath.row];
+	
+	FloorplansViewController *controller = [[FloorplansViewController alloc] init];
+	
+	[controller setProperty:property];
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
 }
 
 - (void)dealloc {
-	[property release];
+	[properties release];
+	[headerView release];
     [super dealloc];
 }
 

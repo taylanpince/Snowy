@@ -17,7 +17,7 @@
 				<key>image</key>
 				<string>king-west.jpg</string>
 				<key>header_image</key>
-				<string>header-king-west.jpg</string>
+				<string>header-1.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -73,7 +73,7 @@
 				<key>menu_image</key>
 				<string>tab-skyy.jpg</string>
 				<key>header_image</key>
-				<string>header-skyy.jpg</string>
+				<string>header-2.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -88,7 +88,7 @@
 				<key>menu_image</key>
 				<string>st-thomas.jpg</string>
 				<key>header_image</key>
-				<string>header-st-thomas.jpg</string>
+				<string>header-3.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>
@@ -103,7 +103,7 @@
 				<key>menu_image</key>
 				<string>midtown.jpg</string>
 				<key>header_image</key>
-				<string>header-midtown.jpg</string>
+				<string>header-1.jpg</string>
 				<key>floorplans</key>
 				<array>
 					<dict>

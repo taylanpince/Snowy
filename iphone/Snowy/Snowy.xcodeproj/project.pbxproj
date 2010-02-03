@@ -51,6 +51,7 @@
 		EC8B789D1118A2EC00519F86 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B789C1118A2EC00519F86 /* HomeView.m */; };
 		EC8B793C1118E55300519F86 /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B793B1118E55300519F86 /* gears.png */; };
 		EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B79A81118EB3700519F86 /* SectionButton.m */; };
+		EC8B7B1E1119288F00519F86 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8B7B1D1119288F00519F86 /* header.jpg */; };
 		ECB826E71110D3E000BB9EEA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB826E61110D3E000BB9EEA /* LocationViewController.m */; };
 		ECBC224211178613000B4AB7 /* VirtualTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC224111178613000B4AB7 /* VirtualTourView.m */; };
 		ECBC22E711188382000B4AB7 /* virtual-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBC22E411188382000B4AB7 /* virtual-1.jpg */; };
@@ -123,6 +124,7 @@
 		EC8B793B1118E55300519F86 /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
 		EC8B79A71118EB3700519F86 /* SectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionButton.h; sourceTree = "<group>"; };
 		EC8B79A81118EB3700519F86 /* SectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionButton.m; sourceTree = "<group>"; };
+		EC8B7B1D1119288F00519F86 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		ECB826E61110D3E000BB9EEA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		ECBC224011178613000B4AB7 /* VirtualTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTourView.h; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 		ECEC1C1D110E43980064225E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC8B7B1D1119288F00519F86 /* header.jpg */,
 				EC8B793B1118E55300519F86 /* gears.png */,
 				EC8B78531118A00200519F86 /* bookmark-on.png */,
 				EC8B78541118A00200519F86 /* bookmark.png */,
@@ -391,6 +394,7 @@
 				EC8B78711118A00200519F86 /* info.png in Resources */,
 				EC8B78721118A00200519F86 /* logo.png in Resources */,
 				EC8B793C1118E55300519F86 /* gears.png in Resources */,
+				EC8B7B1E1119288F00519F86 /* header.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
