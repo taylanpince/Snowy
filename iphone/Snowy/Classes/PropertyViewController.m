@@ -108,7 +108,7 @@
 	FloorplansViewController *controller = [[FloorplansViewController alloc] init];
 	
 	if ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0 && indexPath.section == 0) {
-		[controller setFloorplans:[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans]];
+		[controller setFloorplans:[[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] copy]];
 	} else {
 		Property *property = [properties objectAtIndex:indexPath.row];
 		
