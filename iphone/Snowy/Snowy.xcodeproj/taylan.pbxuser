@@ -44,7 +44,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = ECEC1BBE110E34E90064225E /* Snowy */;
-		activeSDKPreference = iphonesimulator3.1.2;
+		activeSDKPreference = iphoneos3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Snowy */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Snowy */,
@@ -635,6 +635,35 @@
 			EC8B7BAE11192FB800519F86 /* PBXTextBookmark */ = EC8B7BAE11192FB800519F86 /* PBXTextBookmark */;
 			EC8B7BAF11192FC600519F86 /* PBXTextBookmark */ = EC8B7BAF11192FC600519F86 /* PBXTextBookmark */;
 			EC8B7BB011192FC600519F86 /* PlistBookmark */ = EC8B7BB011192FC600519F86 /* PlistBookmark */;
+			EC8B7BB31119304B00519F86 /* PBXTextBookmark */ = EC8B7BB31119304B00519F86 /* PBXTextBookmark */;
+			EC8B7BB41119304B00519F86 /* PlistBookmark */ = EC8B7BB41119304B00519F86 /* PlistBookmark */;
+			EC8B7BB51119304B00519F86 /* PlistBookmark */ = EC8B7BB51119304B00519F86 /* PlistBookmark */;
+			EC8B7BB61119304B00519F86 /* PlistBookmark */ = EC8B7BB61119304B00519F86 /* PlistBookmark */;
+			EC8B7BB71119304B00519F86 /* PlistBookmark */ = EC8B7BB71119304B00519F86 /* PlistBookmark */;
+			EC8B7BB91119305100519F86 /* PBXTextBookmark */ = EC8B7BB91119305100519F86 /* PBXTextBookmark */;
+			EC8B7BBA1119305100519F86 /* PlistBookmark */ = EC8B7BBA1119305100519F86 /* PlistBookmark */;
+			EC8B7BBF1119305A00519F86 /* PlistBookmark */ = EC8B7BBF1119305A00519F86 /* PlistBookmark */;
+			EC8B7BC01119305A00519F86 /* PlistBookmark */ = EC8B7BC01119305A00519F86 /* PlistBookmark */;
+			EC8B7BC11119305A00519F86 /* PlistBookmark */ = EC8B7BC11119305A00519F86 /* PlistBookmark */;
+			EC8B7BC31119306600519F86 /* PlistBookmark */ = EC8B7BC31119306600519F86 /* PlistBookmark */;
+			EC8B7BC41119306700519F86 /* PlistBookmark */ = EC8B7BC41119306700519F86 /* PlistBookmark */;
+			EC8B7BC51119306700519F86 /* PlistBookmark */ = EC8B7BC51119306700519F86 /* PlistBookmark */;
+			EC8B7BC8111931F200519F86 /* PlistBookmark */ = EC8B7BC8111931F200519F86 /* PlistBookmark */;
+			EC8B7BC9111931F300519F86 /* PlistBookmark */ = EC8B7BC9111931F300519F86 /* PlistBookmark */;
+			EC8B7BCA111931F300519F86 /* PlistBookmark */ = EC8B7BCA111931F300519F86 /* PlistBookmark */;
+			EC8B7BCC1119320B00519F86 /* PlistBookmark */ = EC8B7BCC1119320B00519F86 /* PlistBookmark */;
+			EC8B7BD11119322700519F86 /* PlistBookmark */ = EC8B7BD11119322700519F86 /* PlistBookmark */;
+			EC8B7BD21119322700519F86 /* PBXTextBookmark */ = EC8B7BD21119322700519F86 /* PBXTextBookmark */;
+			EC8B7BD31119322700519F86 /* PBXTextBookmark */ = EC8B7BD31119322700519F86 /* PBXTextBookmark */;
+			EC8B7BD41119322700519F86 /* PBXTextBookmark */ = EC8B7BD41119322700519F86 /* PBXTextBookmark */;
+			EC8B7BD51119322700519F86 /* PBXTextBookmark */ = EC8B7BD51119322700519F86 /* PBXTextBookmark */;
+			EC8B7BD61119322700519F86 /* PBXTextBookmark */ = EC8B7BD61119322700519F86 /* PBXTextBookmark */;
+			EC8B7BD71119322700519F86 /* PlistBookmark */ = EC8B7BD71119322700519F86 /* PlistBookmark */;
+			EC8B7BD91119323000519F86 /* PlistBookmark */ = EC8B7BD91119323000519F86 /* PlistBookmark */;
+			EC8B7BDA1119323000519F86 /* PBXTextBookmark */ = EC8B7BDA1119323000519F86 /* PBXTextBookmark */;
+			EC8B7BDB1119323100519F86 /* PBXTextBookmark */ = EC8B7BDB1119323100519F86 /* PBXTextBookmark */;
+			EC8B7BDC1119323100519F86 /* PlistBookmark */ = EC8B7BDC1119323100519F86 /* PlistBookmark */;
+			EC8B7BE3111932AD00519F86 /* PBXTextBookmark */ = EC8B7BE3111932AD00519F86 /* PBXTextBookmark */;
 			ECB827081110D89900BB9EEA = ECB827081110D89900BB9EEA /* PBXTextBookmark */;
 			ECB8270B1110D89900BB9EEA = ECB8270B1110D89900BB9EEA /* PBXTextBookmark */;
 			ECB8270C1110D89900BB9EEA = ECB8270C1110D89900BB9EEA /* PBXTextBookmark */;
@@ -733,7 +762,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 1275}}";
 			sepNavSelRange = "{1196, 0}";
-			sepNavVisRange = "{935, 1029}";
+			sepNavVisRange = "{932, 1031}";
 		};
 	};
 	EC21E6FD110F85AF000B22F3 /* PBXBookmark */ = {
@@ -758,8 +787,8 @@
 	EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 833}}";
-			sepNavSelRange = "{1089, 0}";
-			sepNavVisRange = "{41, 1092}";
+			sepNavSelRange = "{723, 0}";
+			sepNavVisRange = "{85, 1053}";
 		};
 	};
 	EC21EC771110B5F8000B22F3 /* Location.h */ = {
@@ -5633,9 +5662,9 @@
 	};
 	EC8B7B52111929C100519F86 /* PropertyMapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1530}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1375, 1513}}";
 			sepNavSelRange = "{1012, 0}";
-			sepNavVisRange = "{484, 1400}";
+			sepNavVisRange = "{959, 322}";
 		};
 	};
 	EC8B7B6111192AB600519F86 /* PBXTextBookmark */ = {
@@ -6184,6 +6213,339 @@
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
+	EC8B7BB31119304B00519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC8B7B52111929C100519F86 /* PropertyMapViewController.m */;
+		name = "PropertyMapViewController.m: 46";
+		rLen = 0;
+		rLoc = 1012;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 484;
+	};
+	EC8B7BB41119304B00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BB51119304B00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BB61119304B00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BB71119304B00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BB91119305100519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC8B7B52111929C100519F86 /* PropertyMapViewController.m */;
+		name = "PropertyMapViewController.m: 46";
+		rLen = 0;
+		rLoc = 1012;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 959;
+	};
+	EC8B7BBA1119305100519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BBF1119305A00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC01119305A00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC11119305A00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC31119306600519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC41119306700519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC51119306700519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC8111931F200519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BC9111931F300519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BCA111931F300519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BCC1119320B00519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BD11119322700519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BD21119322700519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECEC1C5D110E4B820064225E /* FloorplansViewController.m */;
+		name = "FloorplansViewController.m: 110";
+		rLen = 0;
+		rLoc = 3667;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 430;
+	};
+	EC8B7BD31119322700519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E6D1110F7E49000B22F3 /* FloorplanView.m */;
+		name = "FloorplanView.m: 41";
+		rLen = 0;
+		rLoc = 1196;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 932;
+	};
+	EC8B7BD41119322700519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 43";
+		rLen = 0;
+		rLoc = 1089;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 41;
+	};
+	EC8B7BD51119322700519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 30";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 85;
+	};
+	EC8B7BD61119322700519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 30";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 85;
+	};
+	EC8B7BD71119322700519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BD91119323000519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Snowy-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Snowy-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BDA1119323000519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 30";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 547;
+	};
+	EC8B7BDB1119323100519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 30";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 85;
+	};
+	EC8B7BDC1119323100519F86 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EC21E3DA110F3AF1000B22F3 /* Condominiums.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+			properties,
+			2,
+			latitude,
+		);
+		name = /Users/taylan/Documents/Development/Normative/snowy/iphone/Snowy/Condominiums.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EC8B7BE3111932AD00519F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC21E72E110F8832000B22F3 /* FloorplanScrollerView.m */;
+		name = "FloorplanScrollerView.m: 30";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 85;
+	};
 	ECB826E51110D3E000BB9EEA /* LocationViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 745}}";
@@ -6596,7 +6958,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1612, 3060}}";
 			sepNavSelRange = "{3667, 0}";
-			sepNavVisRange = "{2622, 1839}";
+			sepNavVisRange = "{430, 1306}";
 		};
 	};
 }
