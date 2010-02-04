@@ -79,6 +79,7 @@
 		ECBF3EAD1119D4B200EB5C1E /* button-share-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBF3EA51119D4B200EB5C1E /* button-share-on.png */; };
 		ECBF3EAE1119D4B200EB5C1E /* button-tips-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBF3EA61119D4B200EB5C1E /* button-tips-on.png */; };
 		ECBF3F4F1119EA5200EB5C1E /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBF3F4E1119EA5200EB5C1E /* badge.png */; };
+		ECD6A455111B2E21001FB3EF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6A454111B2E21001FB3EF /* SplashViewController.m */; };
 		ECEC1BF0110E3B700064225E /* LocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1BEF110E3B700064225E /* LocationView.m */; };
 		ECEC1C27110E43980064225E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C1E110E43980064225E /* Default.png */; };
 		ECEC1C59110E4B610064225E /* floorplan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC1C56110E4B610064225E /* floorplan-1.png */; };
@@ -178,6 +179,8 @@
 		ECBF3EA51119D4B200EB5C1E /* button-share-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-share-on.png"; sourceTree = "<group>"; };
 		ECBF3EA61119D4B200EB5C1E /* button-tips-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-tips-on.png"; sourceTree = "<group>"; };
 		ECBF3F4E1119EA5200EB5C1E /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+		ECD6A453111B2E21001FB3EF /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		ECD6A454111B2E21001FB3EF /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		ECEC1BEE110E3B700064225E /* LocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationView.h; sourceTree = "<group>"; };
 		ECEC1BEF110E3B700064225E /* LocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationView.m; sourceTree = "<group>"; };
 		ECEC1C1E110E43980064225E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				EC8B7B52111929C100519F86 /* PropertyMapViewController.m */,
 				ECBF3E741119CFAA00EB5C1E /* PropertyDetailViewController.h */,
 				ECBF3E751119CFAA00EB5C1E /* PropertyDetailViewController.m */,
+				ECD6A453111B2E21001FB3EF /* SplashViewController.h */,
+				ECD6A454111B2E21001FB3EF /* SplashViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -513,6 +518,7 @@
 				EC8B79A91118EB3700519F86 /* SectionButton.m in Sources */,
 				EC8B7B53111929C100519F86 /* PropertyMapViewController.m in Sources */,
 				ECBF3E761119CFAA00EB5C1E /* PropertyDetailViewController.m in Sources */,
+				ECD6A455111B2E21001FB3EF /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,11 +12,13 @@
 #import "PropertyViewController.h"
 #import "PropertyMapViewController.h"
 #import "SnowyAppDelegate.h"
+#import "SplashViewController.h"
 
 
 @interface RootViewController (PrivateMethods)
 - (void)didTapSettingsButton:(id)sender;
 - (void)launchLocationView;
+- (void)hideSplashView;
 @end
 
 
@@ -45,18 +47,37 @@
 	initialLaunch = YES;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	if (initialLaunch == YES) {
+		initialLaunch = NO;
+		
+		SplashViewController *controller = [[SplashViewController alloc] init];
+		
+		[controller setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+		[self presentModalViewController:controller animated:NO];
+		[controller release];
+		
+		[self performSelector:@selector(hideSplashView) withObject:nil afterDelay:4.0];
+	}
+}
+
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
 	
-	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-	
-	if ([prefs integerForKey:@"activeLocation"] == 0 || initialLaunch == YES) {
-		initialLaunch = NO;
-		
-		[self launchLocationView];
-	}
-	
 	[(HomeView *)[self view] setFloorplanCount:[[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count]];
+}
+
+- (void)hideSplashView {
+	[self dismissModalViewControllerAnimated:YES];
+	
+	// TODO: Disabled prefs check for demo
+	//NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	
+	//if ([prefs integerForKey:@"activeLocation"] == 0 || initialLaunch == YES) {
+	[self performSelector:@selector(launchLocationView) withObject:nil afterDelay:1.0];
+	//}
 }
 
 - (void)launchLocationView {

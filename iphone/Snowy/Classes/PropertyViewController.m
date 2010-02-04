@@ -112,21 +112,25 @@
 	return ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0 && section == 0) ? @"Saved Floorplans" : @"Properties";
 }*/
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[UIView beginAnimations:nil context:nil];
-	[UIView setAnimationDuration:0.75];
-	[UIView	setAnimationBeginsFromCurrentState:YES];
-	[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:headerView cache:YES];
-	
-	if ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0 && indexPath.section == 0) {
-		[headerView setImage:[UIImage imageNamed:@"header.jpg"]];
-	} else {
-		Property *property = [properties objectAtIndex:indexPath.row];
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	if ([tableView indexPathForSelectedRow] != indexPath) {
+		[UIView beginAnimations:nil context:nil];
+		[UIView setAnimationDuration:0.75];
+		[UIView	setAnimationBeginsFromCurrentState:YES];
+		[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:headerView cache:YES];
 		
-		[headerView setImage:[UIImage imageNamed:property.header_image_path]];
-	}
+		if ([[(SnowyAppDelegate *)[[UIApplication sharedApplication] delegate] savedFloorplans] count] > 0 && indexPath.section == 0) {
+			[headerView setImage:[UIImage imageNamed:@"header.jpg"]];
+		} else {
+			Property *property = [properties objectAtIndex:indexPath.row];
+			
+			[headerView setImage:[UIImage imageNamed:property.header_image_path]];
+		}
 
-	[UIView commitAnimations];
+		[UIView commitAnimations];
+	}
+	
+	return indexPath;
 }
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
